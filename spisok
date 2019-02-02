@@ -1,5 +1,5 @@
 
-       Германия 
+       Germany
     1. Panzer-Selbstfahrlafette II 7.5 cm Kanone L/41 auf Zugkraftwagen 5t (HKP 902) 
     2. Matilda II 5 cm KwK L/42 Oswald
     3. Panar 178 (f)
@@ -301,13 +301,11 @@
     317. Büssing NAG 900 L
     318. Büssing-NAG 900 N автобус
     319. Bussing NAG 4500 A
-    320. Bussing NAG 4500 A                               37 mm Flak 36
-    321. Bussing NAG 4500 A                               4x20 mm Flak 38
-    322. Bussing NAG 4500 A  кран Bilstein G 07.05
-    323. Bussing NAG 4500 A штабной автобус
+    322. Bussing NAG 4500 A Bilstein G 07.05
+    323. Bussing NAG 4500 A
     324. Bussing NAG 4500 S
-    325. Bussing NAG 4500 газогенераторный
-    326. Bussing NAG 9000                                   88 mm Flak 18
+    325. Bussing NAG 4500
+    326. Bussing NAG 9000
     327. Bussing NAG Burgloewe
     328. Bussing-NAG 3GL6
     329. Bussing-NAG G31
@@ -460,20 +458,12 @@
     476. Ford V8-97Y 1 ton Lorry 4x4 Marmon-Herrington
     477. Ford Eifel two door limousine
     478. Ford Eifel two door cabriolet-limousine
-    479. Ford Marmon-Herrington 91Y кюбелваген 
-    480. Ford Marmon-Herrington 01C кюбелваген
+    479. Ford Marmon-Herrington 91Y
+    480. Ford Marmon-Herrington 01C
     481. Graham Cavalier Model 95
     482. Graham type 107
     483. Graham type 108
     484. Framo V1200
-    485. GAZ A
-    486. GAZ M1
-    487. GAZ-64
-    488. GAZ 03-30
-    489. GAZ 05-193
-    490. GAZ 11-73
-    491. GAZ 61-73
-    492. GMC AFX-312 (трофейный)
     493. Graef & Stift 335M
     494. Graef & Stift V6M
     495. Gräf & Stift V 6 D (series II) автобус
@@ -678,9 +668,8 @@
     694. Mercedes-Benz 170 Polizei-Kubelsitzwagen ab 1937
     695. Mercedes-Benz 170 Polizei-Kubelsitzwagen ab 1939
     696. Mersedes-Benz 170 Polizeikubister
-    697. Mersedes-Benz 170 кабриолет
-    698. Mercedes-Benz 170V четырехдверный лимузин ранняя версия
-    699. Mercedes-Benz 170V четырехдверный лимузин поздняя версия
+    697. Mersedes-Benz 170
+    699. Mercedes-Benz 170V
     700. Mersedes-Benz 170H
     701. Mersedes-Benz 170V
     702. Mersedes-Benz 170VG
@@ -737,18 +726,13 @@
     753. Mersedes-Benz L3000F
     754. Mersedes-Benz L3000S
     755. Mersedes-Benz L3500
-    756. Mersedes-Benz L3500 газогенератор
     757. Mersedes-Benz L3750
-    758. Mersedes-Benz L3750   15 мм MG-151
-    759. Mersedes-Benz L3750 бетономешалка
-    760. Mersedes-Benz L3750 ленточный транспортёр
+    758. Mersedes-Benz L3750
+    759. Mersedes-Benz L3750
+    760. Mersedes-Benz L3750
     761. Mersedes-Benz L45
-    762. Mersedes-Benz L4500 A                                                                                                           
-    763. Mersedes-Benz L4500 A                        37 mm Flak 43
-    764. Mersedes-Benz L4500 A                        4x20 mm Flak 38
-    765. Mersedes-Benz L4500 A                        50 mm FlaK 41
-    766. Mersedes-Benz L4500 R Maultier                                                                                            
-    767. Mersedes-Benz L4500 R Maultier          37 mm Flak 38
+    762. Mersedes-Benz L4500 A
+    766. Mersedes-Benz L4500 R Maultier
     768. Mersedes-Benz L4500 S
     769. Mersedes-Benz L4500 автодрезина
     770. Mersedes-Benz L4500 фургон
@@ -1104,7 +1088,7 @@
     1120. Volkswagen Typ 157 ж-д дрезина
     1121. Volkswagen Typ 160 седан с самонесущим кузовом 
     1122. Volkswagen Typ 162 кюбельваген с самонесущим кузовом
-    1123. Volkswagen Typ 164 шестиколёсный с двумя двигателями
+    1123. Volkswagen Typ 164
     1124. Volkswagen Typ 166  
     1125. Volkswagen Typ 172 контейнер
     1126. Volkswagen Typ 174 с форсированным двигателем
@@ -1127,7 +1111,7 @@
     1143. Volkswagen Typ 252 с КП PIV
     1144. Volkswagen Typ 274 с эксперементальным стартером 
     1145. Volkswagen Typ 276 тягач
-    1146. Volkswagen Typ 278 с синхронизированной коробкой передач
+    1146. Volkswagen Typ 278
     1147. Volkswagen Typ 280
     1148. Volkswagen Typ 283 газогенераторный
     1149. Volkswagen Typ 286 фургон
@@ -1184,13 +1168,8 @@
     1200. Wanderer W245
     1201. Wanderer W250
     1202. Wanderer W50
-    1203. Willems omnibus model 1938
-    1204. Willys MB
-    1205. Willys 38
-    1206. Unic S27 (трофейный)
-    1207. ZIS-16 автобус
-    1208. ZIS-101
-    1209. Велосипед для перевозки мин
+    1203. Willems omnibus model
+    1206. Unic S27
     1210. BMW 600 Sport
     1211. BMW R3
     1212. BMW R4
@@ -1198,7 +1177,7 @@
     1214. BMW R11
     1215. BMW R11 MG-08
     1216. BMW R12
-    1217. BMW R12 с коляской
+    1217. BMW R12
     1218. BMW R16
     1219. BMW R20
     1220. BMW R23
@@ -1210,9 +1189,9 @@
     1226. BMW R62
     1227. BMW R71
     1228. BMW R75       
-    1229. BMW R75 тропический
-    1230. BMW R75 с 50 mm миномётом
-    1231. BMW R75 с газогенератором
+    1229. BMW R75
+    1230. BMW R75 с 50 mm
+    1231. BMW R75
     1232. Zundapp DB200
     1233. Zundapp KK200
     1234. Zundapp S300
@@ -1288,8 +1267,7 @@
     1304. CZ 250
     1305. CZ 500
     1306. Java 100
-    1307. sWS  тягач
-    1308. sWS                                                            150 mm Nebelwerfer 41
+    1308. sWS
     1309. Raupenschlepper Ost mit 2 cm Gebirgsflak 38
     1310. 7,5cm Pak 40/4 auf gep. Selbstfahrlafette Raupenschslepper Ost
     1311. Schwimm RSO
@@ -1320,7 +1298,7 @@
     1336. Kfz. 1 BMW 309 Kubelwagen
     1337. Kfz. 1 BMW 315 Kubelwagen
     1338. Kfz. 1 Stoewer 40 
-    1339. Kfz. 1 Stoewer 40 Sprühkraftwagen mit Einheitsfahrgestell I für l. Pkw. дезактиватор
+    1339. Kfz. 1 Stoewer 40 Sprühkraftwagen mit Einheitsfahrgestell I für l. Pkw.
     1340. Kfz. 2 Hanomag 3/16PS
     1341. Kfz. 2 Mersedes-Benz 170 VK W135K
     1342. Kfz. 2 Hanomag 4/20PS Kubelwagen
@@ -1334,11 +1312,11 @@
     1350. Kfz. 2 Horch 830
     1351. Kfz. 2 Mersedes-Benz 170 VK
     1352. Kfz. 2/2 Stoewer 40
-    1353. Kfz. 2/40 Mersedes-Benz 170 VK W135K полевая мастерская
-    1354. Kfz. 2/40 VW 82 ремонтный автомобиль
+    1353. Kfz. 2/40 Mersedes-Benz 170 VK W135K
+    1354. Kfz. 2/40 VW 82
     1355. Kfz. 2/40 Horch 830
     1356. Kfz. 2/40 Stoewer 40
-    1357. Kfz. 3 BMW 315 лёгкий развед автомобиль
+    1357. Kfz. 3 BMW 315
     1358. Kfz. 3 VW 82
     1359. Kfz. 3 Mersedes-Benz 170 VK W135K
     1360. Kfz. 3 BMW 303 автомобиль топографов 
@@ -1444,7 +1422,7 @@
     1460. Kfz. 62 Mersedes-Benz G3a звуковая разведка
     1461. Kfz. 62 Mersedes-Benz G3a типография 
     1462. Kfz. 62 Mersedes-Benz G3a машина сигнальшиков 
-    1463. Kfz. 62 Mersedes-Benz G3a разведка погоды
+    1463. Kfz. 62 Mersedes-Benz G3a
     1464. Kfz. 62 Mersedes-Benz G3a машина звукозаписи
     1465. Kfz. 62 EinheitsDiesel полевая типография
     1466. Kfz. 62 EinheitsDiesel метеорологическая разведка 
@@ -1599,8 +1577,8 @@
     1615. Kfz. 305/125 Opel Blitz машина обслуживания самолётов
     1616. Kfz. 305/126 Opel Blitz пускач
     1617. Kfz. 305/128 Opel Blitz пожарный насос
-    1618. Kfz. 305/130 Opel Blitz мастерская по обслуживанию ракетного вооружения
-    1619. Kfz. 305/131 Opel Blitz мастерская по обслуживанию авиационного вооружения
+    1618. Kfz. 305/130 Opel Blitz
+    1619. Kfz. 305/131 Opel Blitz
     1620. Kfz. 305/135 Opel Blitz мастерская по обслуживанию механической техники
     1621. Kfz. 305/136 Opel Blitz мастерская по обслуживанию двигателей
     1622. Kfz. 305/137 Opel Blitz мастерская по обслуживанию планеров самолётов
@@ -1625,50 +1603,50 @@
     1641. Sd. Kfz.3a           Opel Maultier
     1642. Sd. Kfz.3 Krupp БА
     1643. Sd. Kfz. 3b          Ford Maultier
-    1644. Sd. Kfz. 3b          Ford Maultier             20 mm Flak 36
+    1644. Sd. Kfz. 3b          Ford Maultier
     1645. Sd. Kfz. 3c          KHD S300/SSM 
     1646. Sd. Kfz. 4      Mersedes-Benz L4500 R
     1647. Sd. Kfz. 4 Munitionskraftwagen fur Nebelwerfer 
     1648. Sd. Kfz. 4/1 15 cm Panzerwerfer 41 Sf
     1649. Sd. Kfz. 5 Krupp L3H163  цистерна
     1650. Sd. Kfz. 6/1
-    1651. Sd. Kfz. 6/2                                                37 mm FlaK 36
-    1652. Sd. Kfz. 6/3                                                76.2 mm Ф 22
+    1651. Sd. Kfz. 6/2
+    1652. Sd. Kfz. 6/3
     1653. Sd. Kfz. 7                                                                                                                                         
-    1654. Sd. Kfz. 7/1                                                4x20 mm Flak 38
-    1655. Sd. Kfz .7/2                                               37 mm Flak 36
-    1656. Sd. Kfz. 7/5                                               76.2 mm Ф 22 
+    1654. Sd. Kfz. 7/1
+    1655. Sd. Kfz .7/2
+    1656. Sd. Kfz. 7/5
     1657. Sd. Kfz. 7/6
     1658. Sd. Kfz. 7/9
     1659. Sd. Kfz. 8
-    1660. Sd. Kfz. 8                          mit der          88 mm Flak 18
+    1660. Sd. Kfz. 8
     1661. Sd. Kfz. 8 8,8 cm FlaK 41 (Sf) Auf Zugkraftwagen 12t
     1662. Sd. Kfz. 9
     1663. Sd. Kfz. 9/1       кран 6 т.
     1664. Sd. Kfz.9/2        кран 10 т.
     1665. Sd. Kfz.9/3
     1666. Sd. Kfz. 10
-    1667. Sd. Kfz. 10 с лыжами на передних колёсах
-    1668. Sd. Kfz. 10/1     машина хим. Разведки
+    1667. Sd. Kfz. 10
+    1668. Sd. Kfz. 10/1
     1669. Sd. Kfz. 10/2
     1670. Sd. Kfz. 10/3
-    1671. Sd. Kfz. 10/4                                           20 mm Flak 30
-    1672. Sd. Kfz. 10/5                                           20 mm Flak 38
-    1673. Sd. Kfz. 10                                              50 mm Pak 38
+    1671. Sd. Kfz. 10/4
+    1672. Sd. Kfz. 10/5
+    1673. Sd. Kfz. 10
     1674. Sd. Kfz. 10 45 мм 20-К
-    1675. Sd. Kfz. 10 бронированный
-    1676. Sd.Kfz.10 бронированный с PaK-38
+    1675. Sd. Kfz. 10
+    1676. Sd.Kfz.10 PaK-38
     1677. Sd. Kfz. 11
     1678. Sd. Kfz. 11/1 
     1679. Sd. Kfz. 11/2
     1680. Sd. Kfz. 11/3
     1681. Sd. Kfz. 11/4
-    1682. Sd. Kfz. 11/5                                          120 mm Nebelwerfer
+    1682. Sd. Kfz. 11/5
     1683. Sd. Kfz. 11 mit Wahrfager
     1684. Sd. Kfz. 11 mit Scheinwerfer
     1685. Sd. Kfz. 11 Krankenwagen
-    1686. Sd. Kfz. 30                                                20 mm FlaK 38 
-    1687. Sd. Kfz. 234/2 Puma                                                                                                                          
+    1686. Sd. Kfz. 30
+    1687. Sd. Kfz. 234/2 Puma
     1688. Sd. Kfz. 101 Pz.Kpfw. I 
     1689. Sd. Kfz. 111 Munitionspanzer I
     1690. Sd. Kfz. 121 PzKpfw II
@@ -1696,61 +1674,61 @@
     1712. Sd. Kfz. 231 (6-Rad)                            
     1713. Sd. Kfz. 232 (Fu)  (6-Rad)                   
     1714. Sd. Kfz. 233 (6-Rad)                             
-    1715. Sd. Kfz. 233 (8-Rad)                             75 mm Stuk 37 L/24
-    1716. Sd. Kfz. 231 (8-Rad)                             20 mm KwK 30 L/55
-    1717. Sd. Kfz. 231 (8-Rad) Ballistik-Messfahrzeug наблюдательный автомобиль
-    1718. Sd. Kfz. 232 (8-Rad)                             20 mm KwK 30 L/55
-    1719. Sd. Kfz. 233 (8-Rad)                             75 mm Stuk L/24
-    1720. Sd. Kfz. 234/1                                       20 mm KwK 38 L/55
-    1721. Sd. Kfz. 234/2                                       50 mm 39/1
-    1722. Sd. Kfz. 234/3                                       75 mm KwK 37 L/24
-    1723. Sd. Kfz. 235/4                                       75 mm Pak 40/2 L/46
+    1715. Sd. Kfz. 233 (8-Rad)
+    1716. Sd. Kfz. 231 (8-Rad)
+    1717. Sd. Kfz. 231 (8-Rad) Ballistik-Messfahrzeug
+    1718. Sd. Kfz. 232 (8-Rad)
+    1719. Sd. Kfz. 233 (8-Rad)
+    1720. Sd. Kfz. 234/1
+    1721. Sd. Kfz. 234/2
+    1722. Sd. Kfz. 234/3
+    1723. Sd. Kfz. 235/4
     1724. Sd. Kfz. 247 ausf A
     1725. Sd. Kfz. 247 ausf B
-    1726. Sd. Kfz. 250/1                                        7.92 MG 42
-    1727. Sd. Kfz. 250/2                                        7.92 MG 34
-    1728. Sd. Kfz. 250/3 I                                      7.92 MG 42
-    1729. Sd. Kfz. 250/3 II                                     7.92 MG 42
-    1730. Sd. Kfz. 250/3 III                                    7.92 MG 42
-    1731. Sd. Kfz. 250/3 IV                                    7.92 MG 42
-    1732. Sd. Kfz. 250/4                                         7.92 MG 42
+    1726. Sd. Kfz. 250/1
+    1727. Sd. Kfz. 250/2
+    1728. Sd. Kfz. 250/3 I
+    1729. Sd. Kfz. 250/3 II
+    1730. Sd. Kfz. 250/3 III
+    1731. Sd. Kfz. 250/3 IV
+    1732. Sd. Kfz. 250/4
     1733. Sd. Kfz. 250/5                                        
-    1734. Sd. Kfz. 250/6 ausf A                            7.92 MG 42
-    1735. Sd. Kfz. 250/6 ausf B                            7.92 MG 42
-    1736. Sd. Kfz. 250/7                                       80 mm sGrWr 34
-    1737. Sd. Kfz. 250/8                                       75 mm KwK L/24
-    1738. Sd. Kfz. 250/9                                        20 mm KwK L/55
-    1739. Sd. Kfz. 250/10                                      37 mm Pak 35/36 L/45
-    1740. Sd. Kfz. 250/11                                      20-28 mm Mauzer 41 L60/L85
+    1734. Sd. Kfz. 250/6 ausf A
+    1735. Sd. Kfz. 250/6 ausf B
+    1736. Sd. Kfz. 250/7
+    1737. Sd. Kfz. 250/8
+    1738. Sd. Kfz. 250/9
+    1739. Sd. Kfz. 250/10
+    1740. Sd. Kfz. 250/11
     1741. Sd. Kfz. 250/12                                      
-    1742. Sd. Kfz  251/1                                        2x7.92 MG 42                                                                    
-    1743. Sd. Kfz. 251/1   Stuka zu Fast             6x320 mm Wurtahmen 40
-    1744. Sd. Kfz. 251/1 газогенератор
-    1745. Sd. Kfz. 251/2                                        80 mm SGrWr 34
-    1746. Sd. Kfz. 251/3                                        2x7.92 MG 42                                                                    
-    1747. Sd. Kfz. 251/4 транспортёр                7.92 MG 42
-    1748. Sd. Kfz. 251/5 тр. Сапёрного од.       7.92 MG 42
+    1742. Sd. Kfz  251/1
+    1743. Sd. Kfz. 251/1   Stuka zu Fast
+    1744. Sd. Kfz. 251/1
+    1745. Sd. Kfz. 251/2
+    1746. Sd. Kfz. 251/3
+    1747. Sd. Kfz. 251/4
+    1748. Sd. Kfz. 251/5
     1749. Sd. Kfz. 251/6                                        
     1750. Sd. Kfz. 251/7 
     1751. Sd. Kfz. 251/8 
     1752. Sd. Kfz. 251/8 
     1753. Sd. Kfz. 251/9                                       
     1754. Sd. Kfz. 251/10                                     
-    1755. Sd. Kfz. 251/11                                      2x7.92 MG 42
-    1756. Sd. Kfz. 251/12                                      7.92 MG 42
-    1757. Sd. Kfz. 251/13                                      7.92 MG 42
+    1755. Sd. Kfz. 251/11
+    1756. Sd. Kfz. 251/12
+    1757. Sd. Kfz. 251/13
     1758. Sd. Kfz. 251/14
     1759. Sd. Kfz. 251/15
-    1760. Sd. Kfz. 251/16                                      2x14 mm Flam
-    1761. Sd. Kfz. 251/17                                      20 mm Flak 38 L/112.5
+    1760. Sd. Kfz. 251/16
+    1761. Sd. Kfz. 251/17
     1762. Sd. Kfz. 251/18
     1763. Sd. Kfz. 251/19
-    1764. Sd. Kfz. 251/20                                     Beobachtungsgerat 1251
-    1765. Sd. Kfz. 251/21                                     3x20 mm MG 151/20
-    1766. Sd. Kfz. 251/22                                     75 mm Pak 40/1 L/46
-    1767. Sd. Kfz. 251/23                                     20 mm KwK 38 L/55
+    1764. Sd. Kfz. 251/20
+    1765. Sd. Kfz. 251/21
+    1766. Sd. Kfz. 251/22
+    1767. Sd. Kfz. 251/23
     1768. Sd. Kfz. 251 7,5 Pak 44 auf 3 ton Zugkraftwagen
-    1769. Sd. Kfz. 251 с ШВАК
+    1769. Sd. Kfz. 251
     1770. Sd. Kfz. 252
     1771. Sd. Kfz. 253
     1772. Sd. Kfz. 254 Mittlerer Gepanzerter Beobachtungskraftwagen
@@ -1758,10 +1736,10 @@
     1774. Sd. Kfz. 261
     1775. Sd. Kfz. 263 (8-Rad)                             
     1776. Sd. Kfz. 265 Kl. Pz. Bef. I
-    1777. Sd. Kfz. 266 Kl Bef Wg 38 (t) машина штаба батальона
-    1778. Sd. Kfz. 267 Kl Bef Wg 38 (t) машина штаба полка или радиороты 
+    1777. Sd. Kfz. 266 Kl Bef Wg 38 (t)
+    1778. Sd. Kfz. 267 Kl Bef Wg 38 (t)
     1779. Sd. Kfz. 267 Pz. Bef. Panther
-    1780. Sd. Kfz. 268 Kl Bef Wg 38 (t) машина радиороты
+    1780. Sd. Kfz. 268 Kl Bef Wg 38 (t)
     1781. Sd. Kfz. 268 Pz. Bef. Panther
     1782. Sd. Kfz. 300 Borgward-I
     1783. Sd. Kfz. 300 Borgward-II
@@ -1771,16 +1749,16 @@
     1787. Sd. Kfz. 302 Goliath
     1788. Sd. Kfz. 303a Goliath
     1789. Sd. Kfz. 303b Goliath
-    1790. Sd. Kfz. 304 радиоуправляемый носитель заряда
+    1790. Sd. Kfz. 304
     1791. Sd. Kfz. 325 Wargel LW5 трактор
-    1792. Alkett-Raumgerat самоходный минный трал 
-    1793. Krupp Raumer-S минный трал самоходный
-    1794. La.S. лёгкий танк
-    1795. La.S. 100 лёгкий танк
-    1796. BW танк усиленный
-    1797. DW танк машина прорыва
-    1798. DW 2 танк машина прорыва
-    1799. ZW средний танк
+    1792. Alkett-Raumgerat
+    1793. Krupp Raumer-S м
+    1794. La.S.
+    1795. La.S. 100
+    1796. BW
+    1797. DW
+    1798. DW 2
+    1799. ZW
     1800. Grosstraktor I (Daimler-Benz)
     1801. Grosstraktor II (Rheimetall)
     1802. Grosstraktor III (Krupp)
@@ -1794,7 +1772,7 @@
     1810. Pz.I Ausf.A с двигателем Krupp М311
     1811. PzKpfw I ausf A  2 cm Breda                                                                                                                     
     1812. PzKpfw I ausf B  
-    1813. PzKpfw I Ausf .B с 75-мм танковым орудием KwK 40 L/48
+    1813. PzKpfw I Ausf .B KwK 40 L/48
     1814. PzKpfw I mit 47 mm Böhler M35
     1815. PzKpfw I ausf С        VK601 
     1816. PzKpfw I ausf D        VK602                                                                                                                 
@@ -1804,14 +1782,14 @@
     1820. Kl Bef Wg ausf A  1KlA (Sd. Kfz. 265)           
     1821. Kl Bef Wg ausf B 2 Kl (Sd. Kfz. 265)                                                                                            
     1822. Kl Bef Wg ausf B 3 Kl (Sd. Kfz. 265)       
-    1823. Kl Bef Wg ausf B 3 Kl B санитарная машина                                                                  
+    1823. Kl Bef Wg ausf B 3 Kl B
     1824. Mun Schl auf Pz 1 (Sd. Kfz. 111) A     
     1825. Mun Schl auf Pz 1 (Sd. Kfz. 111) A                                                                                     
     1826. Mun Schl auf Pz 1 (Sd. Kfz. 111) B                                                                                                                                                 
     1827. Munitionsschlepper I"Laube"
     1828. Munitionschlepper ранний
     1829. Munitionsschlepper B Drilling MG 151
-    1830. 15 cm SiG auf PzKpfw I ausf B          150 mm sIG 33 L/11                                                                                                     
+    1830. 15 cm SiG auf PzKpfw I ausf B
     1831. Panzerjager I                                                                                                                              
     1832. Panzerjager I Pak-35/36
     1833. Ladungsleger I ausf B
@@ -1863,21 +1841,18 @@
     1881. PzKpfw 38(t) ausf C
     1882. PzKpfw 38(t) ausf D                                                                                                                               
     1883. PzKpfw 38(t) ausf E
-    1884. PzKpfw 38(t) ausf E с понтоном AP-1
+    1884. PzKpfw 38(t) ausf E AP-1
     1885. PzKpfw 38(t) ausf F
     1886. PzKpfw 38(t) ausf G
-    1887. PzKpfw 38(t) ausf G тропический вариант 
+    1887. PzKpfw 38(t) ausf G
     1888. PzKpfw 38(t) ausf S
-    1889. PzKpfw 38(t) с установкой Wurframen 40
-    1890. PzKpfw 38(t) учебный с газогенераторной установкой
-    1891. PzKpfw 38 n. A. неброневая сталь заклепки
-    1892. PzKpfw 38 n. A. неброневая сталь сварной
-    1893. PzKpfw 38 n. A. броневая сталь заклепки
-    1894. PzKpfw 38 n. A. броневая сталь сварной
-    1895. PzKpfw 38 nA mit turn Pz. IV             75 mm KwK 40 L/48
+    1889. PzKpfw 38(t)  Wurframen 40
+    1890. PzKpfw 38(t)
+    1891. PzKpfw 38 n. A.
+    1895. PzKpfw 38 nA mit turn Pz. IV
     1896. Munitionspanzer 38(t)
-    1897. Fahrschulpanzer 38 (t) учебный танк
-    1898. 38(t) Morsertrager Ausf.M транспортёр боеприпасов
+    1897. Fahrschulpanzer 38 (t)
+    1898. 38(t) Morsertrager Ausf.M
     1899. 7.5 cm PaK 40/3 auf Sfl.38 (ausf H) Sd. Kfz. 138 Marder III ausf H
     1900. 7.5 cm PaK 40/3 auf Sfl.38 (ausf M) Marder III ausf M
     1901. 7.62 cm PaK 36(r) auf Fgst.Pz.Kpfw.38(t) Sd. Kfz. 139 Marder III 76.2 mm
@@ -1885,42 +1860,42 @@
     1903. Geschutzwagen 38(M) fur s.IG. 33/2 (Sf) Sd. Kfz. 138/1 Bizon III ausf M
     1904. FlakPanzer 38(t) Gepard 20 mm 
     1905. FkakPanzer 38(t) Kleiner Kubelblitz 
-    1906. Jagdpanzer 38(t) Sd. Kfz. 138/2        75 mm Pak 39/40
-    1907. Panzerbefehlswagen  38                    75 mm Pak 39/40                                                              
+    1906. Jagdpanzer 38(t) Sd. Kfz. 138/2
+    1907. Panzerbefehlswagen  38
     1908. Bergerpanzer 38(t)
-    1909. Flammpanzer 38                                  14 mm Flammenwerfer 41
-    1910. Jagdpanzer 38 Hetzer-Bison              150 mm sIG 33/2 (Sfl)
-    1911. Aufklarungspanzer 38 Sd. Kfz. 140/1   75 mm K 51
-    1912. Aufklarungspanzer 38 Sd. Kfz. 140/1   20 mm Flak 38 (Gerat 563)
-    1913. Aufklarungspanzer 38                         2x20 mm KwK 38 (Gerat 585)
-    1914. Aufklarungspanzer 38                         120 mm миномёт (Great 586)
+    1909. Flammpanzer 38
+    1910. Jagdpanzer 38 Hetzer-Bison
+    1911. Aufklarungspanzer 38 Sd. Kfz. 140/1
+    1912. Aufklarungspanzer 38 Sd. Kfz. 140/1
+    1913. Aufklarungspanzer 38
+    1914. Aufklarungspanzer 38
     1915. Aufklarungspanzer 38 (t) 8cm Gr.W.)
-    1916. Sturmhaubitze 38                                105 mm StuH 42/2 
-    1917. Jagdpanzer 38 lang                              75 mm KwK 42
-    1918. Jagdpanzer 38 lang                              150 mm StuH 43
-    1919. Jagdpanzer 38 starr                             75 mm Pak 39/2
-    1920. Jagdpanzer 38 starr                             75 mm KwK 42/StuH 42
-    1921. Jagdpanzer 38 (d)                               75 mm  Pak 42/2
-    1922. Jagdpanzer 38 (d)         StuH              105 mm StuH 42/2
+    1916. Sturmhaubitze 38
+    1917. Jagdpanzer 38 lang
+    1918. Jagdpanzer 38 lang
+    1919. Jagdpanzer 38 starr
+    1920. Jagdpanzer 38 starr
+    1921. Jagdpanzer 38 (d)
+    1922. Jagdpanzer 38 (d)
     1923. Bergerpanzer 38 (d)       
-    1924. Jagdpanzer 38 (d)                               88 mm Pak 43
-    1925. Jagdpanzer 38 (d) (Gerat 589)         280 mm
-    1926. Jagdpanzer 38 (d)   (БТР) (8 чел.)    20 mm   
-    1927. Kubelblitz 38 (d)                                   2x20 mm 2x30 mm
+    1924. Jagdpanzer 38 (d)
+    1925. Jagdpanzer 38 (d)
+    1926. Jagdpanzer 38 (d)
+    1927. Kubelblitz 38 (d)
     1928. Aufklarungspanzer 38 (d)  
     1929. PzKpfw 38 mit 75 mm L/70
-    1930. Waffentrager 8,8 cm PaK 43 разработки группы Вельферта
-    1931. Waffentrager 8,8 cm PaK 43 разработки группы Эгена
-    1932. Waffentrager 8,8 cm PaK 43 разработки группы Бургера
-    1933. Waffentrager 8,8 cm PaK 43 разработки Ardeltwerke
-    1934. Waffentrager 8,8 cm PaK 43 разработки Steyr
-    1935. Waffentrager 8,8 cm PaK 43 разработки Rheinmetall 
+    1930. Waffentrager 8,8 cm PaK 43
+    1931. Waffentrager 8,8 cm PaK 43
+    1932. Waffentrager 8,8 cm PaK 43
+    1933. Waffentrager 8,8 cm PaK 43 Ardeltwerke
+    1934. Waffentrager 8,8 cm PaK 43 Steyr
+    1935. Waffentrager 8,8 cm PaK 43 Rheinmetall
     1936. Waffentrager 10,5 cm FH 18/40
     1937. PzKpfw III ausf A
     1938. PzKpfw III ausf B
     1939. PzKpfw III ausf C
     1940. PzKpfw III ausf D
-    1941. PzKpfw III ausf D с шахматным расположением катков 
+    1941. PzKpfw III ausf D
     1942. PzKpfw III ausf E
     1943. PzKpfw III ausf F
     1944. PzKpfw III ausf G
@@ -1930,11 +1905,11 @@
     1948. PzKpfw III ausf L
     1949. PzKpfw III ausf L mit Waffe 0725
     1950. PzKpfw III ausf N
-    1951. PzKpfw III ausf N железнодорожный ход
+    1951. PzKpfw III ausf N
     1952. PzKpfw III ausf M
     1953. PzKpfw III ausf K
     1954. PzKpfw III Flamm
-    1955. PzKpfw III учебный с газовыми баллонами
+    1955. PzKpfw III
     1956. Minenraumpanzer III
     1957. StuG III нулевая серия
     1958. StuG III ausf A
@@ -1953,7 +1928,7 @@
     1971. PzKpfw IV ausf A
     1972. PzKpfw IV ausf B
     1973. PzKpfw IV ausf C
-    1974. PzKpfw IV ausf C с минным тралом Minenraumgerat IV 
+    1974. PzKpfw IV ausf C Minenraumgerat IV
     1975. PzKpfw IV ausf D
     1976. PzKpfw IV ausf E
     1977. PzKpfw IV ausf F                                                                                                                             
@@ -1982,58 +1957,57 @@
     2000. 10,5cm K18 Auf Panzer Selbstfahrlafette IVf
     2001. 10.5 cm le.F.H. 18/6 (Sf) auf Geschutzwagen III/IV Heuschrecke IVB
     2002. Leichte PzH18/40/2 auf Geschutzwagen III/IV (Sf)
-    2003. Panzerfahre понтон
-    2004. Pz. Sf IVc шахмотное расположение катков 8,8cm Flak 37 L/56
-    2005. Pz. Sf IVc шахмотное расположение катков 8,8cm Flak 41 L/75
+    2003. Panzerfahre
+    2004. Pz. Sf IVc 8,8cm Flak 37 L/56
+    2005. Pz. Sf IVc 8,8cm Flak 41 L/75
     2006. PzKpfw IV 8,8cm Flak 37 L/56
-    2007. Brukenlucker IV штурмовой мостик
-    2008. Brukenlucker IV 0-серия
+    2007. Brukenlucker IV
+    2008. Brukenlucker IV
     2009. Brukenlucker IVb
     2010. Brukenlucker IVc
     2011. Brukenlucker IVs                                                                                                                      
-    2012. Versuchs-Pather №1 (V1) опытное шасси
-    2013. Versuchs-Pather №2 (V2) опытный танк
-    2014. PzKpfw V ausf A предсерийный образец
-    2015. PzKpfw V ausf A                                  75 mm                                                                                    
-    2016. PzKpfw V ausf D                                  75 mm                                                                                     
+    2012. Versuchs-Pather №1 (V1)
+    2013. Versuchs-Pather №2 (V2)
+    2015. PzKpfw V ausf A
+    2016. PzKpfw V ausf D
     2017. PzKpfw V ausf D2
-    2018. PzKpfw V ausf G                                  75 mm
-    2019. PzKpfw V ausf G башня Schmalturn
-    2020. PzKpfw V ausf G с приборами ночного видения Leitz-Wetzlar
-    2021. PzKpfw V ausf G с инфракрасным оборудованием FG 1250
+    2018. PzKpfw V ausf G
+    2019. PzKpfw V ausf G Schmalturn
+    2020. PzKpfw V ausf G Leitz-Wetzlar
+    2021. PzKpfw V ausf G FG 1250
     2022. PzKpfw V ausf F
     2023. PzKpfw V ausf J
-    2024. PzKpfw V Panther газоенератор
+    2024. PzKpfw V Panther
     2025. PzKpfw V с ГТД GT101
     2026. PzKpfw V с ГТД GT102
     2027. PzKpfw V с ГТД GT102 ausf 2
     2028. PzKpfw V с ГТД GT103
     2029. PzKpfw V Panther II
-    2030. Sd. Kfz. 171  Jagdpanther                   88 mm  
+    2030. Sd. Kfz. 171  Jagdpanther
     2031. Sd. Kfz. 171  Jagdpanther mit 128 mm PaK 80 L/55                                                                                   
-    2032. PzKpfw V Great 15                                105 mm leFH 43
-    2033. PzKpfw V Great 12                                128 mm K 43
+    2032. PzKpfw V Great 15
+    2033. PzKpfw V Great 12
     2034. PzKpfw V Great 5-1530 155 mm
     2035. PzKpfw V Great 5-1312 128 mm
-    2036. Sturmpather                                        150 mm Sturmmoesrer
-    2037. PzKpfw V Great 811                              155 mm
-    2038. PzKpfw V                                              105 mm установка для ведения залпового огня
-    2039. PzKpfw V транспортёр боеприпасов
-    2040. PzKpfw V (с лёкой башней)                 50 mm KwK 38
+    2036. Sturmpather
+    2037. PzKpfw V Great 811
+    2038. PzKpfw V
+    2039. PzKpfw V
+    2040. PzKpfw V
     2041. PzKpfw V с башней Ostwind
     2042. Versuchs FlaKwagen Krupp
-    2043. Flakpanzer V                                         4x20 mm MG 151
-    2044. Flakpanzer V Coelian                            2x37 mm Flakzwilling 341
+    2043. Flakpanzer V
+    2044. Flakpanzer V Coelian
     2045. Flakpanzer V 37 mm FlaK 43
-    2046. Flakpanzer V                                        55x2 mm
-    2047. Flakpanzer V                                        88 mm Flak 41
-    2048. Bergepanther ранняя версия                                                                                                                                         
-    2049. Bergepanther поздняя версия
-    2050. Bergepanther с не подвижно установленной башней Pz. IV фронтовая переделка 
+    2046. Flakpanzer V
+    2047. Flakpanzer V
+    2048. Bergepanther
+    2049. Bergepanther
+    2050. Bergepanther с Pz. IV
     2051. Bergepanther 2 cm FlaK 38
     2052. Bergepanther с 37 mm FlaK
     2053. PzKpfw VI ausf H1 (E)
-    2054. PzKpfw VI ausf E (Sd. Kfz. 181)             88 mm
+    2054. PzKpfw VI ausf E (Sd. Kfz. 181)
     2055. PzKpfw VI ausf H1 (E) 75 mm KwK 42 L/70
     2056. PzKpfw VI ausf H1 (E) 88 mm KwK 43 L/71
     2057. PzKpfw VI ausf H2
@@ -2041,13 +2015,13 @@
     2059. Panzermorser Sturmtiger ausf E
     2060. PzKpfw VI ausf B (Porshe turrel)
     2061. PzKpfw VI ausf B (Henshel turrel)
-    2062. PzKpfw VI ausf B с дизелем Sla 16
-    2063. PzKpfw VI ausf B с двигателем Maybach HL 234
+    2062. PzKpfw VI ausf B Sla 16
+    2063. PzKpfw VI ausf B Maybach HL 234
     2064. JagdTiger
     2065. JagdTiger 128 mm L/66
     2066. JagdTiger 88 mm PaK 43/3
     2067. JagdTiger с ходовой Porsche  
-    2068. 8,8 cm PaK 43/2 Sfl L/71 Panzerjager Tiger (P) Ferdinand                           88 mm 
+    2068. 8,8 cm PaK 43/2 Sfl L/71 Panzerjager Tiger (P) Ferdinand
     2069. Elefant fur 8.8 cm Sturmgeschutz Porsche 
     2070. Bergepanzer Tiger
     2071. Bergepanzer Tiger (P)
@@ -2057,15 +2031,12 @@
     2075. Pz.Kpfw.X
     2076. САУ на базе Pz-I
     2077. PzVII UberTiger
-    2078. САУ на базе трофейного Т-34
-    2079. Многобашенный "Тигр"
-    2080. Maus проект осень 1942
-    2081. Maus с сиситемой хождения под водой
+    2080. Maus
     2082. Maus Typ 205/1
-    2083. Maus Typ 205/2 с двиателем MB 509
-    2084. Maus Typ 205/2 с двиателем MB 517
+    2083. Maus Typ 205/2 MB 509
+    2084. Maus Typ 205/2 MB 517
     2085. Maus II
-    2086. Pz VIII "MausDrache"  http://community.livejournal.com/ru_papertanks/16332.html
+    2086. Pz VIII MausDrache
     2087. JagdMaus
     2088. SturmMaus
     2089. Bar 30.5 cm
@@ -2101,8 +2072,8 @@
     2119. VK903 PaK-42 L/70
     2120. VK1301 Pz.Kpfw.I Ausf.E
     2121. VK1303
-    2122. VK1602 Leopard MIAG 18-тонный вариант
-    2123. VK1602 Leopard MIAG 26-тонный вариант
+    2122. VK1602 Leopard MIAG
+    2123. VK1602 Leopard MIAG
     2124. VK1602 Leopard Daimler
     2125. VK1602 Leopard 10,5 см leFH Waffentrager Leopard
     2126. VK1603 Igelchen
@@ -2115,7 +2086,6 @@
     2133. VM2001M
     2134. VK2002K
     2135. VK2002M
-    2136. VK2002M с наклонным расположением бронелистов
     2137. VK2301K
     2138. VK2401M
     2139. VK2801 mehrweckpanzer 
@@ -2126,15 +2096,13 @@
     2144. VK3002M
     2145. VK3601H
     2146. VK4501P Tiger
-    2147. VK4501P Tiger гидравлическая трансмиссия
     2148. VK4501H
-    2149. VK4502P кормовое расположение башни
-    2150. VK4502P переднее расположение башни
-    2151. VK4502P Typ 180A электромеханическая трансмиссия двигатель Porsche 101/4
-    2152. VK4502P Typ 180B электромеханическая трансмиссия двигатели Porsche 101/4
-    2153. VK4502P Typ 181A гидромеханическая трансмисся двигатели Porsche 101/4
-    2154. VK4502P Typ 181B гидромеханическая трансмисся двигатели Porsche 180/1
-    2155. VK4502P Typ 181C электромеханическая трансмиссия двигатель Porsche 180/2
+    2150. VK4502P
+    2151. VK4502P Typ 180A Porsche 101/4
+    2152. VK4502P Typ 180B Porsche 101/4
+    2153. VK4502P Typ 181A Porsche 101/4
+    2154. VK4502P Typ 181B Porsche 180/1
+    2155. VK4502P Typ 181C Porsche 180/2
     2156. VK4503H
     2157. VK6501 PzKpfw VII
     2158. VK7001 Tiger-Maus
@@ -2143,9 +2111,9 @@
     2161. VK7201K
     2162. VK10001 Mammunt
     2163. NKp 603
-    2164. HKp 902 полугусеничный БА 
-    2165. HKp 902 полугусеничный машина контроля запуска V-2
-    2166. HL K1 полугусеничный БА
+    2164. HKp 902
+    2165. HKp 902 V-2
+    2166. HL K1 полугусеничный
     2167. Rheinmetall Waffenträger 88-мм PaK 43
     2168. Porsche Typ 245/1 (Leichter Panzerkampfwagen)
     2169. Porsche Typ 245/2 (Leichter Mehrzwecke-Panzerkampfwagen)
@@ -2153,15 +2121,13 @@
     2171. Porsche Typ 245/11 (Aufklaerungs-Panzer)
     2172. Porsche Typ 245 “Sonderfahrzeug V” RutcherPanzerKleinZertoerer 
     2173. 2х80 сm. 8H63 Kleinpanzerjäger “Rütscher”
-    2174. Teufeltiger летающий танк
+    2174. Teufeltiger
     2175. Gerat 040 САУ Karl
-    2176. Gerat 041 САУ
-    2177. Kriegsdampflokomotive-1 военный паровоз 
-    2178. Охранный поезд «Блюхер»
-    2179. Охранный поезд №350
-    2180. Kampfzug I бронепоезд
-    2181. Kampfzuz II бронепоезд
-    2182. BZ III командный бронепоезд
+    2176. Gerat 041
+    2177. Kriegsdampflokomotive-1
+    2180. Kampfzug I
+    2181. Kampfzuz II
+    2182. BZ III
     2183. "Berlin" бронепоезд
     2184. Pz.Zug 1 бронепоезд
     2185. Pz.Zug 2 бронепоезд
@@ -2183,7 +2149,7 @@
     2201. Pz.Zug 30 бронепоезд
     2202. Pz.Zug 31 бронепоезд
     2203. Pz.Zug 32 бронепоезд
-    2204. Pz.Zug 51 "Штеттин" охранный бронепоезд
+    2204. Pz.Zug 51
     2205. Pz.Zug 52 бронепоезд
     2206. Pz.Zug 60R бронепоезд
     2207. Pz.Zug 61 бронепоезд
@@ -2210,72 +2176,71 @@
     2228. Pz.Zug 80 бронепоезд
     2229. Pz.Zug 81 бронепоезд
     2230. Pz.Zug 82 бронепоезд
-    2231. Pz.Zug 83 бронепоезд
-    2232. 201 s.SP. мобильный бронепоезд
-    2233. 202 s.SP. мобильный бронепоезд
-    2234. 203 s.SP. мобильный бронепоезд
-    2235. 204 s.SP. мобильный бронепоезд
-    2236. 205 s.SP. мобильный бронепоезд
-    2237. 206 s.SP. мобильный бронепоезд
-    2238. PT 15 броневагон
-    2239. PT 16 мотоброневагон
-    2240. PT 17 мотоброневагон
-    2241. PT 18 мотоброневагон
-    2242. PT 19 мотоброневагон
-    2243. PT 20 мотоброневагон
-    2244. PT 21 мотоброневагон
-    2245. PT 22 мотоброневагон
-    2246. PT 23 мотоброневагон
-    2247. SP-42 мотоброневагон
-    2248. WR 360 C14 бронированный дизельный локомотив
-    2249. Бронеплатформа с САУ Lorrein M-30 122 mm
-    2250. PzTrWg No 16 броневагон
-    2251. Stuttgart type R ж-д платформа для средних танков
-    2252. SSy ж-д платформа
-    2253. SSym ж-д платформа
-    2254. SSyms ж-д платформа тяжёлый танков
-    2255. SSyms Gattungsbezik Koln ж-д платформа
-    2256. SStk Koln ж-д платформа
-    2257. Shwertransportwagen fur Great 205 ж-д платформа для Maus
-    2258. Sd.Anh 1 прицеп кеттенкрада
+    2231. Pz.Zug 83
+    2232. 201 s.SP.
+    2233. 202 s.SP.
+    2234. 203 s.SP.
+    2235. 204 s.SP.
+    2236. 205 s.SP.
+    2237. 206 s.SP.
+    2238. PT 15
+    2239. PT 16
+    2240. PT 17
+    2241. PT 18
+    2242. PT 19
+    2243. PT 20
+    2244. PT 21
+    2245. PT 22
+    2246. PT 23
+    2247. SP-42
+    2248. WR 360 C14
+    2250. PzTrWg No 16
+    2251. Stuttgart type R
+    2252. SSy
+    2253. SSym
+    2254. SSyms
+    2255. SSyms Gattungsbezik Koln
+    2256. SStk Koln
+    2257. Shwertransportwagen fur Great 205 Maus
+    2258. Sd.Anh 1
     2259. Sd.Anh 1/1 
     2260. Sd.Anh 1/2
-    2261. Sd.Anh 3 арт трейлер 
-    2262. Sd.Anh 4 трейлер 
-    2263. Sd.Anh 5 трейлер для амуниции
-    2264. Sd.Anh 7 трейлер для боеприпасов небельверфера
-    2265. Sd.Anh 8 трейлер для ветеринарного оборудования
-    2266. Sd.Anh 11 моечный трейлер
-    2267. Sd.Anh 13 трейлер лодки 
-    2268. Sd.Anh 15 трейлер с кабелем 
-    2269. Sd.Anh 20 трейлер с кабелем 
-    2270. Sd.Anh 21 трейлер для телефонного кабеля
+    2261. Sd.Anh 3
+    2262. Sd.Anh 4
+    2263. Sd.Anh 5
+    2264. Sd.Anh 7
+    2265. Sd.Anh 8
+    2266. Sd.Anh 11
+    2267. Sd.Anh 13
+    2268. Sd.Anh 15
+    2269. Sd.Anh 20
+    2270. Sd.Anh 21
     2271. Sd.Anh 22
-    2272. Sd.Anh 23 устройство зарядки батарей
-    2273. Sd.Anh 23/1 генератор
-    2274. Sd.Anh 24 генератор
-    2275. Sd.Anh 25 кабель
-    2276. Sd.Anh 25/1 полевой генератор
-    2277. Sd.Anh 25/2 для сигнального оборудования
-    2278. Sd.Anh 25/3 сигнальный 
-    2279. Sd.Anh 25/4 трейлер 
-    2280. Sd.Anh 26 кабель
+    2272. Sd.Anh 23
+    2273. Sd.Anh 23/1
+    2274. Sd.Anh 24
+    2275. Sd.Anh 25
+    2276. Sd.Anh 25/1
+    2277. Sd.Anh 25/2
+    2278. Sd.Anh 25/3
+    2279. Sd.Anh 25/4
+    2280. Sd.Anh 26
     2281. Sd.Anh 28
     2282. Sd.Anh 29
-    2283. Sd.Anh 30 цистерна
-    2284. Sd.Anh 31 трейлер для боеприпасов
+    2283. Sd.Anh 30
+    2284. Sd.Anh 31
     2285. Sd.Anh 31/1
-    2286. Sd.Anh 32 трейлер боеприпасов
+    2286. Sd.Anh 32
     2287. Sd.Anh 32/2 
     2288. Sd.Anh 32/3
-    2289. Sd.Anh 33 трейлер боебрипасов для небельверфера 
+    2289. Sd.Anh 33
     2290. Sd.Anh 34
-    2291. Sd.Anh 35 цистерна
-    2292. Sd.Anh 36 трейер миномёта 
-    2293. Sd.Anh 40 танкоремонтный трейлер 
+    2291. Sd.Anh 35
+    2292. Sd.Anh 36
+    2293. Sd.Anh 40
     2294. Sd.Anh 46
-    2295. Sd.Anh 51 транспортёр FlaK 38
-    2296. Sd.Anh 52 трейлер зенитки
+    2295. Sd.Anh 51 FlaK 38
+    2296. Sd.Anh 52
     2297. Sd.Anh 53
     2298. Sd.Anh 54 
     2299. Sd.Anh 55
@@ -2285,86 +2250,86 @@
     2303. Sd.Anh 101 генератор
     2304. Sd.Anh 102 генератор
     2305. Sd.Anh 103
-    2306. Sd.Anh 104 генератор
-    2307. Sd.Anh 105 хлебопекарный 
-    2308. Sd.Anh 106 хлебопекарный 
-    2309. Sd.Anh 107 холодильник
-    2310. Sd.Anh 108 для лодок
+    2306. Sd.Anh 104
+    2307. Sd.Anh 105
+    2308. Sd.Anh 106
+    2309. Sd.Anh 107
+    2310. Sd.Anh 108
     2311. Sd.Anh 109
-    2312. Sd.Anh 111 фургон
+    2312. Sd.Anh 111
     2313. Sd.Anh 113
-    2314. Sd.Anh 115 танковый транспортёр
-    2315. Sd.Anh 116 танковый транспортёр 
-    2316. Sd.Anh 119 для лодки
-    2317. Sd.Anh 120 для лодки
-    2318. Sd.Anh 121 для танков
-    2319. Sd.Anh 141 для сапёров
-    2320. Sd.Anh 201 для транспортировки 88
-    2321. Sd.Anh 202 для транспортировки 88 
-    2322. Sd.Anh 203 для транспортировки FlaK 39
-    2323. Sd.Anh 204 для транспортировки FlaK 41
-    2324. Sd.Anh 206 для зенитки
-    2325. Sd.Anh 220 дл FlaK 40
-    2326. Sd.Anh 301 пожарный прицеп
-    2327. Sd.Anh 302 пожарный прицеп
-    2328. Sd.Anh 319 трейлер ракеты
+    2314. Sd.Anh 115
+    2315. Sd.Anh 116
+    2316. Sd.Anh 119
+    2317. Sd.Anh 120
+    2318. Sd.Anh 121
+    2319. Sd.Anh 141
+    2320. Sd.Anh 201
+    2321. Sd.Anh 202
+    2322. Sd.Anh 203
+    2323. Sd.Anh 204
+    2324. Sd.Anh 206
+    2325. Sd.Anh 220 FlaK 40
+    2326. Sd.Anh 301
+    2327. Sd.Anh 302
+    2328. Sd.Anh 319
     2329. Sd.Anh 322
-    2330. Sd.Anh 322/2 посадочные огни
-    2331. Sd.Anh 322/3 посадочные огни
+    2330. Sd.Anh 322/2
+    2331. Sd.Anh 322/3
     2332. Sd.Anh 350
-    2333. Sd.Anh 350/7 телефонный трейлер
+    2333. Sd.Anh 350/7
     2334. Sd.Anh 350/32
     2335. Sd.Anh 350/33
-    2336. Sd.Anh 350/42 для тестирования оборудования
-    2337. Sd.Anh 350/43 для тестирования оборудования
+    2336. Sd.Anh 350/42
+    2337. Sd.Anh 350/43
     2338. Sd.Anh 363
     2339. Sd.Anh 363/1
     2340. Sd.Anh 363/2
-    2341. Sd.Anh 401 полевая кухня
-    2342. Sd.Anh 422 радиоприцеп
-    2343. Sd.Anh 447 радиоприцеп
-    2344. Sd.Anh 450 для перевозки крыльев
-    2345. Sd.Anh 451 для перевозки крыльев
-    2346. Sd.Anh 454 цистерна
-    2347. Sd.Anh 458 перевозщик бомб
-    2348. Sd.Anh 458 перевозщик бомб
-    2349. Sd.Anh 468 телефонный трейлер
-    2350. Sd.Anh 469 телетайпный трейлер
-    2351. Sd.Anh 470 радиотрейлер
-    2352. Sd.Anh 471 радиоприцеп
-    2353. Sd.Anh 472 радиоприцеп
-    2354. Sd.Anh 473 фургон
-    2355. Pf 11 понтонный прицеп
-    2356. Pf 15 понтонный прицеп
+    2341. Sd.Anh 401
+    2342. Sd.Anh 422
+    2343. Sd.Anh 447
+    2344. Sd.Anh 450
+    2345. Sd.Anh 451
+    2346. Sd.Anh 454
+    2347. Sd.Anh 458
+    2348. Sd.Anh 458
+    2349. Sd.Anh 468
+    2350. Sd.Anh 469
+    2351. Sd.Anh 470
+    2352. Sd.Anh 471
+    2353. Sd.Anh 472
+    2354. Sd.Anh 473
+    2355. Pf 11
+    2356. Pf 15
     2357. Vwf.2 
-    2358. Stahlfeldwagen Hf.7 повозка
-    2359. Grosse Feldkuche Hf.11 полевая кухня
+    2358. Stahlfeldwagen Hf.7
+    2359. Grosse Feldkuche Hf.11
     2360. Krankenwagen Sf.2 повозка
     2361. Hs. 5 сани для PaK-38
-    2362. IF.2 Maschinengewehrhandwagen тачка для перевозки пулемёта MG-08
-    2363. IF.3 Maschinengewehrwagen schwer транспортер MG-08
-    2364. IF.5 MG.Wagen 36 зенитный прицеп
-    2365. PF.21 Flammenwerfer-Füllwagen тележка с набором оборудования для заправки огнемётов
-    2366. Tankgerät 250, fahrbar мобильный бензонасос
-    2367. K(E) 15 cm железнодорожное орудие 
-    2368. K(E) 17 cm железнодорожное орудие
-    2369. K(E) 20,3 cm железнодорожное орудие
-    2370. Th.Br K(E) 24 cm Теодор Бруно железнодорожное орудие
-    2371. Th. K(E)  24 cm  Теодор железнодорожное орудие
-    2372. kzBr. K(E) 28 cm  Коротний Бруно железнодорожное орудие
-    2373. lg.Br. K(E) 28 cm Длинный Бруно железнодорожное орудие
-    2374. sBr. K(E) 28 cm Тяжёлый Бруно железнодорожное орудие
-    2375. nBr. K(E) 28 cm Новый Бруно
+    2362. IF.2 Maschinengewehrhandwagen MG-08
+    2363. IF.3 Maschinengewehrwagen schwer MG-08
+    2364. IF.5 MG.Wagen 36
+    2365. PF.21 Flammenwerfer-Füllwagen
+    2366. Tankgerät 250, fahrbar
+    2367. K(E) 15 cm
+    2368. K(E) 17 cm
+    2369. K(E) 20,3 cm
+    2370. Th.Br K(E) 24 cm
+    2371. Th. K(E)  24 cm
+    2372. kzBr. K(E) 28 cm
+    2373. lg.Br. K(E) 28 cm
+    2374. sBr. K(E) 28 cm
+    2375. nBr. K(E) 28 cm
     2376. PzB.41(s) ПТР
     2377. s.Pz B 41 противотанковое ружьё 
-    2378. s.Pz B 41 на десантном лафете leFL 41 противотанковое ружьё
+    2378. s.Pz B 41 на десантном лафете leFL 41
     2379. Pz.B.03 8.8 cm станковый гранатомет 
-    2380. Pz.B.54 Sonderversion безоткатный гранатомет 
-    2381. RWr.43 8.8 cm станковый гранатомет 
-    2382. LG 40 75 mm безоткатное орудие
-    2383. LG 40 10,5 cm безоткатное орудие
-    2384. LG 42 10,5 cm безоткатное орудие
-    2385. LG 42 10,5 cm безоткатное орудие
+    2380. Pz.B.54 Sonderversion
+    2381. RWr.43 8.8 cm
+    2382. LG 40 75 mm
+    2383. LG 40 10,5 cm
+    2384. LG 42 10,5 cm
+    2385. LG 42 10,5 cm
     2386. sGrW 34 8 cm миномёт
     2387. GrW 36 5 cm миномёт
     2388. sGrW 42 120 mm тяжелый
@@ -2386,40 +2351,40 @@
     2404. leFH 18/42 105 mm лёгкая гаубица
     2405. leFH 42 105 mm лёгкая гаубица
     2406. leFH 43 105 mm лёгкая гаубица
-    2407. leFH 25(t) 15 cm гаубица
-    2408. leFH 30(t) 10 cm гаубица
-    2409. leFH 37(t) 15 cm гаубица
-    2410. leFH 42 105 mm лёгкая гаубица
-    2411. leFH 43 105 mm лёгкая гаубица
-    2412. leIG 75 mm пехотное орудие
-    2413. sFH 13 150 mm гаубица 
-    2414. sFH 17(p) 15.5 cm гаубица
-    2415. sFH 18 150 mm тяжелая гаубица
-    2416. sIG 150 mm пехотное орудие
-    2417. sFH 396(r) 122 mm гаубица
+    2407. leFH 25(t) 15 cm
+    2408. leFH 30(t) 10 cm
+    2409. leFH 37(t) 15 cm
+    2410. leFH 42 105 mm
+    2411. leFH 43 105 mm
+    2412. leIG 75 mm
+    2413. sFH 13 150
+    2414. sFH 17(p)
+    2415. sFH 18 150 mm
+    2416. sIG 150
+    2417. sFH 396(r)
     2418. Tak 28 37 mm ПТ
     2419. Tap 29 37 mm ПТ
     2420. PaK 35/36 mm ПТ
-    2421. PaK 35/36(ц) 4.7 cm ПТ
-    2422. PaK leFlat 3.7 cm ПТ облегчённый 
-    2423. PaK 36(r) 76,2 mm ПТ
-    2424. PaK 36(t) 4.7 cm ПТ
-    2425. PaK 36(p) 3.7 cm ПТ
-    2426. PaK 37(t) 3.7 cm ПТ
-    2427. PaK 38 50 mm ПТ
-    2428. PaK 39(r) 7.62 mm ПТ
-    2429. PaK 39/40 3.7 cm ПТ
-    2430. PaK 97/38 50 mm ПТ
-    2431. PaK 40 75 mm  ПТ
-    2432. PaK 41 4.2/2.8 cm ПТ с коническим каналом ствола 
-    2433. PaK 41 7.5/5.5 cm ПТ с коническим каналом ствола
-    2434. PaK 42 7.5 cm ПТ
-    2435. PaK 43 88 mm ПТ
-    2436. PaK 43/41 88 cm ПТ 
-    2437. PaK 44 128 mm ПТ
-    2438. PaK 80 128 mm ПТ
-    2439. PWK 8H63 8 cm гладкоствольная пушка (PAW)
-    2440. PWK 10H64 10 cm гладкоствольная пушка
+    2421. PaK 35/36(ц) 4.7 cm
+    2422. PaK leFlat 3.7 cm
+    2423. PaK 36(r) 76,2 mm
+    2424. PaK 36(t) 4.7 cm
+    2425. PaK 36(p) 3.7 cm
+    2426. PaK 37(t) 3.7 cm
+    2427. PaK 38 50 mm
+    2428. PaK 39(r)
+    2429. PaK 39/40 3.7 cm
+    2430. PaK 97/38 50 mm
+    2431. PaK 40 75 mm
+    2432. PaK 41 4.2/2.8 cm
+    2433. PaK 41 7.5/5.5 cm
+    2434. PaK 42 7.5 cm
+    2435. PaK 43 88 mm
+    2436. PaK 43/41 88 c
+    2437. PaK 44 128 mm
+    2438. PaK 80 128 mm
+    2439. PWK 8H63 8 cm (PAW)
+    2440. PWK 10H64 10 cm
     2441. FlaK(d) 7.5 cm 
     2442. FlaK Vickers(e) 7.5 cm
     2443. FlaK Breda(i) 2 cm
@@ -2456,7 +2421,7 @@
     2474. FlaK 44 3,7 cm
     2475. FlaK 45 12,8 cm
     2476. FlaK 58 Rh DV 3 5.5 cm 
-    2477. Flak 103/38 “Jaboschreck” 3 cm
+    2477. Flak 103/38 Jaboschreck 3 cm
     2478. FlaK 341 3,7 cm
     2479. Flak Gerät 38 10.5 cm
     2480. Flak Gerät 40 12.8 cm
@@ -2469,7 +2434,7 @@
     2487. Flak Gerät 80 24 cm
     2488. Flak Gerät 85 24 cm
     2489. Flak Gerät 60F 15 cm
-    2490. Kommando-Gerat 40 прибор управления огнём
+    2490. Kommando-Gerat 40
     2491. FlaK M12(t) 9 cm
     2492. FlaK M22(t) 8,35 cm
     2493. FlaK M30(f) 7,5 cm
@@ -2573,8 +2538,8 @@
     2591. leFH 325(f) 10.5 cm гаубица
     2592. leFH 325(d) 10.5 cm гаубица
     2593. leFH 326(i) 10.5 cm гаубица
-    2594. FK 327(b) 10.5 cm гаубица
-    2595. GebGrW 328(r) 10.7 cm миномёт
+    2594. FK 327(b) 10.5 cm
+    2595. GebGrW 328(r) 10.7 cm
     2596. K 331(f) 105 mm пушка
     2597. K 332(f) 10,5 cm пушка
     2598. K 335(h) 10,5 cm пушка
@@ -2602,32 +2567,31 @@
     2620. sFH 412(f) 15,2 cm гаубица
     2621. sFH 412(i) 15,2 cm гаубица 
     2622. sFH 414(f) 15,5 cm гаубица
-    2623. sFH 415(f) 15,5 cm гаубица
-    2624. K 416(f) 155 mm пушка
-    2625. K 417(f) 155 mm пушка
-    2626. K 418(f) 155 mm пушка
-    2627. K 419(f) 155 mm пушка
-    2628. K 420(f) 155 mm пушка
-    2629. K 420(i) 155 mm пушка
-    2630. K 422(f) 155 mm пушка
-    2631. K 425(f) 155 mm пушка
-    2632. K 431(b) 155 mm пушка
-    2633. K 432(b) 155 mm пушка
-    2634. KH 433/1(r) 152 mm гаубица
-    2635. K 433/2(r) 15,2 cm гаубица
-    2636. sFH 443(r) 15,2 cm гаубица
-    2637. sFH 445(r) 15,2 cm гаубица
-    2638. K 485(f) 19,4 cm пушка
-    2639. K 485/585(f) 220 cm пушка
+    2623. sFH 415(f) 15,5 cm
+    2624. K 416(f) 155 mm
+    2625. K 417(f) 155 mm
+    2626. K 418(f) 155 mm
+    2627. K 419(f) 155 mm
+    2629. K 420(i) 155 mm
+    2630. K 422(f) 155 mm
+    2631. K 425(f) 155 mm
+    2632. K 431(b) 155 mm
+    2633. K 432(b) 155 mm
+    2634. KH 433/1(r) 152 mm
+    2635. K 433/2(r) 15,2 cm
+    2636. sFH 443(r) 15,2 cm
+    2637. sFH 445(r) 15,2 cm
+    2638. K 485(f) 19,4 cm
+    2639. K 485/585(f) 220 cm
     2640. K(E) 486(f) 19.4 cm
-    2641. H 503/1(r) 20,3 cm гаубица
-    2642. H 503/2(r) 20,3 cm гаубица
-    2643. H 520(i) 21 cm гаубица
-    2644. Mrs 531(f) 220 mm гаубица
+    2641. H 503/1(r) 20,3 cm
+    2642. H 503/2(r) 20,3 cm
+    2643. H 520(i) 21 cm
+    2644. Mrs 531(f) 220 mm
     2645. Mrs 531(b) 220 mm 
-    2646. K 532(f) 22 cm пушка
-    2647. H 546/2(e) 23.4 cm гаубица
-    2648. H 546/2(b) 23.4 cm гаубица
+    2646. K 532(f) 22 cm
+    2647. H 546/2(e) 23.4 cm
+    2648. H 546/2(b) 23.4 cm
     2649. K 556(f) 24 cm пушка
     2650. K(E) 557(f) 24 cm
     2651. K(E) 557/1(f) 24 cm
@@ -2643,57 +2607,57 @@
     2661. H(E) 711(f) 37 cm 
     2662. H(E) 752(f) 40 cm
     2663. H(E) 871(f) 52 cm
-    2664. K(t) 240 mm пушка
-    2665. K 3 240 mm пушка
-    2666. K 13(p) 105 mm пушка
-    2667. K 16Kp 150 mm пушка
-    2668. K 16Rn 150 mm пушка
-    2669. K 15/16 15,2 cm пушка
-    2670. K 18 170 mm шушка
-    2671. K 29(p) 105 mm пушка
-    2672. K 35(t) 10,5 cm пушка
-    2673. K 38 21 cm пушка
-    2674. K 39 210 mm пушка
-    2675. K 39/40 210 mm пушка
-    2676. K 39/41 210 mm пушка
-    2677. K 52 210 mm пушка
-    2678. K 81/1 12.8 cm ПТ
-    2679. K 81/2 12.8 cm ПТ
+    2664. K(t) 240 mm
+    2665. K 3 240 mm
+    2666. K 13(p) 105 mm
+    2667. K 16Kp 150 mm
+    2668. K 16Rn 150 mm
+    2669. K 15/16 15,2 cm
+    2670. K 18 170 mm
+    2671. K 29(p) 105 mm
+    2672. K 35(t) 10,5 cm
+    2673. K 38 21 cm
+    2674. K 39 210 mm
+    2675. K 39/40 210 mm
+    2676. K 39/41 210 mm
+    2677. K 52 210 mm
+    2678. K 81/1
+    2679. K 81/2
     2680. M.16(t) 24 cm Kanone
-    2681. M 18 210 mm мортира
-    2682. H 39 24 cm мортира
-    2683. H(t) 42 cm мортира
+    2681. M 18 210 mm
+    2682. H 39 24 cm
+    2683. H(t)
     2684. Mrs 18
     2685. Mrs 18/19(t) 21 cm 
     2686. Mrs(p) 22 cm
     2687. Mrs(t) 30,5 cm
-    2688. 17 cm K Mrs Laf пушка
-    2689. 24 cm K L/46 пушка
-    2690. LRK 15F58 дальнобойное орудие
-    2691. GebG 36 75 mm горное орудие
-    2692. GebG 43 75 mm горное орудие
-    2693. GebH 10,5 cm горное орудие
-    2694. GebK 15 75 mm горное орудие
-    2695. GebH 16/19 10,5 cm  
-    2696. FK 7M85 75 mm полевая пушка
-    2697. SK L/40 240 mm береговая пушка
-    2698. SK L/45 280 mm береговая пушка
-    2699. SK C/34 280 mm береговая пушка
-    2700. 7M75 75 mm полевая пушка
-    2701. Nebelwerfer 35 105 mm
-    2702. Nebelwerfer 40 105 mm
-    2703. Nebelwerfer 41 150 mm
-    2704. Nebelwerfer 42 210 mm
-    2705. WkrS 40 ПУ 6x320 mm
-    2706. WkrS 41 ПУ 6x280 mm 
-    2707. sPzB 41 20/28 mm ПТ ружьё 
-    2708. Hs 297 Fohn зенитная РСЗО
-    2709. Projekt NM подвижная огневая точка
+    2688. 17 cm K Mrs Laf
+    2689. 24 cm K L/46
+    2690. LRK 15F58
+    2691. GebG 36
+    2692. GebG 43
+    2693. GebH 10,5
+    2694. GebK 15 75
+    2695. GebH 16/19
+    2696. FK 7M85
+    2697. SK L/40
+    2698. SK L/45
+    2699. SK C/34
+    2700. 7M75 75
+    2701. Nebelwerfer 35 
+    2702. Nebelwerfer 40 
+    2703. Nebelwerfer 41 
+    2704. Nebelwerfer 42
+    2705. WkrS 40
+    2706. WkrS 41
+    2707. sPzB 41
+    2708. Hs 297 Fohn
+    2709. Projekt NM
     2710. Kugelpanzer
-    2711. MG-Panzernest пулемётное передвижное гнездо
+    2711. MG-Panzernest
 
 
-       СССР
+       USSR
     1. ТИЗ-АМ-600 мотоцикл
     2. ТИЗ-АМ-600 МДШ дымовая шашка
     3. ПМЗ-А-750
@@ -4498,45 +4462,42 @@
     1900. 52-Р-353М орудийный передок
     1901. 52-Р-363 орудийный передок
     1902. 52-У-931 станок для реактивных снарядов 
-    1903. 52-З-363 зарядный ящик 
+    1903. 52-З-363
 
-       США
+       USA
 
     1. Mark IX
     2. M4 High-Speed Tractor
     3. M4C
     4. M4A1
     5. M5 High Speed Tractor 
-    6. T26 Sterling танковый тягач
+    6. T26 Sterling
     7. M26 Dragon
     8. M26A1
     9. M26A2
-    10. Higgins Swamp Skipper Model 5 вездеход
+    10. Higgins Swamp Skipper Model 5
     11. John Deere Armored "A" Tractor
-    12. Airborne Motor Scooter мотороллер
-    13. Indian Chief  мотоцикл
-    14. Indian 741-B мотоцикл
+    12. Airborne Motor Scooter
+    13. Indian Chief
+    14. Indian 741-B
     15. Harley-Davidson WLA
     16. Harley-Davidson 42XA
     17. Harley-Davidson 42XS
     18. Harley-Davidson XA750
-    19. Harley-Davidson с коляской бронированный
-    20. Harley-Davidson EL мотоцикл 
-    21. Autoped Ever Ready мопед
-    22. Catterpilar D7 минный трал T4E1
-    23. Caterpillar D7 с лебёдкой для вытаскивания десантных средств
+    19. Harley-Davidson
+    20. Harley-Davidson EL
+    21. Autoped Ever Ready
+    22. Catterpilar D7 T4E1
+    23. Caterpillar D7
     24. Caterpillar D7 3T
     25. Caterpillar D7 4T
     26. Caterpillar D7A
     27. Caterpillar D7M
     28. Caterpillar D7M armored bulldozer 
-    29. Case VA трактор
-    30. 800 фунтовый транспортёр переднего края
-    31. 900 фунтовый транспортёр переднего края
-    32. 1600 фунтовый транспортёр переднего края
-    33. Radio dog №1 беспилотный аппарат
-    34. Radio controlled car беспилотный аппарат
-    35. Charlie Birger’s armored truck
+    29. Case VA
+    33. Radio dog №1
+    34. Radio controlled car
+    35. Charlie Birger’s
     36. American Austin с 3хM1919A4
     37. Chevrolet T7
     38. Chevrolet AC
@@ -4590,7 +4551,7 @@
     86. Cook T20 
     87. Corbett 40SD6
     88. Corbett 50SD6
-    89. Corbett 50SD6 тягач
+    89. Corbett 50SD6
     90. Corbett F27R
     91. Dart 200-353
     92. Dart T3
@@ -4627,7 +4588,7 @@
     123. Dodge T207 WC8
     124. Dodge T207 WC9
     125. Dodge T211
-    126. Dodge T214 WC-51 полугусеничный с тележкой от Bren Carrier 
+    126. Dodge T214 WC-51 Bren Carrier
     127. Dodge T214 WC-51/WC64
     128. Dodge T214 WC-56
     129. Dodge T214 WC-57
@@ -4655,7 +4616,7 @@
     151. Dodge VH48
     152. Dodge VK62B
     153. Dodge WK60
-    154. Dodge ½ 4x4 truck амфибия
+    154. Dodge ½
     155. Federal 2G
     156. Federal 3G
     157. Federal 604
@@ -4674,7 +4635,7 @@
     170. Ford GCA
     171. Ford GIJ
     172. Ford GP
-    173. Ford GP40 со всеми управляемыми колесами
+    173. Ford GP40
     174. Ford GPA
     175. Ford GPW
     176. Ford GPW SAS
@@ -4811,8 +4772,8 @@
     307. Marmon-Herrington A5-4
     308. Marmon-Herrington B5-6
     309. Marmon-Herrington C5-6
-    310. Marmon-Herrington E5-4 санитарный
-    311. Marmon-Herrington DHT-5 (37mm Gun Motor Carriage M10)
+    310. Marmon-Herrington E5-4
+    311. Marmon-Herrington DHT-5
     312. Marmon-Herrington HH5-4
     313. Marmon-Herrington HH6-4
     314. Marmon-Herrington LD1-4
@@ -4830,10 +4791,10 @@
     326. Minneapolis-Moline GTX
     327. Minneapolis-Moline NTX 
     328. Minneapolis-Moline U
-    329. Minneapolis-Moline GTX 147 трактор
+    329. Minneapolis-Moline GTX 147
     330. Moreland  TX6
     331. Oshkosh TR
-    332. Oshkosh W700 со снегоочистителем Snogo
+    332. Oshkosh W700  Snogo
     333. Oshkosh W709
     334. Oshkosh W712
     335. Ottocar T17
@@ -4853,7 +4814,7 @@
     349. QMC W3162
     350. QMC W3228 
     351. QMC W3229
-    352. QMC W393 грузовик
+    352. QMC W393
     353. QMC W4102
     354. QMC W4103
     355. QMC W4104
@@ -4878,21 +4839,21 @@
     374. Studebaker LC
     375. Studebaker LD
     376. Studebaker T27
-    377. Studebaker US6.U1 бортовой
-    378. Studebaker US6.U10 самосвал
-    379. Studebaker US6.U11 самосвал
-    380. Studebaker US6.U12 самосвал
-    381. Studebaker US6.U13 самосвал 
-    382. Studebaker US6.U2 бортовой с лебёдкой
-    383. Studebaker US6.U3 бортовой
-    384. Studebaker US6.U3 с пулеметной турелью и открытой кабиной
-    385. Studebaker US6.U3 цистерна
-    386. Studebaker US6.U4 бортовой
-    387. Studebaker US6.U5 топливная цистерна
-    388. Studebaker US6.U6 седельный тягач
-    389. Studebaker US6.U7 открытая кабина
-    390. Studebaker US6.U8 бортовой с лебёдкой
-    391. Studebaker US6.U9 шасии для фургонов
+    377. Studebaker US6.U1
+    378. Studebaker US6.U10
+    379. Studebaker US6.U11
+    380. Studebaker US6.U12
+    381. Studebaker US6.U13
+    382. Studebaker US6.U2
+    383. Studebaker US6.U3
+    384. Studebaker US6.U3
+    385. Studebaker US6.U3
+    386. Studebaker US6.U4
+    387. Studebaker US6.U5
+    388. Studebaker US6.U6
+    389. Studebaker US6.U7
+    390. Studebaker US6.U8
+    391. Studebaker US6.U9
     392. Thorco Duel Motors 
     393. Walter ADUM
     394. Ward LaFrance M1
@@ -4902,7 +4863,7 @@
     398. Ward LaFrance 1000
     399. White 1064
     400. White 444T
-    401. White 620SW с зенитным орудием
+    401. White 620SW
     402. White 666
     403. White 704S
     404. White 705M
@@ -4912,14 +4873,14 @@
     408. Willis Americar Speedway
     409. Willis MA
     410. Willis MB
-    411. Willis MB 107 mm mortar 
-    412. Willis MB с задним расположением двигателя бронированный
+    411. Willis MB
+    412. Willis MB
     413. Willis MB-1
     414. Willis MBL
     415. Willis MBL-2
     416. Willis MB-LWB
     417. Willis MLW
-    418. Willis MT-TUG седедбный тягач 
+    418. Willis MT-TUG
     419. Willis Super Jeep
     420. Willis T14
     421. Willis T21
@@ -4937,36 +4898,34 @@
     433. Willis T63
     434. Willis WAC
     435. Willis WAC-3
-    436. Willis W-TC гусеничный вездеход
+    436. Willis W-TC
     437. Mk VIII International
     438. M1
     439. M1 armored car
     440. M2
-    441. M2 полугусеничный 
+    441. M2
     442. M2A1
     443. M2A3
-    444. M3 
-    445. M3 с громкоговорителем
+    444. M3
     446. T5E1 Mortar Carrier на базе M3
-    447. M3 полугусеничный
-    448. M3 БТР с колёсами вместо гусениц
+    447. M3
     449. M3A1
     450. M3A1E1
     451. M3A1E2
-    452. M3A1E3 с 37 mm пушкой T6 
+    452. M3A1E3
     453. M3A2
     454. M3A2
     455. M3E1
-    456. M3 РСЗО
+    456. M3
     457. M4
     458. M4A1
     459. M5A1
     460. M5A2
-    461. M6 Fargo САУ
+    461. M6 Fargo
     462. M8
-    463. T20 БТР
-    464. T26 КШМ
-    465. T69 ЗСУ
+    463. T20
+    464. T26
+    465. T69
     466. M9A1
     467. M13
     468. M14
@@ -4975,47 +4934,45 @@
     471. M16
     472. M16A2
     473. M17
-    474. M18 57 mm ДРП
-    475. M18A1 57 mm ДРП
+    474. M18
+    475. M18A1
     476. M20
-    477. M20 75 mm ДРП
+    477. M20
     478. M38
-    479. M38 Wolfhound БА с башней M24 Chaffee
-    480. T1 Squad car БА
-    481. Т3 лёгкий танк 
+    479. M38 Wolfhound БА M24 Chaffee
+    480. T1 Squad car
+    481. Т3
     482. T6
     483. T10
-    484. T10 (Palmer Car) БА
-    485. Т11 Four Wheel Drive Auto Company БА
-    486. Т11E2 Four Wheel Drive БА
+    485. Т11 Four Wheel Drive Auto Company
+    486. Т11E2 Four Wheel Drive
     487. T12
     488. T17
     489. T17E1
     490. T17E2
     491. T17E3
-    492. T17M3 75 мм гаубица
+    492. T17M3
     493. T19
-    494. T21 Studebaker БА
-    495. T22 Ford БА
-    496. T22E1 Ford БА
-    497. T22E2 Ford БА
-    498. T23 Chryser БА
-    499. T23E Chryser БА
+    494. T21 Studebaker
+    495. T22 Ford
+    496. T22E1 Ford
+    497. T22E2 Ford
+    498. T23 Chryser
+    499. T23E Chryser
     500. T28 ЗСУ
     501. T29
     502. T30
     503. T48
-    504. T55E1 колёсная ПТ САУ
+    504. T55E1
     505. T58
     506. T59
     507. T60
-    508. T75 РСЗО на шасси Dodge
-    509. Tucker Tiger Tank БА
+    508. T75 РСЗО Dodge
+    509. Tucker Tiger Tank
     510. Ford S1 4x2
-    511. Chrysler scout car А БА
-    512. Baker Manufacturing Co прыгающий танк
-    513. Gun Motor Carriage Mk IX САУ
-    514. Renault FT-17 с двигателем воздушного охлаждения
+    511. Chrysler scout car А
+    512. Baker Manufacturing Co
+    513. Gun Motor Carriage Mk IX
     515. Holt Mark I 8 inch Howitzer Motor Carriage
     516. Holt Mark II 155 mm Gun Motor Carriage
     517. Holt Mark IV 75 mm Gun Motor Carriage
@@ -5023,14 +4980,14 @@
     519. Holt (шасси 55-I) 3 inch Antiaircraft Gun Motor Carriage
     520. Christie M-1917 3 inch Antiaircraft Gun Motor Carriage
     521. Christie M-1918 8 inch Howitzer Motor Carriage
-    522. Christie M-1919 155 mm Gun Motor Carriage
-    523. Christie M-1920 155 mm Gun Motor Carriage
-    524. Christie M-1921 75 mm Gun Motor Carriage
-    525. Christie M-1921 105 mm Howitzer Motor Carriage 
+    522. Christie M-1919 Gun Motor Carriage
+    523. Christie M-1920 Gun Motor Carriage
+    524. Christie M-1921 Gun Motor Carriage
+    525. Christie M-1921 Howitzer Motor Carriage
     526. Christie M-1921 4,5 inch Antiaircraft Gun Motor Carriage
     527. Christie M-1921 3 inch Antiaircraft Gun Motor Carriage
     528. Christie M-1922
-    529. Christie M-1923 155 mm self-propellered gun 
+    529. Christie M-1923
     530. Christie M-1927
     531. Christie M-1928
     532. Christie M-1931
@@ -5045,8 +5002,8 @@
     541. Christie M-1941
     542. Christie M-1942
     543. US M1921
-    544. M1922 Medium Tank
-    545. M1922E Mk X GMC ''Slo Poke''
+    544. M1922
+    545. M1922E Mk X GMC
     546. CTVL
     547. CTL-1
     548. CTL-1A
@@ -5063,8 +5020,8 @@
     559. Armored Tank Corporation Airborne Tank
     560. T1 Cunningham
     561. E1 Cunningham
-    562. T1E2 полугусеничный тягач
-    563. T1E3 полугусеничный тягач
+    562. T1E2
+    563. T1E3
     564. T1 Howitzer Motor Carriage
     565. T1 Track Development Chassis
     566. T1E2 light tank
@@ -5096,21 +5053,14 @@
     592. M2A3 Light Tank
     593. M2A4 Light Tank
     594. M2 Medium Tank
-    595. M2 "средний" с огнеметом E2
-    596. M3 Stuart I Базовая версия с клёпаной башней
-    597. M3 Stuart I Версия со сварной гранёной башней
-    598. M3 Stuart II с дизельным двигателем
-    599. M3 Stuart I со сварной башней подковообразной формы с командирской башенкой
-    600. M3 Stuart II с дизельным двигателем
-    601. M3 Stuart Hybrid гибридная версия с башней от M3A1, с ручным поворотом башни, без башенной корзины
-    602. M3 Stuart Hybrid с дизельным двигателем
-    603. M3 Stuart Hybrid гибридная версия с клёпано-сварным корпусом и башней
-    604. M3 Stuart Hybrid с дизельным двигателем
-    605. M3A1 Stuart III с новой башней с электроприводом и башенной корзиной,  с клёпано-сварным корпусом
-    606. M3A1 Stuart III с полностью сварным корпусом
-    607. M3A1 Stuart IV с дизельным двигателем
-    608. M3A1 Stuart IV с дизельным двигателем
-    609. M3A3 Stuart V переработанным увеличенным корпусом с наклонной вертикальной бронёй
+    595. M2 с огнеметом E2
+    597. M3 Stuart I
+    598. M3 Stuart II
+    599. M3 Stuart I
+    600. M3 Stuart II
+    604. M3 Stuart Hybrid
+    605. M3A1 Stuart III
+    606. M3A1 Stuart III
     610. M3A1 Stuart
     611. M3A3 Stuart
     612. M3 Stuart с ЗУ M16
@@ -5118,8 +5068,8 @@
     614. M3 with Satan Flame-gun
     615. M3A1 with Satan Flame-gun
     616. M3 Lee
-    617. M3 Lee с огнеметом E3
-    618. M3 Lee с огнеметом E5R2-M3
+    617. M3 Lee  E3
+    618. M3 Lee E5R2-M3
     619. M3A1 Lee
     620. M3A2 Lee
     621. M3A3 Lee
@@ -5136,7 +5086,7 @@
     632. T36
     633. T51
     634. M4 Sherman
-    635. M4 Sherman с миноискателем Lulu
+    635. M4 Sherman Lulu
     636. M4(105) Sherman
     637. M4(105) HVSS 
     638. M4 DD
@@ -5161,11 +5111,11 @@
     657. M4A3E4
     658. M4A3(76)W
     659. M4A3E8
-    660. M4A3E8 с T76E1 и бульдозерным ножом
+    660. M4A3E8 T76E1
     661. M4A3(76)W HVSS
     662. M4A3E9
     663. M4A3(105) HVSS
-    664. M4A3 Sherman 105 mm с двухпулеметной командирской башенкой
+    664. M4A3 Sherman
     665. M4A3R3 Flame thrower
     666. M4A4
     667. M4A5
@@ -5202,7 +5152,7 @@
     698. M4 Sherman T15
     699. M4 Sherman T15E1
     700. M4 Sherman T15E2
-    701. M4 Sherman T31 Demolition Tank T31 Demolition Tank
+    701. M4 Sherman T31 Demolition Tank T31
     702. M4 Sherman Т34 Calliope rocket launcher
     703. M4 Sherman Т34E1 Calliope rocket launcher
     704. M4 Sherman T34E2 Calliope rocket launcher
@@ -5215,7 +5165,7 @@
     711. M4 Sherman Т105 rocket launcher
     712. M4 Sherman BARV
     713. M4 Sherman с башней M26
-    714. M4A3 Sherman 105 mm с двухпулеметной башенкой
+    714. M4A3 Sherman 105 mm
     715. M4 Sherman E4R2-5R1 flame-gun 
     716. M4 Sherman E4R3-5R1 flame-gun
     717. M4 Sherman M3-4-3 flame-gun
@@ -5264,21 +5214,20 @@
     760. M7 Priest КШМ
     761. M8 75 mm Howitzer Motor Carriage
     762. M8A1 75 mm 
-    763. M10 Вульверин
+    763. M10
     764. M10A1
-    765. M10 машина звуковой атаки
+    765. M10 м
     766. M12 155 mm Gun Motor Carriage
-    767. M12 155 mm Gun Motor Carriage модернизированный 
+    767. M12 155 mm Gun Motor Carriage
     768. M18 Хеллкэт
     769. M18 Хеллкэт с башней от M36
     770. M18 с понтоном T7
     771. M19 Gun Motor Carriage
     772. T19
-    773. M22 Локаст
-    774. M22 переденланный в трактор
-    775. M24 Чаффи
-    776. M24 с шахматной ходовой частью
-    777. M24 с РСЗО T95
+    773. M22 Locaust
+    775. M24 Chaffi
+    776. M24
+    777. M24  T95
     778. Т24Е1 Chaffi
     779. T6E1 Tank recovery vehicle
     780. T9 Utility vehicles
@@ -5297,13 +5246,13 @@
     793. M26A1E2
     794. M26E1
     795. M26E2
-    796. M26 с ракетами
-    797. M26 с плавсредством MC-1
+    796. M26
+    797. M26
     798. T26E2
     799. T26E4
     800. T26E5
     801. T48
-    802. T84 203 mm
+    802. T84 
     803. T92
     804. T93
     805. T31
@@ -5312,12 +5261,12 @@
     808. M28 cargo carrier
     809. M29 Weasel
     810. M29C
-    811. M29C с огнемётом
-    812. M29C Type A  с 75 мм безоткатной пушкой
+    811. M29C
+    812. M29C Type A
     813. M29 type A
     814. M29 type B
     815. M29 type C
-    816. M30 машина снабжения боеприпасами
+    816. M30
     817. M31 Tank Recovery Vehicle
     818. M31B1 Tank Recovery Vehicle
     819. M31B2 Tank Recovery Vehicle
@@ -5329,7 +5278,7 @@
     825. M32B3 Tank Recovery Vehicle
     826. M32A1B3 Tank Recovery Vehicle
     827. M32B4 Tank Recovery Vehicle
-    828. M32 с катковым минным тралом T1E1
+    828. M32 T1E1
     829. M33 Prime Mover
     830. M34 Prime Mover
     831. M35 Prime Mover
@@ -5338,12 +5287,12 @@
     834. M36B2
     835. M37 105 mm Howitzer Motor Carriage
     836. M37 с M4 4.2” recoilless mortar
-    837. M39 Armored Utility Vehicle
-    838. M39 Sonic машина звуковой атаки
+    837. M39
+    838. M39 Sonic
     839. T9
     840. T65
     841. M40
-    842. M41 155 mm Howitzer Motor Carriage
+    842. M41  Howitzer Motor Carriage
     843. M43
     844. M45
     845. M45 Pershing 105 mm пушка
@@ -5352,43 +5301,43 @@
     848. T1 hvy
     849. T1E1 hvy (M6A2)
     850. T1E4 hvy
-    851. T1 ЗСУ
-    852. T2E1 БТР
-    853. T2E2 БТР
-    854. T2E3 БТР
-    855. T2E4 БТР
+    851. T1
+    852. T2E1
+    853. T2E2
+    854. T2E3
+    855. T2E4
     856. T3 Howitzer Motor Carriage
-    857. T6 Sherman прототип 
+    857. T6 Sherman
     858. T6 Gun Motor Carriage
-    859. T8 Reconnaissance Vehicle
-    860. T9 БТР
-    861. T9 безоткатная гаубица
-    862. T14 тяжёлый танк
-    863. T14 машина снабжения боеприпасами
-    864. T15 Cargo carrier
-    865. T15 57 mm ДРП
-    866. T16 БТР
-    867. T16 114 mm Gun Motor Carriage
-    868. T18 75 mm Gun Motor Carriage
-    869. T20 75 mm
+    859. T8
+    860. T9
+    861. T9
+    862. T14
+    863. T14
+    864. T15
+    865. T15
+    866. T16
+    867. T16 Gun Motor Carriage
+    868. T18 Gun Motor Carriage
+    869. T20
     870. T20E1
     871. T20E2
     872. T20E3
-    873. Т21 Light Tank
-    874. T21 арт. тягач
+    873. Т21
+    874. T21
     875. T22
     876. T22E1
     877. T23
     878. T23E3
     879. T23E4
-    880. T24 Cargo carrier
-    881. T24 Light Tank
-    882. T24E1 Light Tank
-    883. T25 Tank
-    884. T25E1 Tank
-    885. T25E1 БТР Willis
-    886. T25E2 БТР Willis
-    887. T25E3 БТР Willis
+    880. T24
+    881. T24
+    882. T24E1
+    883. T25
+    884. T25E1
+    885. T25E1 Willis
+    886. T25E2 Willis
+    887. T25E3 Willis
     888. T27 Gun Motor Carriage
     889. T27E1
     890. T29 Mortar Motor Carriage
@@ -5396,55 +5345,54 @@
     892. T29E3 heavy tank
     893. T30 heavy tank
     894. T30 Cargo Carrier
-    895. T30E1 Crosley вездеход
-    896. T32 опытный Priest 
-    897. T32 РСЗО
+    895. T30E1 Crosley
+    896. T32 Priest
+    897. T32
     898. Т35 3-inch Gun Motor Carriage
     899. T35Е1 Gun Motor Carriage
     900. T35 M26 Pershing with flame-gun
-    901. T39 транспортер
+    901. T39
     902. T42 hvy 
     903. T43 hvy
     904. T43E2 hvy
-    905. T47 75 mm Gun Motor Carriage
+    905. T47  Gun Motor Carriage
     906. T49 Gun Motor Carriage
     907. T50 75 mm Gun Motor Carriage
     908. T53 Gun Motor Carriage
     909. T53E1 Gun Motor Carriage
     910. T56 Gun Motor Carriage
     911. T57 Gun Motor Carriage
-    912. T65 ЗСУ
-    913. Т66 лёгкий истребитель танков 
-    914. T69 Flame tank
-    915. T70 light tank
-    916. T77E1 ЗСУ
+    912. T65
+    913. Т66
+    914. T69
+    916. T77E1
     917. T81 Chemical Mortar Motor Carriage
-    918. T82 105 mm Gun Motor Carriage
-    919. T85 ЗСУ 
-    920. T86 76 mm Gun Motor Carriage (Amphibious)
-    921. T86E1 76 mm Gun Motor Carriage (Amphibious)
-    922. Т87 105 mm Howitzer Motor Carriage (Amphibious)
-    923. T88 105 mm Howitzer Motor Carriage
-    924. T-92 САУ 240 mm
-    925. T-93 САУ 240 mm
+    918. T82 Gun Motor Carriage
+    919. T85
+    920. T86 Gun Motor Carriage
+    921. T86E1  Gun Motor Carriage
+    922. Т87 Howitzer Motor Carriage
+    923. T88 Howitzer Motor Carriage
+    924. T-92
+    925. T-93
     926. T95
     927. T110 hvy
     928. T230 gun carrier
     929. T77E1
     930. XAC-2 Aqua Cheetah
-    931. Borg-Warner model A плавающий танк
+    931. Borg-Warner model A
     932. LVT1
     933. LVT2
     934. LVT3
     935. LVT4
-    936. LVT4 с ПУ T54
-    937. LVT4(F) "Sea Snake"
+    936. LVT4 T54
+    937. LVT4(F)
     938. LVT(A)1
-    939. LVT(A)1 E14-7R2 flame-gun
-    940. LVT(A)1 E7R2 flame-gun
-    941. LVT(A)1 с бульдозером
+    939. LVT(A)1 E14-7R2
+    940. LVT(A)1 E7R2
+    941. LVT(A)1
     942. LVT(A)4
-    943. LTV(A)4 c 4.5-Inch BBR "Old Faithful"
+    943. LTV(A)4 c 4.5-Inch BBR
     944. LVT(A)5
     945. СТL-1
     946. СТVL
@@ -5453,50 +5401,42 @@
     949. СТL-ЗМ
     950. СТL-6
     951. СТLS-4
-    952. M1920 75 mm пушка
-    953. M1920 105 mm гаубица
+    952. M1920 75
+    953. M1920 105
     954. M1920E 4,7 inch Antiaircraft Gun
-    955. M1A1 airborne howitzer 75 mm 
-    956. Шаротанк Andrew J. Richardson 
-    957. Шаротанк Asher Knepper
-    958. Шаротанк Frank X. Lauterbur
-    959. Шаротанк John E. Reilley 
-    960. Шаротанк Donald V. Shuhart
-    961. Шаротанк Elie P. Aghnides
-    962. Прыжковый танк Г. Уолласа 
-    963. Combined land and marine vechile 
-    964. D-11-A полуприцеп
-    965. D-11-B полуприцеп
-    966. M3A4 Utility Hand Cart прицеп
-    967. M14A1 лыжный прицеп 
-    968. M15E1 полуприцеп
-    969. T58E1 танковый трейлер 
+    955. M1A1 airborne howitzer
+    964. D-11-A
+    965. D-11-B
+    966. M3A4 Utility Hand Cart
+    967. M14A1
+    968. M15E1
+    969. T58E1
 
-       Великобритания
-    1. Royal Enfild мотоцикл
-    2. Norton WD16H мотоцикл
-    3. Velossete MAF-350 мотоцикл 
+       Great_Britain
+    1. Royal Enfild
+    2. Norton WD16H
+    3. Velossete MAF-350
     4. Rotabuggy
     5. Big Four
     6. Ariel W/NG
     7. BSA M20
-    8. BSA G14 с ПТР Boys мотоцикл
+    8. BSA G14 Boys
     9. Matchless G3L
     10. Welbike
     11. Imgoldby Transporter 
-    12. Brennan гирокар
-    13. B1E1 Dragon tractor prototype 
+    12. Brennan
+    13. B1E1 Dragon
     14. Dragon Gun Tractor Mk I
     15. Dragon Gun Tractor Mk II
     16. Dragon Gun Tractor Mk III
     17. Dragon Gun Tractor Mk IV
-    18. Snaketrac паровой трактор 
-    19. Terrapin Mk.I транспортёр
-    20. Terrapin Mk.II транспортёр 
+    18. Snaketrac
+    19. Terrapin Mk.I
+    20. Terrapin Mk.II
     21. Straussler Conversion
     22. Alvis-Straussler AC3 typ A
-    23. Garner-Straussler G.3 тягач
-    24. WH1940 БА
+    23. Garner-Straussler G.3
+    24. WH1940
     25. Argosy Amphibious Carrierс
     26. AEC YA
     27. AEC YB
@@ -5509,8 +5449,8 @@
     34. AEC Marshal 644
     35. AEC Matador O853
     36. AEC Matador с QF 25 pounder
-    37. AEC Matador Deacon 57 mm
-    38. AEC Matador Dorchester штабной БТР
+    37. AEC Matador Deacon
+    38. AEC Matador Dorchester
     39. AEC O854
     40. AEC O855 Mk. I
     41. AEC O856 Mk. II
@@ -5537,10 +5477,10 @@
     62. Albion BY1
     63. Albion BY3
     64. Albion BY
-    65. Armstrong-Siddeley B10E1 БА
-    66. Armstrong-Siddeley B10E2 БА
+    65. Armstrong-Siddeley B10E1
+    66. Armstrong-Siddeley B10E2
     67. Austin Seven
-    68. Austin Seven самоходный огнемёт
+    68. Austin Seven
     69. Austin 8PH
     70. Austin 10PH
     71. Austin A30
@@ -5567,18 +5507,18 @@
     92. Bedford OWL
     93. Bedford OWST
     94. Bedford OWL
-    95. Bedford QL с гусеничной тележкой от Bren
+    95. Bedford QL
     96. Bedford QLD
     97. Bedford QLB
     98. Bedford QLC
     99. Bedford QLR
     100. Bedford QLT
     101. Bedford QLW
-    102. Bedford BT Traclat полугусеничный 
-    103. Bedford Cockatrice БА огнемётный 
-    104. Bedford armored lorry
+    102. Bedford BT Traclat
+    103. Bedford Cockatrice
+    104. Bedford
     105. Burford-Kegresse 30 cwt
-    106. Burford-Kegresse 3 ton Field Artillery Tractor
+    106. Burford-Kegresse
     107. Commer Q2
     108. Commer Q3
     109. Commer Q4
@@ -5592,9 +5532,9 @@
     117. Crosley IGL3
     118. Crosley IGL7
     119. Crosley IGL8
-    120. Crosley IGL8 кран
+    120. Crosley IGL8
     121. Crosley BWG2 
-    122. Crosley BWG2 Machine Gun Carrier
+    122. Crosley BWG2
     123. Crosley Q
     124. Dodge WC-51 с гусеничной тележкой от Bren Carrier 
     125. GUI Ant
@@ -5609,8 +5549,7 @@
     134. Maudsley Mogol
     135. Maudsley Maharanee
     136. Morris Gosling амфибия
-    137. Morris Commercial D type 30 CWT 6×4 lorry
-    138. Morris Commercial D type 30 CWT 4 осный 
+    137. Morris Commercial D type 30 CWT
     139. Morris Commercial 6D
     140. Morris Commercial CD
     141. Morris Commercial PU8
@@ -5620,12 +5559,12 @@
     145. Morris Commercial CS8 GS Mark II
     146. Morris Commercial CS8 GS Mark III
     147. Morris Commercial CS8 GS A.C.9
-    148. Morris Commercial CS8 водовоз
-    149. Morris Commercial CS8 цистерна
-    150. Morris Commercial CS8 компрессор
-    151. Morris Commercial CS8 пожарная машина
-    152. Morris Commercial CS8 штабная машина
-    153. Morris Commercial CS8 радио машина
+    148. Morris Commercial CS8
+    149. Morris Commercial CS8
+    150. Morris Commercial CS8
+    151. Morris Commercial CS8
+    152. Morris Commercial CS8
+    153. Morris Commercial CS8
     154. Morris Commercial CS11/30
     155. Morris Commercial CS11/30F
     156. Morris Commercial CDFW
@@ -5640,11 +5579,10 @@
     165. Morris Commercial C9/B
     166. Morris Commercial Terrapin Mk I
     167. Morris Commercial Terrapin Mk II
-    168. Morris Commercial Argosy Amphibious Carrier плавающий транспортёр
-    169. Morris Commercial-Roadless Half-Track Experimental Tractor
-    170. Morris Commercial-Roadless Half-Track Experimental Tractor №2
-    171. Morris Commercial-Roadless Half-Track Experimental Tractor Mk II
-    172. Morris-Martel-Roadless Half-Track Experimental Tractor
+    168. Morris Commercial Argosy
+    169. Morris Commercial-Roadless
+    171. Morris Commercial-Roadless Mk II
+    172. Morris-Martel-Roadless
     173. Leyland Terrier 
     174. Leyland Cob
     175. Leyland Lynx
@@ -5652,7 +5590,7 @@
     177. Leyland Hippo Mk II
     178. Railey WD
     179. Standard 12HP
-    180. FWD-Roadless, 3-ton, Half-Track, Medium Artillery Tractor
+    180. FWD-Roadless
     181. Ford WOC1
     182. Ford WOA1
     183. Ford WOA2
@@ -5662,7 +5600,7 @@
     187. Ford E01Y
     188. Ford E018T
     189. Ford E83W
-    190. Ford FGT артеллерийский тягач
+    190. Ford FGT
     191. Ford WOC-1
     192. Ford WOT1
     193. Ford WOT2
@@ -5673,8 +5611,8 @@
     198. Ford WOT6
     199. Ford WOT8
     200. Ford CMP F60 с 6 prn AT
-    201. Ford CMP c зенитной установкой M44/45
-    202. Fordson E917T 3 ton 6x4 RAF Balloon Winch
+    201. Ford CMP  M44/45
+    202. Fordson E917T Balloon Winch
     203. Foden DG4/6
     204. Foden DG5/7,5
     205. ERF 2C14
@@ -5703,37 +5641,37 @@
     228. Studebaker US6 U6
     229. Heavy Utility FWD
     230. Universal Carrier Mk.1
-    231. Universal Carrier Wasp Mk.1 огнеметный
-    232. Universal Carrier Wasp Mk.1I огнеметный
-    233. Universal Carrier Wasp Mk.1IC огнеметный
+    231. Universal Carrier Wasp Mk.1
+    232. Universal Carrier Wasp Mk.1I
+    233. Universal Carrier Wasp Mk.1IC
     234. Universal Carrier с QF 2 pounder
     235. BREN Carrier
     236. Vickers Carrier
     237. Oxford CT-20
-    238. Wasp Flamethrower Jeep
-    239. Thornycroft Bison I БА
-    240. Thornycroft Bison II БА
-    241. Thornycroft Gun Carrier БА
-    242. Neptune плавающий транспортёр  
+    238. Wasp Flamethrower
+    239. Thornycroft Bison I
+    240. Thornycroft Bison II
+    241. Thornycroft Gun Carrier
+    242. Neptune плавающий
     243. D2E1 Crossley
-    244. Crossley M1923 БА
+    244. Crossley M1923
     245. Crossley-Chevrolet M1939 (Indian Pattern)
     246. Vickers Morris Armored Car
     247. Armoured Carrier Wheeled Indian Pattern Mk.I
-    248. Armadillo Mark I БА
-    249. Armadillo Mark II БА
+    248. Armadillo Mark I
+    249. Armadillo Mark II
     250. Rolls Royce Armoured Car 1920
-    251. Lorry 30cwt Anti-Tank БА
+    251. Lorry 30cwt Anti-Tank
     252. Lancia AC1БА
-    253. Glanville fighter car БА
-    254. GM CAPLAD БТР
+    253. Glanville
+    254. GM CAPLAD
     255. Scott Gun Carrier
-    256. Staghound Mk I Armoured Car
-    257. Staghound Mk II Armoured Car
-    258. Staghound Mk III Armoured Car
+    256. Staghound Mk I
+    257. Staghound Mk II
+    258. Staghound Mk III
     259. Staghound Command
     260. Staghound AA
-    261. Staghound с миноискателем Bantu
+    261. Staghound Bantu
     262. Dingo
     263. Dingo Mk I
     264. Dingo Mk II
@@ -5766,17 +5704,17 @@
     291. Morris Light Reconnaissance Car Mk II
     292. Morris Light Reconnaissance Car Experimental Tank
     293. Morris Light Reconnaissance Car Firefly
-    294. Morris Motors Salamander БА
+    294. Morris Motors Salamander
     295. Beaverette Light Reconaissannce Car Mk I
     296. Beaverette Light Reconaissannce Car Mk II
     297. Beaverette Light Reconaissannce Car Mk III
-    298. Beaverette Light Reconaissannce Car Mk.III AA БА
+    298. Beaverette Light Reconaissannce Car Mk.III AA
     299. Beaverette Light Reconaissannce Car Mk IV
     300. Guy Light Wheeled Tank Mark I
     301. Guy wheeled carrier
     302. Carden-Loyd Mk.I
     303. Carden-Loyd Mk.I*
-    304. Carden-Loyd Light Tank Mk I (A4E2) зенитный 
+    304. Carden-Loyd Light Tank Mk I
     305. Carden-Loyd Mk.II
     306. Carden-Loyd Mk.III
     307. Carden-Loyd Mk.IV
@@ -5786,10 +5724,10 @@
     311. Carden-Loyd Smoke Producer
     312. Carden-Loyd Mk.V Infighter
     313. Carden-Loyd Mk.VI
-    314. Carden-Loyd Mk.VI с 47 mm
+    314. Carden-Loyd Mk.VI
     315. Carden-Loyd Mk.VII
     316. Carden-Loyd Mk.VIII
-    317. Carden-Loyd Carrier (artillery observers model)
+    317. Carden-Loyd Carrier
     318. Carden-Loyd A4E11
     319. Carden-Loyd 2 ton Artellery Tractor
     320. Light Tank Mk I Canal Defence Light
@@ -5804,7 +5742,7 @@
     329. Vickers Light Tank обр. 1921 №2
     330. Vickers Light Tank Mk I
     331. Vickers Light Tank Mk II
-    332. Vickers Light Tank Mk II с навесным оборудованием для преодоления водных преград
+    332. Vickers Light Tank Mk II
     333. Vickers Light Tank Mk IIB
     334. Vickers Light Tank Mk IIB Indian Pattern
     335. Vickers Light Tank Mk III
@@ -5817,18 +5755,14 @@
     342. Vickers Light Tank Mk V L3E1
     343. Vickers Light Tank Mk V L3E2
     344. Vickers Light Tank Mk V
-    345. Vickers Light Tank Mk V ходовая часть по типу Mk. III
-    346. Vickers Light Tank Mk V с 10-ти дюймовой резиновой гусеницей 
-    347. Vickers Light Tank Mk V с дизельным двигателем
-    348. Vickers Light Tank Mk V с поплавками 
-    349. Vickers Light Tank Mk V мостоукладчик 
-    350. Vickers Light Tank V истребитель танков
-    351. Vickers Light Tank Mk V ЗСУ 4х7,71 mm 
-    352. Vickers Light Tank Mk V ЗСУ 15 mm BESA
+    345. Vickers Light Tank Mk V Mk. III
+    350. Vickers Light Tank V
+    351. Vickers Light Tank Mk V
+    352. Vickers Light Tank Mk V BESA
     353. Vickers Light Tank Mk VI
     354. Vickers Light Tank Mk VIA
     355. Vickers Light Tank Mk VIB
-    356. Vickers Light Tank Mk VIB истребитель танков 
+    356. Vickers Light Tank Mk VIB
     357. Vickers Light Tank Mk VIC
     358. Vickers Light Tank Mk VI Indian Pattern 
     359. Vickers Light Tank AA Mk.I
@@ -5837,30 +5771,30 @@
     362. Vickers Light Tank Model 1937
     363. Vickers Light Tank Model 1938
     364. Vickers Light Tank Mk C
-    365. Vickers Light Tank Mk E Викерс 6-тонный
-    366. Vickers Light Tank Mk E Викерс 6-тонный 37 мм
+    365. Vickers Light Tank Mk E
+    366. Vickers Light Tank Mk E
     367. Vickers Light Tank Mk.E Type A
     368. Vickers Light Tank Mk.E Type B
     369. Vickers Light Tank M1933
     370. Vickers Medium Mk.I
-    371. Vickers Medium Mk.I CS непосредственной поддержки 
-    372. Vickers Medium Mk.I САУ 18 фунтовая пушка
+    371. Vickers Medium Mk.I CS
+    372. Vickers Medium Mk.I САУ
     373. Vickers Medium Mk.I САУ Birch Gun
     374. Vickers Medium Mk.IA
-    375. Vickers Medium Mk.IA CS непосредственной поддержки
+    375. Vickers Medium Mk.IA CS
     376. Vickers Medium Mk.IA*
     377. Vickers Medium Mk.II
-    378. Vickers Medium Mk.II CS непосредственной поддержки
+    378. Vickers Medium Mk.II CS
     379. Vickers Medium Mk.II САУ Birch Gun
-    380. Vickers Medium Mk.II trop.
-    381. Vickers Medium Mk.II опытный командирскицй танк 
+    380. Vickers Medium Mk.II trop
+    381. Vickers Medium Mk.II
     382. Vickers Medium Mk.IIA
     383. Vickers Medium Mk.IIA*
     384. Vickers Medium Mk.II*
-    385. Vickers Medium Mk.II** командирский танк
-    386. Vickers Medium Mk.II* special 
+    385. Vickers Medium Mk.II**
+    386. Vickers Medium Mk.II*
     387. Vickers Medium Mk.III САУ Birch Gun
-    388. Vickers Medium Boxcar радийный танк
+    388. Vickers Medium Boxcar
     389. Vickers Wheel-Cum-Track Tank Mk.I
     390. Vickers Wheel-Cum-Track Tank Mk.Iа
     391. Vickers Medium Mark III
@@ -5868,11 +5802,11 @@
     393. Vickers Wheel-cum-Track Machine/D3E1
     394. Vickers Wheel-cum-Track Machine/D3E2
     395. Medium Mark D
-    396. Mk I A9 крейсерский
+    396. Mk I A9
     397. Mk II
-    398. Mk II A10 крейсерский
+    398. Mk II A10
     399. Mk IIA Викерс
-    400. Mk III A13 крейсерский
+    400. Mk III A13
     401. Mk III
     402. Mk III A6
     403. Mk III A6E1
@@ -5880,18 +5814,17 @@
     405. Mk III A6E3
     406. Mk III A13
     407. Mk IV
-    408. Mk IV A13 крейсерский 
+    408. Mk IV A13
     409. Tank Cruiser Mk.V Covenanter
-    410. Tank Cruiser Mk.V Covenanter с минным тралом ARMA 1c
-    411. Tank Cruiser Mk.V Covenanter с навесными понтонами
-    412. Mk VI Crusader A15
+    410. Tank Cruiser Mk.V Covenanter ARMA 1c
+    411. Tank Cruiser Mk.V Covenanter
     413. Mk VIA Crusader
     414. Mk VIAA Crusader
     415. Mk VIAA Mk II Crusader
     416. Mk VI Crusader с минным тралом ARMA Mk Id
     417. 20 mm ЗСУ Crusader AA Mk.I/II/III 
     418. 40 mm ЗСУ Crusader AA Mk.I/II/III
-    419. 40 mm ЗСУ Crusader AA с ранней версией башни
+    419. 40 mm ЗСУ Crusader AA
     420. 75 mm Crusader 
     421. Crusader SP Gun
     422. Mk V
@@ -5905,7 +5838,7 @@
     430. Mk VIII Кромвель 
     431. Mk VIII Кромвель CS
     432. Mk VIII Кромвель Mk VI
-    433. Mk VIII Кромвель с минным тралом CIRD
+    433. Mk VIII Кромвель CIRD
     434. Centaur AA Mk II
     435. Mk VI B
     436. Light Tank Mk.VII Tetrarch
@@ -5918,7 +5851,7 @@
     443. Alecto Mk. IV
     444. Alecto Dozer
     445. Mk I A 11 Матильда
-    446. Mk I A 11 Матильда с тралом Фаулер Калтер Плау
+    446. Mk I A 11 Матильда
     447. Infantry Mark II Matilda II Mk. I  (A12)
     448. Infantry Mark II Matilda II Mk. II
     449. Infantry Mark II Matilda II Mk. IIA
@@ -5932,11 +5865,11 @@
     457. Infantry Mark II Matilda II Baron Mk III
     458. Infantry Mark II Matilda II Baron Mk IIIA
     459. Infantry Mark II Matilda II Скорпион I
-    460. Infantry Mark II Matilda II трал ARMA Mk Ia
-    461. Infantry Mark II Matilda II трал ARMA Mk Ia с подрывным зарядом Кэррот
-    462. Infantry Mark II Matilda II Frog огнеметный танк
-    463. Infantry Mark II Matilda II Мюррей
-    464. Infantry Mark II Matilda II с башней от Staghound
+    460. Infantry Mark II Matilda II ARMA Mk Ia
+    461. Infantry Mark II Matilda II ARMA Mk Ia
+    462. Infantry Mark II Matilda II Frog
+    463. Infantry Mark II Matilda II
+    464. Infantry Mark II Matilda II Staghound
     465. Infantry Mark III Valentine Mk I
     466. Infantry Mark III Valentine Mk II
     467. Infantry Mark III Valentine Mk II DD
@@ -5952,10 +5885,9 @@
     477. Infantry Mark III Valentine Mk X
     478. Infantry Mark III Valentine Mk XI
     479. Infantry Mark III Valentine Mk XI DD
-    480. Infantry Mark III Valentine Скорион II минный трал
+    480. Infantry Mark III Valentine Скорион II
     481. Infantry Mark III Valentine с тралом ARMA Ib 
-    482. Infantry Mark III Valentine Crocodile огнеметный танк с огнеметом в лобовом листе
-    483. Infantry Mark III Valentine Crocodile огнеметный танк с огнеметом в башенке
+    482. Infantry Mark III Valentine Crocodile
     484. Infantry Mark III Valentine DD ARK
     485. Infantry Tank Mk IV Churchill I (A22)
     486. Infantry Tank Mk IV Churchill II
@@ -5973,20 +5905,18 @@
     498. Infantry Tank Mk IV Churchill X LT
     499. Infantry Tank Mk IV Churchill XI
     500. Infantry Tank Mk IV Churchill XI LT
-    501. Infantry Tank Mk IV Churchill с минным тралом ARMA Mk IIe
-    502. Infantry Tank Mk IV Churchill с минным тралом AMRCR
-    503. Infantry Tank Mk IV Churchill с минным тралом CIRD
-    504. Infantry Tank Mk IV Churchill с минным тралом Буллсхорн
-    505. Infantry Tank Mk IV Churchill с минным тралом Джефрис
+    501. Infantry Tank Mk IV Churchill ARMA Mk IIe
+    502. Infantry Tank Mk IV Churchill AMRCR
+    503. Infantry Tank Mk IV Churchill CIRD
     506. Infantry Tank Mk IV Churchill Crocodile  
-    507. Infantry Tank Mk IV Churchill Oke огнеметный танк
-    508. Infantry Tank Mk IV Churchill с Farmer Track-plough минный трал
-    509. Infantry Tank Mk IV Churchill с реактивным минным тралом
-    510. Mk IV Черчилль A22D САУ
+    507. Infantry Tank Mk IV Churchill Oke
+    508. Infantry Tank Mk IV Churchill Farmer Track-plough
+    509. Infantry Tank Mk IV Churchill
+    510. Mk IV Черчилль A22D
     511. Churchill Kangaroo
-    512. Churchill Ardeer Aggie 300 mm безоткатное орудие 
+    512. Churchill Ardeer Aggie
     513. Churchill Mark Na75
-    514. Great Eastern ARK мостоукладчик для D-Day
+    514. Great Eastern ARK
     515. ARVE Churchill Mk II
     516. A3E1 Light Tank
     517. A4E1 Light Tank
@@ -6005,12 +5935,12 @@
     530. A4E16 Light Tank
     531. A4E17 Light Tank
     532. A4E18 Light Tank
-    533. A5E1 Vickers Light Tank
+    533. A5E1 Vickers
     534. A7E1
     535. A7E2
     536. A7E3
-    537. A20 тяжёлый танк
-    538. A30 Challenger средний танк
+    537. A20
+    538. A30 Challenger
     539. A30 Эвенджер
     540. A33
     541. A34 Комет
@@ -6018,14 +5948,14 @@
     543. A38 Вэлиэнт
     544. A39 Тортэз
     545. A45
-    546. D5E1 Artellery Observers Car 
+    546. D5E1
     547. TOG
     548. TOG 1A
     549. TOF 2
     550. TOG 2R
-    551. АТ1* плавающий танк
-    552. AT1** плавающий танк
-    553. AT1*** плавающий танк
+    551. АТ1*
+    552. AT1**
+    553. AT1***
     554. Grant ARV
     555. Grant Command
     556. Grant Scorpion III
@@ -6037,47 +5967,40 @@
     590. Priest Kangaroo
     591. 76,2 mm Арчер
     592. 76, 2 mm Ахилес
-    593. 87,5 mm Бишоп 
-    594. AT-1 155 mm тяжёлый танк
-    595. AT-2 203 mm тяжёлый танк
-    596. AT-3 БМП
-    597. AT-4 БМП
-    598. AT-5 БМП
+    593. 87,5 mm Bishop
+    594. AT-1 
+    595. AT-2 
+    596. AT-3
+    597. AT-4
+    598. AT-5
     599. AT-6
     600. AT-7
     601. AT-7A
     602. AT-8
-    603. AT-9 штурмовой танк  
+    603. AT-9
     604. AT-10
     605. AT-13
     606. AT-14
     607. AT-15
-    608. Shervick трактор на базе Sherman
-    609. Thornycroft Bison самоходный дот
+    608. Shervick
+    609. Thornycroft Bison
     610. Grand Panjanrum 
-    611. No 24 орудийный передок 
-    612. No 27 орудийный передок
-    613. Ordnance QF-2 с лафетом type I противотанковая пушка
-    614. Ordnance QF-2 с лафетом type II противотанковая пушка
-    615. Ordnance QF 25-pdr Mk.I на лафете Mk.VP
-    616. Ordnance QF 25-pdr Mk.I на лафете Мк.IIITР
-    617. Ordnance QF 25-pdr Mk.I на лафете Mk.IVP
-    618. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk I
-    619. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk II
-    620. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk C II
-    621. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk III
-    622. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk C III
-    623. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk IV
-    624. Ordnance QF 25-pdr Mk.II на лафете Mk I со стволом Mk VI
-    625. Ordnance QF 25-pdr Mk.II на лафете Mk II
-    626. Ordnance QF 25-pdr Mk.II на лафете Mk III
+    611. No 24
+    612. No 27
+    613. Ordnance QF-2
+    614. Ordnance QF-2 type II
+    615. Ordnance QF 25-pdr Mk.I
+    616. Ordnance QF 25-pdr Mk.I  Мк.IIITР
+    617. Ordnance QF 25-pdr Mk.I Mk.IVP
+    625. Ordnance QF 25-pdr Mk.II Mk II
+    626. Ordnance QF 25-pdr Mk.II Mk III
     627. Ordnance QF 25-pdr Mk.II/I
-    628. Ordnance QF 25-pdr с системой MARC
+    628. Ordnance QF 25-pdr MARC
     629. QF 6pdr Class M Mark I with Auto Loader Mk III ПТП
-    630. Royal Ordnance Breech Loading 6-inch 26 cwt howitzer Mk IR
-    631. Royal Ordnance Breech Loading 6-inch 26 cwt howitzer Mk IP
+    630. Royal Ordnance Breech Loading 6-inch 26 cwt Mk IR
+    631. Royal Ordnance Breech Loading 6-inch 26 cwt Mk IP
     632. QF Mk.VII ПТ
-       Чехословакия
+       Czechoslovakia
     1. Prague AV
     2. Prague RN
     3. Prague RND
@@ -6125,7 +6048,7 @@
     45. KH-50
     46. KH-60
     47. KH-70
-    48. CKD TNSPE БА
+    48. CKD TNSPE
     49. CKD DT-I
     50. CKD DT-II
     51. CKD DT-III
@@ -6192,7 +6115,7 @@
     113. Vz. 24
     114. Tatra 110
 
-       Италия
+       Italy
     1. Aeromoto Volugrafo 125
     2. Benelli 500 M36 трицикл
     3. Benelli 500 M36 с Cannone da 47/32 M35 
@@ -6350,7 +6273,7 @@
     158. CV3/33 L.F.
     160. CV3/33 с 13.2 mm Madsen
     161. CV3/35
-    162. CV3/35 S18-110 ПТ
+    162. CV3/35 S18-110
     163. CV3/35
     164. CV3/38
     165. L3-3
@@ -6377,26 +6300,26 @@
     187. M 14/41 Carro Comando
     188. M 14/42
     189. M 15/42
-    190. М-15 СЗУ Semovente Contra Aerea
+    190. М-15 Semovente Contra Aerea
     191. M19/32
     192. P40
-    193. M40 Земовенте L40 75/18
-    194. M41 Земовенте 90/53
-    195. M42H Земовенте 75/14
-    196. M42L Земовенте
-    197. M42T Земовенте
-    198. M43 Земовенте 105/25
+    193. M40 Semovente L40 75/18
+    194. M41 Semovente 90/53
+    195. M42H Semovente 75/14
+    196. M42L Semovente
+    197. M42T Semovente
+    198. M43 Semovente 105/25
     199. Semovente da 149/40
-    200. Breda 501 Autocannone Blindato "Tipo 102"
+    200. Breda 501 Autocannone Blindato Tipo 102
     201. Ansaldo
     202. Carro di Rottura
-    204. Aln-56 бронедрезина
-    205. Теплогенератор Paghetti 
+    204. Aln-56
+    205. Paghetti
     206. Obice da 100/17 modello 16 
     207. Cannon danticarro 47/32 modello 35
 
 
-       Япония
+       Japan
     1. Kurogane typ 95
     2. Mitsubishi RX33
     3. Mitsubishi TD 35
@@ -6421,200 +6344,183 @@
     22. Isuzu TU23
     23. Isuzu TB60
     24. Isuzu BB60
-    25. Isuzu TH10 самосвал
+    25. Isuzu TH10
     26. Isuzu PK10
     27. Isuzu K10
     28. Isizu typ 94A
-    29. Type 93 грузовик
-    30. Type 94 грузовик
-    31. Type 94A грузовик
-    32. Type 94B грузовик
-    33. Type 98 грузовик
+    29. Type 93
+    30. Type 94
+    31. Type 94A
+    32. Type 94B
+    33. Type 98
     34. Ikegai typ 98
     35. Osaka typ 92
-    36. Sumida typ 90/93 БА
-    37. Sumida typ 97 грузовик
-    38. Sumida type P грузовик 
-    39. Sumida TU-10 Type 94S автобус 
-    40. Sumida PK10 Ki-Ji Type 98 седан
-    41. Sumida HA штабной автомобиль 
-    42. Sumida ARM БА
-    43. Sumida AMP БА
+    36. Sumida typ 90/93
+    37. Sumida typ 97
+    38. Sumida type P
+    39. Sumida TU-10 Type 94S
+    40. Sumida PK10 Ki-Ji Type 98
+    41. Sumida HA
+    42. Sumida ARM
+    43. Sumida AMP
     44. Ho-Ha
-    45. Nagayama радиотанк
-    46. TC транспортёр
-    47. FB болотоход
-    48. Woosley-Sumida AC 1928 Сумида ARC БА
+    45. Nagayama
+    46. TC
+    47. FB
+    48. Woosley-Sumida AC 1928 Сумида ARC
     49. SS Ко-Гата 
     50. SS Оцу Гата
     51. SS Хей Гата
     52. SS Тей Гата
     53. SS Бо Гата
-    54. Хо-к машина разграждения
-    55. Си-Ри БРЭМ
-    56. И-го телетнкетка
-    57. 97 транспортёр
-    58. Type 1 Те-Ра БТР передовых наблюдателей
-    59. Type 100 БТР передовых наблюдателей
-    60. Type 1 Хо-Ха БТР
-    61. Type 1 Хо-Ки БТР
-    62. Type 3 Ка-тсу БТР торпедный
+    54. Хо-к
+    55. Си-Ри
+    56. И-го
+    58. Type 1 Те-Ра
+    59. Type 100
+    60. Type 1 Хо-Ха
+    61. Type 1 Хо-Ки
+    62. Type 3 Ка-тсу
     63. Type 79 Ко-гата
     64. Type 88
     65. Type 89
-    66. Type 92 Combat Car ранняя версия
-    67. Type 92 Combat Car средняя версия
-    68. Type 92 Combat Car поздняя версия
-    69. Type 92 Sokosha БА
+    66. Type 92 Combat Car
+    69. Type 92 Sokosha
     70. Type 94 TK
-    71. Type 94 TK хим. танк
-    72. Type 94 средний ранний
-    73. Type 94 средний поздний
+    71. Type 94 TK
+    72. Type 94
+    73. Type 94
     74. Type 97 Чи-Ни
-    75. Type 97 Чи-Ха прототип
+    75. Type 97 Чи-Ха
     76. Type 97 Чи-Ха
-    77. Type 97 Чи-Ха с радиостанцией раннего выпуска
-    78. Type 97 Чи-Ха с радиостанцией позднего выпуска первой серии
-    79. Type 97 Чи-Ха с радиостанцией позднего выпуска поздних серий 
-    80. Type 97 Чи-Ки командирский
-    81. Type 97 Чи-Ки позднего выпукска 
-    82. Type 97 Чи-Ки эксперементальная ходовая часть 
-    83. Type 97 Чи-Ха G трал
-    84. Type 97 Чи-Ха с минным тралом CHI-YU
-    85. Type 97 Чи-Ха T-G мостоукладчик
-    86. Type 97 Чи-Ха ЗСУ
-    87. Type 97 Чи-Ха танк артеллерийской поддержки 	
-    88. Type 97 прокладчик кабеля
+    80. Type 97 Чи-Ки
+    83. Type 97 Чи-Ха G
+    84. Type 97 Чи-Ха CHI-YU
+    85. Type 97 Чи-Ха T-G
+    86. Type 97 Чи-Ха
+    87. Type 97 Чи-Ха
+    88. Type 97
     89. Type 98 So-Da
     90. Type 98 Ko-Hi
-    91. Type 98 Ko-Hi 20 mm первый вариант
-    92. Type 98 Ko-Hi 20 mm второй вариант
-    93. Type 98 Chi-Ho с пятикатковой ходовой частью
-    94. Type 98 Chi-Ho с шестикаткойой ходовой частью 
-    95. Type 98 автобобиль-дрезина
+    91. Type 98 Ko-Hi
+    92. Type 98 Ko-Hi
+    94. Type 98 Chi-Ho
+    95. Type 98
     96. Type 99 Ка-Хо
-    97. Ко-Гата-Сенша лёгкий танк (Рено)
-    98. Оце-Гата-Сенша средний танк (Рено)
-    99. ЗСУ Ta-Se 20 mm
+    97. Ко-Гата-Сенша
+    98. Оце-Гата-Сенша
+    99. ЗСУ Ta-Se
     100. Type 4 Ho-To
     101. 98 Ке-Ни
     102. 2587 БА
-    103. 2589 прототип
+    103. 2589
     104. 2589 И-го
-    105. 2589 с хвостом
+    105. 2589
     106. 2589 поздний
     107. 2589 А
     108. 2589 B Оцу
     109. 2591 тяжёлый
     110. 2591 Сомо
-    111. 2592 Осака БА
-    112. 2592 БА морских отрядов
-    113. 2592 (TK) танкетка ранний образец
-    114. 2592 танкетка поздний образец
-    115. 2592 Кай-Сенша прототип
-    116. 2592 Кай-Сенша ранний образец 2 пулемёта
-    117. 2592 Кай-Сенша ранний образец с пушкой и пулемётом
-    118. 2592 Кай-Сенша поздний образец
-    119. 2592 Ри-Ка самсоходный кран
+    111. 2592 Осака
+    112. 2592
+    113. 2592 (TK)
+    114. 2592
+    115. 2592 Кай-Сенша
+    119. 2592 Ри-Ка
     120. 2592 А-и-Го
     121. 2593 
-    122. 2593 Сумида БА ранний
-    123. 2593 Сумида БА поздний
-    124. 2594 (TK) Хо-Кай ранний образец
-    125. 2594 (TK) Хо-Кай промежуточный образец
-    126. 2594 (TK) Хо-Кай поздний образец
+    122. 2593 Сумида
+    123. 2593 Сумида
+    124. 2594 (TK) Хо-Кай
     127. 2595 тяжёлый 
     128. 2595 Ха-Го
-    129. 2595 Ха-Го с башней Тип 98 Ке-ни
-    130. 2595 Ха-Го с радиостанцией
-    131. 2595 Ха-Го маньжурский
-    132. 2595 Ха-Го маньжурский с радиоствнцией
-    133. 2595 Хо-Ги БТР-дрезина
-    134. 2597 Те-Ке прототип
+    129. 2595 Ха-Го  Тип 98 Ке-ни
+    132. 2595 Ха-Го
+    133. 2595 Хо-Ги
+    134. 2597 Те-Ке
     135. 2597 Те-Ке
     136. 2597 Шинхото Чи-Ха
-    137. 2598A Ке-Ни ранний прототип
-    138. 2598A Ке-Ни поздний прототип 
-    139. 2598A Ке-Ни серийный
+    137. 2598A Ке-Ни
+    138. 2598A Ке-Ни
+    139. 2598A Ке-Ни
     140. 2598B
-    141. High-Voltage Dynamo Vehicle "Ka-Ha"
+    141. High-Voltage Dynamo Vehicle Ka-Ha
     142. 97 Шинхото Чи-Ха
     143. 97 Чи-Ки
-    144. P90 БРЭМ
-    145. P95 БРЭМ
+    144. P90
+    145. P95
     146. Ка-Со
-    147. Тип 1 Чи-Хе командирский
-    148. Type 1 Ho-I gun tank
+    147. Тип 1 Чи-Хе
+    148. Type 1 Ho-I
     149. Тип 2 Ка-Ми
-    150. Тип 2 Ка-Ми c 25 mm пушкой в корме
+    150. Тип 2 Ка-Ми
     151. Тип 2 Ке-То
     152. Тип 2 Хо-и
-    153. Тип 3 Ка-чи плавующий
+    153. Тип 3 Ка-чи
     154. Тип 3 Ка-Чу
     155. Тип 3 Ке-Ри
     156. Тип 3 Чи-Ну
-    157. Тип 3 Чи-Ну модифицированный 
+    157. Тип 3 Чи-Ну
     158. Тип 4 Ке-Ну
     159. Тип 4 Чи-То
-    160. Тип 4 Чи-То с литой башней
+    160. Тип 4 Чи-То
     161. Тип 5 КЕ-Хо
     162. Тип 5 То-Ку
     163. Тип 5 Чи-Ри
-    164. Тип 5 Чи-Ри второй прототип
+    164. Тип 5 Чи-Ри
     165. Type 98B Ke-Ni Otsu
     166. Type 100 О-и
-    167. Type 100 О-и второй вариант
+    167. Type 100 О-и
     168. SR-I Ро-и
     169. SR-II Ро-Го
     170. SR-III
-    171. 37 мм Со-То
-    172. 75 мм Хо-Ни
-    173. 105 мм Хо-Ни II
-    174. 75 мм Хо-Ни III
-    175. 150 мм Хо-Ро
-    176. 300 мм Ха-То
-    177. 75 мм Ку-Сае
-    178. 120 мм Ха-Но
-    179. 155 мм Хо-Чи
-    180. 45 мм Хо-Ру
-    181. 75 мм На-То
-    182. 105 мм Хо-Ри
-    183. 2х128 Kyosaku Chi-Ru
+    171. Со-То
+    172. Хо-Ни
+    173. Хо-Ни II
+    174. Хо-Ни III
+    175. Хо-Ро
+    176. Ха-То
+    177. Ку-Сае
+    178. Ха-Но
+    179. Хо-Чи
+    180. Хо-Ру
+    181. На-То
+    182. Хо-Ри
+    183. Kyosaku Chi-Ru
     184. Хо-То
     185. Хо-Ри
-    186. Та-Ха ЗСУ
+    186. Та-Ха
     187. Type 4 Ха-То
     188. Type 4 Хо-То
     189. Type 5 Хо-Чи
     190. Type 5 Хо-Ру
-    191. Хо-К нож
-    192. Su-Ki амфибия 
-    193. Танк-планер Ку-РО
-    194. Арт. Носитель Со-То
-    195. Ринджы Сока Ресша бронепоезд
-    196. Model 94 (1934) 3/4 ton tracked trailer
-    197. Type 10 447 mm ракетный бомбомет 
-    198. Type 38 75 mm полевая пушка
-    199. Type 89 150 mm полевая пушка
-    200. Type 96 149 mm крепостная пушка 
-    201. Type 96 150 мм миномёт
-    202. Type 97 150 мм миномёт
+    191. Хо-К
+    192. Su-Ki
+    193. Ку-РО
+    194. Со-То
+    196. Model 94
+    197. Type 10 
+    198. Type 38
+    199. Type 89
+    200. Type 96
+    201. Type 96 
+    202. Type 97 
     203. М-98 150 мм
 
-       Франция
-    1. Terrot 350 мотоцикл
+       France
+    1. Terrot 350
     2. Terrot 500 
     3. Terrot 750
     4. Gnome-et-Rhone
     5. Gnome-Rhone AX2 modèle 1937
-    6. Gnome-Rhone AX2 modèle 1937 с 25 mm Hotchkiss anti-tank gun
-    7. VP Véhicule Pommelet самоходня мина 
-    8. Bedford 15 cwt truck with Boyes anti-tank rifle
+    6. Gnome-Rhone AX2 modèle 1937
+    7. VP Véhicule Pommelet
+    8. Bedford 15 cwt truck with Boyes
     9. 2 ton tractor VM
     10. Berliet CBA
     11. Berliet VD
     12. Berliet VS
-    13. Berliet VUB type L БА
+    13. Berliet VUB type L
     14. Berliet VUR БА
     15. Berliet VURB
     16. Berliet VURB-2
@@ -6623,7 +6529,7 @@
     19. Berliet VUCM
     20. Berliet GDM
     21. Berliet GDR
-    22. Berliet GDR бронированный 
+    22. Berliet GDR
     23. Berliet GDR-7
     24. Berliet GDR-22
     25. Berliet GDRA
@@ -6636,10 +6542,10 @@
     32. Berliet VPD
     33. Berliet VPB
     34. Berliet VPR
-    35. Berliet VPM ЗСУ
+    35. Berliet VPM
     36. Berliet VURL
     37. Berliet VDCT
-    38. Bernard TT4 арт. Трактор 
+    38. Bernard TT4
     39. Latill KTL
     40. Latill KTL-4
     41. Latill M-2TL6
@@ -6648,9 +6554,7 @@
     44. Laffly S-14TOE
     45. Laffly 15TOE
     46. Laffly S-20TL
-    47. Laffly S-20TL 25 мм противотанковая пушка
-    48. Laffly S-20TL PC радийная машина
-    49. Laffly S-20TL заправщик
+    48. Laffly S-20TL PC
     50. Laffly S-20TL Colonies
     51. Laffly S-25T
     52. Laffly S-35С
@@ -6708,9 +6612,9 @@
     104. Peugeot DMA
     105. Peugeot 208 A Chainrall
     106. Peugeot 402B
-    107. Peugeot-Kegresse БА
+    107. Peugeot-Kegresse
     108. Renault AFB
-    109. Renault ADH радиостанция
+    109. Renault ADH
     110. Renault VT
     111. Renault VT6
     112. Renault UD-6AE
@@ -6721,24 +6625,23 @@
     117. Renault AGK
     118. Renault AGT
     119. Renault AIB
-    120. Renault ADV санитарный
+    120. Renault ADV
     121. Renault ADR 
     122. Renault AFB
     123. Renault AFD-1
-    124. Renault AFG-1 тягач
     125. Renault AHS
     126. Renault AHN
     127. Renault AHR
     128. Renault MH
     129. Renault TI-4AE
     130. Renault TN-4
-    131. Renault OS санитарный 
+    131. Renault OS
     132. Rochet-Schneider 355
     133. Rochet-Schneider 420VLES
     134. Rochet-Schneider 425
     135. Rochet-Schneider 455
     136. Lorrein 72
-    137. Lorrein 28 TFS радиомашина
+    137. Lorrein 28 TFS
     138. Lorrein 25/58
     139. Lorrein 155
     140. Lorrein 75
@@ -6771,14 +6674,12 @@
     167. Unic P-107B
     168. Unic P-107BU
     169. Unic P-107U1
-    170. Unic TU-1 полугусеничный тягач 
     171. SOMUA MCG-4
     172. SOMUA MCG-5
     173. SOMUA MCG-11
     174. SOMUA M-6CG5
     175. SOMUA 22CGT11
     176. SOMUA MCL-5
-    177. SOMUA MCL-5 мостоукладчик
     178. SOMUA MCL-11
     179. SOMUA MCL-6
     180. SOMUA MSCL-6
@@ -6791,7 +6692,6 @@
     187. Citroën-Kongress P-17
     188. Citroën-Kongress P-16
     189. Citroën-Kongress P-19
-    190. Citroën-Kongress P-19 с 25 мм пушкой
     191. Citroën-Kongress P-19B
     192. Citroën-Kongress P-19 VDP
     193. Citroën-Kongress P-26
@@ -6803,13 +6703,13 @@
     199. Berliet VUDB-4
     200. Berliet VPC
     201. Berliet VUM
-    202. Berliet VPRM БА
+    202. Berliet VPRM
     203. Renault URK
     204. Renault SK
     205. Laffli 50AM
     206. Laffli 80AM
-    207. Laffly W 15 TCC БА
-    208. Laffly S 15 БА
+    207. Laffly W 15 TCC
+    208. Laffly S 15
     209. SOMUA-Gerdon AMR-39
     210. Panhard AM40-P
     211. Panard-Levassor 138 AM-138
@@ -6817,88 +6717,82 @@
     213. Panard-Levassor 175 AMD-175
     214. Panard-Levassor 178 AMD-178
     215. Panard-Levassor 178B
-    216. Panard-Levassor 179 БТР
+    216. Panard-Levassor 179
     217. Panard-Levassor 201
     218. Résistance Léger Char Lorraine 37L
     219. Lorraine 37L
-    220. Lorraine 37L с двумя тележками обр. 1937 тягач
-    221. Lorraine 37L с двумя тележками обр. 1944 тягач
-    222. Chasseur de chars Lorraine 37L avec canon de 47 mm
-    223. Lorraine 39 chasseur du chars шасси танковое 
-    224. Lorraine 39L VBCP БТР
+    222. Chasseur de chars Lorraine 37L
+    223. Lorraine 39 chasseur du chars
+    224. Lorraine 39L VBCP
     225. Renault VE (type P)
     226. Renault VM
     227. Renault YS
     228. Renault NC31
     229. Renault NC31M
     230. Renault ZM
-    231. Renault ADF1 радийный танк
-    232. Renault UR Type K БТР
-    233. Renault URL БА
-    234. Renault SK колёсно-гусеничный
+    231. Renault ADF1
+    232. Renault UR Type K
+    233. Renault URL
+    234. Renault SK
+    238. Renault FT-17
     235. Renault UE
     236. Renault UE anti-tank armored carrier (25 mm gun)
     237. Renault FT-17
-    238. Renault FT-17 с подвеской Kegresse
-    239. Renault FT-17 с башней ST1
-    240. Renault FT-17 со стробоскопической установкой Longuevernhe St.Shamond-Gtanat
-    241. Renault FT-17 с пушкой SA34
-    242. Renault FT-17 with 25 mm gun
+    239. Renault FT-17 ST1
+    240. Renault FT-17 Longuevernhe St.Shamond-Gtanat
+    241. Renault FT-17
+    242. Renault FT-17
     243. Renault FT-18
     244. Citroen P103
-    245. Citroen-Kegresse P-104 БА
-    246. Citroen-Kegresse P-112 трактор
-    247. AMD Chevrolet Thornton armored-car (37mm gun)
-    248. Latil БТР
-    249. SRB танк
-    250. Chenilette St-Chamond M1921 колёсно-гусеничный
-    251. Chenilette St-Chamond M1924 пушка 75 мм
-    252. Chenilette St-Chamond M1924 САУ
+    245. Citroen-Kegresse P-104
+    246. Citroen-Kegresse P-112
+    247. AMD Chevrolet Thornton armored-car
+    248. Latil
+    249. SRB
+    250. Chenilette St-Chamond M1921
+    251. Chenilette St-Chamond M1924
+    252. Chenilette St-Chamond M1924
     253. Chenilette St-Chamond M1926
     254. Chenilette St-Chamond M1928
-    255. Schneider Laurent колёсно-гусеничный
-    256. BATIGNOLLES-CHATILLON DP 2 плавующий
+    255. Schneider Laurent
+    256. BATIGNOLLES-CHATILLON DP 2
     257. NC1
     258. NC3
     259. AMX 38
     260. AMX 40
     261. Prototype de l'AMX R40
-    262. AMD 35 tank destroyer prototype with 47 mm gun
-    263. AMD 35 armored-car with turret
-    264. AMD Chevrolet Thornton anti-tank armored-car (25 mm gun)
-    265. AMD Chevrolet Thornton command-car armored-car
-    266. AMD Chevrolet Thornton AA armored-car
-    267. AMD Chevrolet Thornton mortar tractor armored-car
-    268. AMD Chevrolet Thornton troop transport armored-car
-    269. AMD Chevrolet Thornton armored-car (37 mm US gun)
+    262. AMD 35
+    263. AMD 35
+    264. AMD Chevrolet Thornton
+    265. AMD Chevrolet Thornton
+    266. AMD Chevrolet Thornton
+    267. AMD Chevrolet Thornton
+    268. AMD Chevrolet Thornton
+    269. AMD Chevrolet Thornton
     270. AMX Tracteur C
     271. AMR 33 VM
     272. AMR 35 ZT
-    273. AMR ZT3 avec canon de 25 mm
-    274. AMR Gendron Somua 39 БА
-    275. AMC 34YR лёгкий танк
+    273. AMR ZT3 avec
+    274. AMR Gendron Somua 39
+    275. AMC 34YR
     276. AMC 35
-    277. АМС Р16 образца 1929 БА
-    278. AMD 35 armored-car with a 47 mm gun
-    279. AUTO MITRAILLEUSE CDM БА
+    277. АМС Р16
+    278. AMD 35
+    279. AUTO MITRAILLEUSE CDM
     280. R-35
-    281. R-35 длинный
-    282. R-35 с минным тралом SY4
-    283. R-35 c ножевым минным тралом 
     284. R-40
     285. H-35
     286. Char Leger H35 H1
     287. H-38
     288. H-39
-    289. 28 Wurfrahmen (Sf) на Hotchkiss H39
     290. FCM 21
     291. FCM 36
     292. FSM 2C
     293. SRA
     294. SRB
-    295. ARL-40 штурмовое орудие 
+    295. ARL-40
     296. ACL-135 САУ
-    297. Sau40 штурмовое орудие
+    297. Sau40
     298. FAMH
     299. Citroen P103
     300. G-1B
@@ -6906,87 +6800,81 @@
     302. G-1L
     303. G-1P
     304. G-1R
-    305. D Char тяжелый 
+    305. D Char
     306. D1A
     307. D1B
     308. D2
-    309. F1 Char тяжелый 
+    309. F1 Char
     310. S-35
     311. S-35 Känguru
-    312. 1938 AM SOMUA БА
+    312. 1938 AM SOMUA
     313. S-40
     314. AMX-38
     315. B1
     316. B1bis
-    317. B1bis с катковым минным тралом 
     318. B1ter
     319. Prototype du B1bis équipé d'un 75 mm puissant
     320. FMC 1A 
     321. FMC 1B
     322. FMC 2C
     323. Char 3C
-    324. SAV-41 medium tank
-    325. SAV-AU-41 tank destroyer (75 mm US gun)
-    326. SAV-AU-41 tank destroyer (75SA41 gun)
-    327. SAV-41 tank Hippo
-    328. SAV-41 tank Bobine
-    329. SAV-41 tank Crab
-    330. SAV-41 tank Dozer
-    331. SAV-41 tank Petard
-    332. SAV-41 tank Crocodile
-    333. SAV-42 Bélier I medium tank
-    334. SAV-42 Bélier II medium tank
-    335. SAV-42 Bélier III medium tank
-    336. SAV-42 Bélier IV medium tank
+    324. SAV-41
+    325. SAV-AU-41
+    327. SAV-41 Hippo
+    328. SAV-41 Bobine
+    329. SAV-41 Crab
+    330. SAV-41 Dozer
+    331. SAV-41 Petard
+    332. SAV-41 Crocodile
+    333. SAV-42 Bélier I
+    334. SAV-42 Bélier II
+    335. SAV-42 Bélier III
+    336. SAV-42 Bélier IV
     337. SAV-AU-42 tank destroyer
-    338. SAV-TT-42 Bélier-Kangourou troop carrier
-    339. SAV-AU-42/90 tank destroyer (90mm gun)
+    338. SAV-TT-42 Bélier-Kangourou
+    339. SAV-AU-42/90 tank destroyer
     340. Char-Seam
     341. Char 2C Bis
-    342. БА La Rochelle
-    343. БА Joseph Camaret
-    344. Joseph Camaret II БА
-    345. Vechicule Pommelet самоходная мина
-    346. Bren Carrier Anti-tank (25 mm gun)
-    347. White Laffly armored car
-    348. Captured PzI Bison with a 75 mm gun
-    349. Captured Sd.Kfz222 with a 25 mm gun
-    350. Captured Horch command-car
-    351. M3 White armored car (25 mm gun)
+    342. La Rochelle
+    343. Joseph Camaret
+    344. Joseph Camaret II
+    345. Vechicule Pommelet
+    347. White Laffly
+    351. M3 White
     352. M7-F2 light tank
-    353. M11 light tank destroyer
-    354. M38-F1 armored car (47 mm gun)
-    355. M38-F2 armored car (57 mm gun)
+    353. M11
+    354. M38-F1
+    355. M38-F2
     356. Char léger M2A4
-    357. ARAL 12 AU-81-42 self-propelled mortar
-    358. ARAL 12 VDA-43 AA vehicle
-    359. ARAL VTT12-43 troop carrier
+    357. ARAL 12 AU-81-42
+    358. ARAL 12 VDA-43
+    359. ARAL VTT12-43
     360. Half-track AU-75 mod.41/42
     361. Half-track AU-AC-47 mod.41
     362. Char léger M3-F1
-    363. Humber amored car (25 mm gun)
-    364. Machine de guerre шаротанк
-    365. 47 mm APX SA-L Mle.37 противотанковая пушка
-    366. Hotchkiss CA mle.39 25 mm зенитная пушка
+    363. Humber amored car
+    364. Machine de guerre
+    365. 47 mm APX SA-L Mle.37
+    366. Hotchkiss CA mle.39
     367. 25 CA-40 anti-aircraft 25 mm gun
-    368. Canone de 25 SA 25 мм противотанковая пушка ранняя версия
-    369. Canone de 25 SA 25 мм противотанковая пушка поздняя версия
-    370. Canone de 25 SA 25 мм modele 1937 производ. Puteaux противотанковая пушка
+    368. Canone de 25 SA 25 мм
+    369. Canone de 25 SA 25 мм
+    370. Canone de 25 SA 25 мм modele 1937  Puteaux
     371. Canone 47 antichar SA Mle 1939
-    372. 28/20 mm Larsen пушка
-    373. GPF 155 mm пушка
-    374. GPF-CA 155 mm пушка
-    375. GPF-T 155 mm пушка
+    372. 28/20 mm Larsen
+    373. GPF
+    374. GPF-CA
+    375. GPF-T
 
-       Швеция
-    1. Monark Albin M/42 мотоцикл 
-    2. m/39 105 mm гаубица
+       Sweden
+    1. Monark Albin M/42
+    2. m/39
     3. Scania LB350
     4. Scania LB38F
     5. Scania TRM9
     6. Scania F11
     7. Scania F12
-    8. Scania-Vabis 8116 радиоавтобус
+    8. Scania-Vabis 8116
     9. Volvo TRV
     10. Volvo TLV131
     11. Volvo TLV141/142
@@ -6998,20 +6886,20 @@
     17. Volvo TVC2
     18. Volvo TVC3
     19. Volvo HBT
-    20. Pansarbil m/25 №1 БА 
-    21. Pansarbil m/25 №2 БА
-    22. Pansarbil m/26 БА
-    23. Pansarbil fm/29 БА
-    24. Pansarbil m/31 БА
+    20. Pansarbil m/25 №1
+    21. Pansarbil m/25 №2
+    22. Pansarbil m/26
+    23. Pansarbil fm/29
+    24. Pansarbil m/31
     25. Pbil m/39 Lynx
     26. Traktor nr.52 Carden-Loyd
     27. Artilleritraktor m/40
     28. Artilleritraktor m/43
-    29. Sländan бронеаэросани 
+    29. Sländan
     30. Landsverk 210
     31. SKP
     32. VKP
-    33. L110 колёсно-гусеничный 
+    33. L110
     34. L170
     35. L190
     36. L210
@@ -7027,12 +6915,12 @@
     46. m/40
     47. m/40L
     48. m/40K
-    49. m/41 SI легкий танк
-    50. m/41 SII легкий танк
+    49. m/41 SI
+    50. m/41 SII
     51. m/42
-    52. m/42 мостоукладчик 
+    52. m/42
     53. m/43
-    54. Stormpjäs FM/43 со 150-мм безоткатным орудием
+    54. Stormpjäs FM/43
     55. L-5
     56. L-10
     57. L-30
@@ -7043,7 +6931,7 @@
 
 
 
-       Румыния
+       Romania
     1. R-1
     2. R-2
     3. TACAM R-2
@@ -7051,41 +6939,39 @@
     5. Panzerjager Pz 35t/r-2 Tacam
     6. Vanatorului de care R35
     7. R35/45
-    8. Malaxa EC танкетка
-    9. Maresal САУ
-       Австрия
-    1. Heigl БА
-    2. Austro Fiat AFRS полугусеничный тягач
+    8. Malaxa EC
+    9. Maresal
 
-       Австралия
-    1. Jefery Robot Tank
+
+       Australia
+    1. Jefery Robot
     2. Ford 01Y
     3. Ford 01T/MH
     4. Ford 11T/MH
     5. Ford 296T/MH
     6. Ford 118T
     7. Ford S1
-    8. Ford Marmon-Herrindton C01T арт. тягач
-    9. Ford Marmon-Herrindton C298T автоцистерна
+    8. Ford Marmon-Herrindton C01T
+    9. Ford Marmon-Herrindton C298T
     10. Studebaker US6 U3
     11. Rover
-    12. БА Rhino
-    13. LP-1 БА
-    14. LP-2 БА
-    15. LP-3 БА
-    16. LP-4 БА
+    12. Rhino
+    13. LP-1
+    14. LP-2
+    15. LP-3
+    16. LP-4
     17. M3 BARV
-    18. Yeramba Self Propelled Gun
-    19. Gun Carrier tank
+    18. Yeramba
+    19. Gun Carrier
     23. ACV
     24. AC I
     25. AC II
     26. AC III
     27. AC IV
-    28. AC IV с двумя 25-фунтовыми пушками-гаубицами
-       Венгрия
+    28. AC IV
+       Hungary
     1. Skoda Popular 1101
-    2. 39M Ford-Marmon грузовик
+    2. 39M Ford-Marmon
     3. Raba Super
     4. Raba Special
     5. Raba Botond I
@@ -7094,33 +6980,33 @@
     8. HSCS KV50L
     9. Straussler AC2
     10. Straussler AC3
-    11. Straussler P танк
-    12. V-3 колёсно-гусенечный танк 
-    13. V-4 колёсно-гусенечный танк
-    14. V-4/40 колёсно-гусенечный танк
+    11. Straussler P
+    12. V-3
+    13. V-4
+    14. V-4/40
     15. Veiss H-1
     16. Veiss H-2
     17. Veiss T42M Bakony
     18. Veiss 39 M Chaba
     19. Toldi Páncélvadász
-    20. 38M Толди I
-    21. 38M Толди II
-    22. 38M Толди IIA
-    23. 40M Туран
-    24. 40M Туран II
-    25. 40M Нимрод ЗСУ
-    26. Туран III
+    20. 38M Toldi I
+    21. 38M Toldi II
+    22. 38M Toldi IIA
+    23. 40M Turan
+    24. 40M Turan II
+    25. 40M Nimrod
+    26. Turan III
     27. 43M Lehel
-    28. 75 mm Зриньи I
-    29. 105 mm Зриньи II M43
-    30. Zrínyi с РСЗО Sorozatveto 43.М
+    28. 75 mm Zrínyi I
+    29. 105 mm Zrínyi II M43
+    30. Zrínyi Sorozatveto 43.М
     31. Тош
-    32. 37M 105 mm гаубица
-    33. 39M 210 mm гаубица 
+    32. 37M
+    33. 39M
 
-       Польша
+       Poland
 
-    1. Sokol мотоцикл 
+    1. Sokol
     2. Ford Tfc
     3. Polski-FIAT Lazik
     4. Polski-FIAT wz.36
@@ -7134,75 +7020,67 @@
     12. PZInż.140
     13. PZInż.152
     14. PZInż.150
-    15. PZInż.152 арт тягач
-    16. PZInż.160 истребитель танков
+    15. PZInż.152
+    16. PZInż.160
     17. PZInż. 202
-    18. PZInż. 222 тягач
+    18. PZInż. 222
     19. PZInż. 302
     20. PZInż. 303
     21. PZInż. 312
-    22. PZlnz. 342 артелерийский тягач
+    22. PZlnz. 342
     23. PZInż. 343
     24. PZInż. 508/518
-    25. WB-3 гусеничный 
-    26. WB-10 колесно-гусеничный
-    27. АТ-1 транспортёр 
-    28. С2Р тягач
-    29. С7P тягач
-    30. wz.28 БА ранний
-    31. wz.28 БА поздний
+    25. WB-3
+    26. WB-10
+    27. АТ-1
+    28. С2Р
+    29. С7P
+    30. wz.28
     32. wz.29
     33. wz.31/33 Ursus
     34. wz.34
     35. Renault FT-17 CWS
-    36. TK-1 танкетка
-    37. TK-2 танкетка
+    36. TK-1
+    37. TK-2
     38. TK-3
     39. TKS
-    40. TKS-D транспортёр вооружения 
-    41. TKD истребитель танков
-    42. WB-10 плавующий
+    40. TKS-D
+    41. TKD
+    42. WB-10
     43. 4TP
     44. 7TP
     45. 10TP
     46. 14TP
     47. 25TP
-    48. Vickers E с пулеметами wz. 95
-    49. Czołg średni средний танк проекта KSUST
-    50. Czołg średni средний танк II проекта KSUST
-    51. Czołg średni средний танк проекта BBT. Br. Panc
-    52. Czołg średni средний танк II проекта BBT. Br. Panc
-    53. Czołg średni средний танк проекта DS PZlzn
-    54. Czołg ciezki тяжёлый танк проекта B.U.G.I
-    55. Czołg ciezki тяжёлый танк проекта Э. Хабича
-    56. Czołg ciezki тяжёлый танк проекта А. Марковского
+    48. Vickers E wz. 95
+    50. Czołg średni KSUST
+    51. Czołg średni BBT. Br. Panc
+    52. Czołg średni BBT. Br. Panc
+    53. Czołg średni DS PZlzn
+    54. Czołg ciezki  B.U.G.I
+    55. Czołg ciezki
+    56. Czołg ciezki
     57. Stridsvagn m/42
-    58. Kubus БА
-    59. R бронедрезина
-    60. TK бронедрезина
-    61. PP №1 Пилсудский бронепоезд
-    62. PP №2 Смелый бронепоезд
-    63. PP №13 Генерал Сосновский бронепоезд
-    64. PP №51 Pierwszy Marszalek
-63.PP №53 Smialy
+    58. Kubus
+    59. R
 
 
-       Финляндия
-    1. PstK 57/76 противотанковое орудие
+
+       Finland
+    1. PstK 57/76
     2. Oy Sisu Auto Ab
     3. Sisu 321
     4. Sisu SH-6
-    14. 105 H/33 гаубица немецкая
-    15. 105 H/33-40 гаубица немецкая
-    16. 122 H/09-30 гаубица трофейная 
-    17. 152 H/30 гаубица трофейная
-    18. 114 H 18 4.4 дюйма батальонная гаубица
+    14. 105 H/33
+    15. 105 H/33-40
+    16. 122 H/09-30
+    17. 152 H/30
+    18. 114 H 18
 
 
-       Канада
-    1. Canuck gun пушка
-    2. Mobile Armoured Rotating Carriage (MARC) подвижная огневая точка
-    3. Harley-Davidson WLC
+       Canada
+    1. Canuck
+    2. Mobile Armoured Rotating Carriage (MARC)
     4. C21UCG
     5. Grig 127 mm
     6. Ford F01AF
@@ -7221,7 +7099,7 @@
     19. Ford F60H
     20. Ford FGT
     21. Ford бронировки DMech
-    22. Ford бронировки DMech ЗСУ
+    22. Ford бронировки DMech
     23. Chevrolet 1533X2
     24. Chevrolet C8
     25. Chevrolet C8A
@@ -7241,50 +7119,37 @@
     39. Dodge T110L
     40. Dodge T110L-6
     41. Dodge T110L-9
-    42. Canadian armored tracked jeep Mark I
-    43. Canadian armored tracked jeep Mark II
-    44. Ford All Terrain Armored Car
-    45. Bombardier B1 снегоход
-    46. Bombardier B2 снегоход
-    47. Bombardier B3 снегоход
+    44. Ford All Terrain
+    45. Bombardier B1
+    46. Bombardier B2
+    47. Bombardier B3
     48. Armoured Snowmobile Mk.I
-    49. 88 mm Секстон
-    50. Секстон GPO
-    51. Рэм I
-    52. Рэм II
-    53. Рэм COPV
-    54. Рем BARV
-    55. Рэм Кенгуру
-    56. RAM Wasp огнемётный
-    57. Ram учебный
-    58. RAM AVRE БРЭМ
-    59. 3.7" зенитка на шасси танка RAM
-    60. Баджер
+    51. Ram I
+    52. Ram II
+    53. Ram COPV
+    54. Ram BARV
+    55. Рэм
+    56. RAM Wasp
+    57. Ram
+    58. RAM AVRE
     61. Гризли I
-    62. ЗСУ Скинк
+    62. Скинк
 
-       Новая Зеландия
-    1. Шофилд
-    2. Bob Semple
-    3. LP2 New Zealand Beaverette БА
-       Голландия 
+       Holland
     1. DAF MC-139
     2. DAF PT-3
-    3. DAF M-39 БА
-    4. DAF 4414 guntruck 
+    3. DAF M-39
+    4. DAF 4414
     5. Ford 01Y
-    6. Dodge Power Wagon guntrack
-    7. Dodge Power Wagon 20 mm Oerlicon
-    8. Humfox БА
-    9. Panser rel V16 бронедрезна 
-    10. Braat БА
-    11. Braat-2 БА
-    12. Braat морской пехоты
-    13. Eerste Nederlandse Pantserwagen БА
-    14. HIH 8cm AA gun зенитное орудие
-    15. Boxman L39 31 mm ПТ орудие
-    16. M 02/04 7.5 cm полевая пушка
-       Швейцария
+    8. Humfox
+    9. Panser rel V16
+    11. Braat-2
+    12. Braat
+    13. Eerste Nederlandse Pantserwagen
+    14. HIH 8cm AA gun
+    15. Boxman L39 31 mm
+    16. M 02/04 7.5 cm
+       Switzerland
     1. Berna L4
     2. Berna 1U
     3. Berna 2U
@@ -7292,103 +7157,71 @@
     5. Berna 5U
     6. Nahkampfkanone I
     7. Nahkampfkanone II Gustav
-       Дания
-    1. FP-3 бронемотоцикл
-    2. Ford AA truck 1931 (FP 1 - 1) БА
-    3. Ford AA truck 1931 (FP 1 - 2) БА
-    4. Ford AA truck 1931 (FP 1 - 3) БА
-    5. Triangel Kegresse 2T полугусеничный тягач
-    6. Triangel Kegresse 3T полугусеничный тягач
-    7. Triangel-Kornbech 3T полугусеничный тягач
-    8. Triangel-Kornbech 4T полугусеничный тягач
-    9. V-3 БА
-    10. 03 L/30 7.5 cm полевая пушка
-    11. M 35 105 mm лёгкая гаубица
-       Испания
-    2. SECN 1932 полицейский водомёт
-    3. Oteyza БА
+       Denmark
+    1. FP-3
+    5. Triangel Kegresse 2T
+    6. Triangel Kegresse 3T
+    7. Triangel-Kornbech 3T
+    8. Triangel-Kornbech 4T
+    9. V-3
+    10. 03 L/30 7.5 cm
+    11. M 35 
+       Spain
+    2. SECN 1932
+    3. Oteyza
     4. Verdeja
-    5. Verdeja 75 mm
     6. Verdeja №2
-    7. C.C.I танк 
-    8. Carro de Combate de Infantería Modelo 1937
-    9. Carro combate m50.1937 САУ
-    10. Carro Ligero de Combate para Infantería Modelo Trubia 75Hp tiro rápido Serie A
-    11. Trubia Modelo 1936 танк
+    7. C.C.I
+    8. Carro de Combate de Infantería Modelo
+    9. Carro combate m50.1937
+    10. Carro Ligero de Combate para Infantería Modelo Trubia tiro rápido Serie A
+    11. Trubia Modelo
     12. Tractor Benach blindado
-    18. Mercier бронетрактор
-    19. Mercier II БА
-    20. Piojo Móvil БА
-    21. Vulcano №2 БА
-    22. Duro Felguera БА
-    23. БА Linares
-    24. UNL-35 БА с пулеметом Маским
-    25. UNL-35 БА с пулеметом ДТ
-    26. UNL-35 на шасси ЗиС-5 БА
-    27. AAC-1937 БА
-    28. AAC-1937 БА с танковой башней 
-    29. Bilbao БА
-    30. Ebro БА
-    31. Ebro №2 БА
-    32. Т-69 Ипано-Суиза БА
-    33. Ипано-Суиза БА националисты
-    34. Hispano-Suiza 3T6 БА
-    35. Catterpillar Sixty 1925-1931 2 ton бронированный националисты 
-    36. Catterpillar бронированный республиканцы
-    37. Catterpillar бронированный с башней республиканцы
-    38. Catterpillar бронированный FAI-CNT
+    18. Mercier
+    19. Mercier II
+    20. Piojo Móvil
+    21. Vulcano №2
+    22. Duro Felguera
+    23. Linares
+    25. UNL-35  ДТ
+    26. UNL-35
+    27. AAC-1937
+    29. Bilbao
+    30. Ebro
+    32. Т-69
+    33. Ипано-Суиза
+    34. Hispano-Suiza 3T6
+    35. Catterpillar Sixty
+    38. Catterpillar FAI-CNT
     39. Autoametralladora 1937
-    40. Tiznaos-HS БА
-    41. Tiznaos-Fanrasma №1 БА республиканцы 
-    42. Tailler Mza Albacete Columna Internacional БА
-    43. Landesa бронетрактор 
-    44. Carro IGC Sadurni транспортёр
-    45. Nash-Quad БА
-    46. Шнейдер-Брийе БА
+    40. Tiznaos-HS
+    41. Tiznaos-Fanrasma №1
+    42. Tailler Mza Albacete Columna Internacional
+    43. Landesa
+    44. Carro IGC Sadurni
+    45. Nash-Quad
     47. MC-36 БА
-    48. MC-36 БА с башней от Т-26
-    49. БА Боевой колонны Аскасо республиканцы
-    50. БА применявшийся в боях под Уэской республиканцы
-    51. БА FAI-CNT
-    52. Эрзац-броневик из Бильбао республиканцы 
-    53. БА из арсенала Леванта 
-    54. БА из Барселоны республиканцы 
-    55. БА по типу ФАИ
-    56. БА из мастерской Филда FAI-CNT
-    57. БА из мастерской Филда с башней FAI-CNT 
-    58. БА Benz ET-3
+    51. FAI-CNT
+    52.Бильбао
 
-       Китай
-    1. Пекин бронепоезд
-    2. Тайшань бронепоезд 
-    3. Ханан бронепоезд 
-    4. Хубей бронепоезд 
-    5. Хупех бронепоезд
-    6. Чангченг бронепоезд
-    7. Чандян бронепоезд 
-    8. Чжили бронепоезд
-    9. Цинань бронепоезд
-    10. Шаньдун бронепоезд 
-    11. Юньчунь бронепоезд
-    12. Река Янцзы бронепоезд
-    13. Великая Стена бронепоезд
-       Бельгия
+
+       Belgium
     1. FN Coloniale
     2. FN Kengress
     3. FN 63C
     4. FN 63P
     5. FN 42F
     6. FN Tricar
-    7. FN 1000 мотоцикл
-    8. FN M86 мотоцикл
+    7. FN 1000
+    8. FN M86
     9. Brussel TAL
     10. Т13
     11. T13B3
     12. T15
-    13. Berliet 4x4 VUDB
+    13. Berliet VUDB
     14. Zugtraktor
     15. БА Ehrhardt
     16. Carden-Loyd Mark VI SA-FRC.
-    17. GP 1. 7.5 mm полевая пушка
-    18. GP 11. 7.5 cm полевая пушка
-    19. GP 111. 7.5 cm полевая пушка
+    17. GP 1.
+    18. GP 11.
+    19. GP 111.

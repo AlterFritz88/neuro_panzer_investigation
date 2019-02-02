@@ -46,6 +46,62 @@ with open('spisok', 'r') as file:
         label.append(len(labels))
 
 
+with open('spisok', 'r') as file:
+    for line in file:
+        if len(line) < 3:
+            continue
+        line_no_spaces = line.replace(' ', '')
+        try:
+            start = int(line_no_spaces[0])
+        except:
+            labels.append(line_no_spaces[:-1])
+            continue
+
+        for i in range(len(line)):
+            if line[i] == ' ':
+                continue
+            if line[i] == '.':
+                line = line[i+2:]
+                break
+
+        if len(labels) == 2 or len(labels) == 7:
+            data_dict[translit(u"{}".format(line[:-1]), "ru", reversed=True)] = len(labels)
+            data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
+            label.append(0)
+            continue
+        data_dict[line[:-1]] = len(labels)
+        data.append(line[:-1])
+        label.append(0)
+
+with open('modern_tech', 'r') as file:
+    for line in file:
+        if len(line) < 3:
+            continue
+        line_no_spaces = line.replace(' ', '')
+        try:
+            start = int(line_no_spaces[0])
+        except:
+            labels.append(line_no_spaces[:-1])
+            continue
+
+        for i in range(len(line)):
+            if line[i] == ' ':
+                continue
+            if line[i] == '.':
+                line = line[i+2:]
+                break
+
+
+        data_dict[translit(u"{}".format(line[:-1]), "ru", reversed=True)] = len(labels)
+        data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
+        label.append(1)
+
+
+for i in range(len(label)):
+    print(data[i], label[i])
+
+print(label)
+
 print(data)
 data_string = ''
 max_len = 0
@@ -102,15 +158,15 @@ model.add(Dropout(0.3))
 
 model.add(Dense(len(labels) + 1))
 model.add(Activation("softmax"))
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 epochs = 10
-checpoint = ModelCheckpoint('models/WWII_names.h5f', monitor='val_loss', save_best_only=True, verbose=1)
+checpoint = ModelCheckpoint('models/age_names.h5f', monitor='val_loss', save_best_only=True, verbose=1)
 callbacks = [checpoint]
 
 H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), callbacks=callbacks, verbose=1)
 
-model = load_model('models/WWII_names.h5f')
+model = load_model('models/age_names.h5f')
 score, acc = model.evaluate(testX, testY)
 print(score, acc)
 

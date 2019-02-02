@@ -22,28 +22,7 @@ data_dict = {}
 data = []
 label = []
 
-with open('spisok', 'r') as file:
-    for line in file:
-        if len(line) < 3:
-            continue
-        line_no_spaces = line.replace(' ', '')
-        try:
-            start = int(line_no_spaces[0])
-        except:
-            labels.append(line_no_spaces[:-1])
-            continue
 
-        for i in range(len(line)):
-            if line[i] == ' ':
-                continue
-            if line[i] == '.':
-                line = line[i+2:]
-                break
-
-        data_dict[line[:-1]] = len(labels)
-        #data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True).lower())
-        data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
-        label.append(len(labels))
 
 
 with open('spisok', 'r') as file:
@@ -95,11 +74,13 @@ with open('modern_tech', 'r') as file:
         data_dict[translit(u"{}".format(line[:-1]), "ru", reversed=True)] = len(labels)
         data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
         label.append(1)
+labels = ['WWII', 'Modern']
+print('дфиудыэб', labels)
 
-
+'''
 for i in range(len(label)):
     print(data[i], label[i])
-
+'''
 print(label)
 
 print(data)
@@ -133,8 +114,8 @@ n_label = np.array(label)
 
 trainX, testX, trainY, testY = train_test_split(padded, n_label, test_size = 0.25, random_state = 42, stratify=n_label)
 
-trainY = to_categorical(trainY, num_classes=len(labels)+1)
-testY = to_categorical(testY, num_classes=len(labels)+1)
+trainY = to_categorical(trainY, num_classes=len(labels))
+testY = to_categorical(testY, num_classes=len(labels))
 
 
 
@@ -156,7 +137,7 @@ model.add(Dropout(0.3))
 
 
 
-model.add(Dense(len(labels) + 1))
+model.add(Dense(2))
 model.add(Activation("softmax"))
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
@@ -173,7 +154,7 @@ print(score, acc)
 
 prediction = model.predict(testX)
 prediction = prediction.argmax(axis=1)
-print(classification_report(testY.argmax(axis=1), prediction))
+print(classification_report(testY.argmax(axis=1), prediction, target_names=labels))
 
 
 plt.style.use("ggplot")

@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
@@ -22,7 +22,7 @@ data_dict = {}
 data = []
 label = []
 
-with open('spisok', 'r') as file:
+with open('modern_tech', 'r') as file:
     for line in file:
         if len(line) < 3:
             continue
@@ -93,7 +93,7 @@ print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 
 model = Sequential()
 model.add(Embedding(vocab_size, output_dim= 1500, input_length=max_len, trainable=True))
-model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
+model.add(Bidirectional(LSTM(128, return_sequences=False)))
 model.add(Dropout(0.1))
 model.add(Dense(units=1024, activation='relu'))
 model.add(Dropout(0.3))
@@ -105,12 +105,12 @@ model.add(Activation("softmax"))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 epochs = 10
-checpoint = ModelCheckpoint('models/WWII_names.h5f', monitor='val_loss', save_best_only=True, verbose=1)
+checpoint = ModelCheckpoint('models/modern_names.h5f', monitor='val_loss', save_best_only=True, verbose=1)
 callbacks = [checpoint]
 
 H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), callbacks=callbacks, verbose=1)
 
-model = load_model('models/WWII_names.h5f')
+model = load_model('models/modern_names.h5f')
 score, acc = model.evaluate(testX, testY)
 print(score, acc)
 

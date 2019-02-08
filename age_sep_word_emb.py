@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
@@ -130,7 +130,7 @@ print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 
 model = Sequential()
 model.add(Embedding(vocab_size, output_dim= 1500, input_length=max_len, trainable=True))
-model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
+model.add(Bidirectional(LSTM(128, return_sequences=False)))
 model.add(Dropout(0.1))
 model.add(Dense(units=1024, activation='relu'))
 model.add(Dropout(0.3))

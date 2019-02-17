@@ -50,7 +50,7 @@ with open('modern_tech', 'r') as file:
 
 #c 8000
 
-for model_page in range(9793, 11500, 1):
+for model_page in range(9848, 11500, 1):
     print(model_page)
 
     url = "https://www.track-link.com/gallery/{}".format(model_page)

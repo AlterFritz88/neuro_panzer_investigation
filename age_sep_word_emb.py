@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
@@ -22,7 +22,10 @@ data_dict = {}
 data = []
 label = []
 
+import re
 
+def has_cyrillic(text):
+    return bool(re.search('[а-яА-Я]', text))
 
 
 with open('spisok', 'r') as file:
@@ -43,13 +46,25 @@ with open('spisok', 'r') as file:
                 line = line[i+2:]
                 break
 
-        if len(labels) == 2 or len(labels) == 7:
-            data_dict[translit(u"{}".format(line[:-1]), "ru", reversed=True)] = len(labels)
-            data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
+
+        if len(labels) != 2 and len(labels) != 7:
+            sent = line[:-1].split(' ')
+            print(line[:-1])
+            sent_new = []
+            for t in sent:
+                if has_cyrillic(t) == False:
+                    sent_new.append(t)
+            sent_st = ' '.join(sent_new)
+            if len(sent_st) < 2:
+                continue
+            print(sent_st)
+            data_dict[sent_st] = len(labels)
+            data.append(sent_st)
             label.append(0)
             continue
+
         data_dict[line[:-1]] = len(labels)
-        data.append(line[:-1])
+        data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
         label.append(0)
 
 with open('modern_tech', 'r') as file:
@@ -69,6 +84,24 @@ with open('modern_tech', 'r') as file:
             if line[i] == '.':
                 line = line[i+2:]
                 break
+
+        if len(labels) != 1 and len(labels) != 8 and len(labels) != 49 and len(labels) != 10:
+        #if len(labels) != 2 and len(labels) != 7:
+            sent = line[:-1].split(' ')
+            print(line[:-1])
+            sent_new = []
+            for t in sent:
+                if has_cyrillic(t) == False:
+                    sent_new.append(t)
+            sent_st = ' '.join(sent_new)
+            if len(sent_st) < 2:
+                continue
+            print(sent_st)
+            data_dict[sent_st] = len(labels)
+            data.append(sent_st)
+            label.append(1)
+            continue
+
 
 
         data_dict[translit(u"{}".format(line[:-1]), "ru", reversed=True)] = len(labels)
@@ -129,13 +162,14 @@ print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 
 
 model = Sequential()
-model.add(Embedding(vocab_size, output_dim= 1500, input_length=max_len, trainable=True))
-model.add(Bidirectional(LSTM(128, return_sequences=False)))
-model.add(Dropout(0.1))
-model.add(Dense(units=1024, activation='relu'))
+model.add(Embedding(vocab_size, output_dim= 1000, input_length=max_len, trainable=True))
+
+model.add(Conv1D(512, 5, activation='relu'))
+model.add(GlobalMaxPool1D())
+
+#model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
 model.add(Dropout(0.3))
-
-
+model.add(Dense(units=256, activation='relu'))
 
 model.add(Dense(2))
 model.add(Activation("softmax"))

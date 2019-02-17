@@ -23,7 +23,7 @@ class SimplePreprocessor:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         return image
 
-dataset_path = 'dataset'
+dataset_path = 'tank_not_tank'
 
 data = []
 labels = []
@@ -66,7 +66,7 @@ with open('models/{0}_dict_labels'.format(dataset_path), 'w') as file:
     for key, value in label_dict.items():
         file.write(key + ' ' + str(value) + '\n')
 
-trainX, testX, trainY, testY = train_test_split(data, labels, test_size = 0.25, random_state = 42, stratify=labels)
+trainX, testX, trainY, testY = train_test_split(data, labels, test_size = 0.5, random_state = 42, stratify=labels)
 
 # convert the labels from integers to vectors
 test_Y_nc = testY  #для сохраненния на диск проб
@@ -88,7 +88,7 @@ from keras.optimizers import SGD, Adam
 l2s = [0.005, 0.01, 0.001, 0.0005,  0.00005, 0.00001]
 answers = []
 
-epochs = 30
+epochs = 20
 
 
 def model1():
@@ -129,7 +129,9 @@ def model1():
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 
-
+    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
     model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
@@ -140,7 +142,7 @@ def model1():
     model.add(Activation("relu"))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
-    #model.add(Dropout(0.25))
+
 
 
 
@@ -148,9 +150,9 @@ def model1():
 
 
     model.add(Flatten())
-    model.add(Dense(512, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dense(256, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    #model.add(Dropout(0.3))
+
 
     model.add(BatchNormalization())
     #model.add(Dropout(0.5))
@@ -161,7 +163,7 @@ def model1():
 
     opt = SGD(lr=lr, decay=lr / epochs, momentum=0.9, nesterov=True)  # decay=0.003/epochs
     ad = Adam(lr=lr, decay=lr / epochs)
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''
+    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
     return model
 
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
@@ -198,35 +200,28 @@ checpoint = ModelCheckpoint('models/{0}_test.h5f'.format(dataset_path), monitor=
 callbacks = [checpoint]
 
 
-aug = ImageDataGenerator(rotation_range=7, width_shift_range=[-0.2, 0, +0.2],
+aug_for_all = ImageDataGenerator(rotation_range=7, width_shift_range=[-0.2, 0, +0.2],
+    height_shift_range=[-0.1, 0, +0.1], shear_range=0.2, zoom_range=0.3,
+    horizontal_flip=True, fill_mode="constant")
+aug = ImageDataGenerator(width_shift_range=[-0.2, 0, +0.2],
     height_shift_range=[-0.1, 0, +0.1], shear_range=0.2, zoom_range=0.3,
     horizontal_flip=True, fill_mode="constant")
 
+
 model = model1()
 
-#H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
+H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
 
-import time
-for i in range(7):
-    H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY),
-                            steps_per_epoch=len(trainX) // 3, epochs=5, verbose=1, callbacks=callbacks,
-                            class_weight=classWeight)
-    model = load_model('models/{0}_test.h5f'.format(dataset_path))
-    print(i, 'sleeping')
-    time.sleep(350)
+
 
 #H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), verbose=1, batch_size=128, callbacks=callbacks, class_weight=classWeight)
 model = load_model('models/{0}_test.h5f'.format(dataset_path))
-#score, acc = model.evaluate(testX, testY, batch_size=164)
-#print(score, acc)
 
 prediction = model.predict(testX)
 prediction = prediction.argmax(axis=1)
 print(classification_report(testY.argmax(axis=1), prediction, target_names=list_labels))
 print(precision_score(testY.argmax(axis=1), prediction, average="weighted"))
-#answers.append((l2_regul, precision_score(testY.argmax(axis=1), prediction, average="weighted")))
 print(answers)
-#model.save('model_tanks')
 print(answers)
 plt.style.use("ggplot")
 plt.figure()
@@ -249,7 +244,7 @@ print(len(test_Y_nc))
 
 # Indices corresponding to test images which were mislabeled
 
-'''
+
 bad_test_idxs = np.where(testY!=y_preds)
 path_bad_img = 'bad_predict'
 for i in range(len(test_Y_nc)):
@@ -259,7 +254,7 @@ for i in range(len(test_Y_nc)):
         #imsave('{0}/{1}'.format(path_bad_img, i),  array_to_img(testX_nc[i]))
         img_s.save('{0}/{1}---{2}--{3}.png'.format(path_bad_img, list_labels[test_Y_nc[i]], list_labels[y_preds[i]], i ))
 
-'''
+
 
 
 

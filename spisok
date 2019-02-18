@@ -6,12 +6,27 @@
     1. Barkmann's Panther
 1. Tiger I (Late Production)
 1. Tiger I Early
+1. Kubelwagen
+1. Tiger I - 112
 1. Tiger I Ausf.E
 1. Tiger I Late - 007 Wittmann
+1. Tiger I (Mid Production )
+1. Beobachtungs Panther
+1. Tiger I, Das Reich
+1. Tiger I
+1. 128mm GW Panther
+1. Tiger I (Mid Production )
+1. Panther Reintochter
+1. 3.7cm Pak 36
 1. King Tiger Porsche Turret
+1. Tiger I s.Pz.Abt
 1. Tiger II
 1. Tiger I Vorpanzer
 1. Mercedes-Benz MB 170V
+1. Panther MG151 Flakveirling
+1. Tiger I (Late Production)
+1. Tiger I Ausf.E
+1. Tiger I Mid Version
 1. Elefant
 1. Tiger I (Early)
 1. Tiger I
@@ -44,6 +59,7 @@
 1. Krupp Protze Kfz.70
 1. Kubelwagen
 1. Hetzer Late
+1. Panzer II Ausf.L Luchs
 1. Tiger I Mid-Production
 1. Hetzer Late, Eastern Front
 1. Flakpanzer Gepard
@@ -65,6 +81,7 @@
     4. AB 41 201 (i)
     5. Panzerspahwagen Wh 201(f) AMD WhiteLaffly
     6. Pz.Sp.Wg. DAF 201 (h)
+    1. Tiger I (Early)
     7. Pz.Sp.Wg. L202 (h) Landsverk La 160/161
     8. Panzerspahwagen Laf 202(f) AMD Laffly
     9. Panzerspahwagen Lince 202(i) Autoblinda Lince
@@ -197,6 +214,7 @@
     153. Raupenschlepper St (r) type Stalinez-65
     154. Raupenschlepper St (r) type SG-65
     155. Kleinkraftwagen Maschinengewehr
+    1. Tiger I (Mid. Production)
     156. Mittlerer Raupenschlepper Laffly W15T(f)
     157. Mittlerer Raupenschlepper Laffly W15T(f)
     158. Mittlerer Raupenschlepper Laffly W15T(f)
@@ -2965,6 +2983,7 @@
     256. ГАЗ-АААА
     257. ГАЗ-ТК
     1. Su-76i
+    1. JSU-152
     258. ГАЗ-ТК с безоткатной пушкой Курчевского 
     259. ГАЗ-ТК БА
     260. ГАЗ-М1
@@ -3409,6 +3428,7 @@
     794. БТ-5ПХ первый вариант
     795. БТ-5ПХ второй вариант
     796. БТ-5ПБ (подводного буксирования)
+    1. Aerosan NKL-26
     797. БТ-5 плавующий (конструкция Кравцева)
     798. БТ-5 плавующий (конструкция Алексеева)
     799. БТ-5 плавующий (конструкция НИИТ РККА)
@@ -3575,6 +3595,7 @@
     960. ТАХМ
     961. ТАХИМ-26 обр 1933
     962. ОТ-130
+    1. T-70M
     963. ОТ-131
     964. ОТ-132
     965. ОТ-133
@@ -4520,11 +4541,22 @@
        1. Autocar 7144T
        1. Sherman Mk.1c Hybrid
        1. LVT-2
+       1. Sherman V
        1. Firefly
+       1. WLA
+       1. Jeep Ambulance
+       1. WC56 Dodge
+       1. Sherman M51
+       1. Sherman M4A1 (76)
+       1. Sherman ll DV
        1. LVTP-7
+       1. Grant Mk.1
+       1. WC51 Dodge
+       1. DUKW
        1. Sherman V Crocodile
        1. LVT4
        1. SAS Jeep
+       1. M2 Halftrack
        1. Sherman I
        1. Sherman M4A3E8 'Easy Eight'
        1. Willys Jeep
@@ -4532,6 +4564,7 @@
        1. Sherman M4(105)
        1. Sherman Vc Firefly
        1. M4 (105mm)
+       1. SAS Jeep
        1. Sherman I Hybrid
        1. Dodge WC52
        1. Willys MB Jeep
@@ -4565,8 +4598,10 @@
 1. Sherman M-51
 1. Sherman Mk.III
 1. Sherman V
-1. M36 Jackson GMC 90mm
-1. M36B1 Tank Destroyer 90mm
+1. M36 Jackson GMC
+1. M36B1 Tank Destroyer
+1. Sherman Firefly V
+1. T19 Howitzer Motor Carriage
 1. M5 Early Model
 1. MP And Harley Davidson
     1. Dodge
@@ -4667,6 +4702,7 @@
     94. Diamond T 614/704
     95. Diamond T 967
     96. Diamond T 968
+    1. Jeep
     97. Diamond T 968A
     98. Diamond T 968B
     99. Diamond T 969
@@ -5518,11 +5554,25 @@
     966. M3A4 Utility Hand Cart
     967. M14A1
     968. M15E1
+    1. Armored Jeep
     969. T58E1
+    1. M20 Armored
 
        Great_Britain
        1. LRDG Chevrolet
+       1. Churchill Mk III
+       1. Vickers Mk.VIc
+       1. Tank Mk. IV Male
+       1. Mark I Tank
+       1. Mark V Tank
+       1. Tank Mk IV Female
+       1. Mk. I Female
+       1. Mark V Tank
+       1. Whippet
+       1. Heavy Tank Mark I
+       1. Medium Mk A Whippet
        1. Churchill IV
+       1. Valentine V
        1. Crusader Mk.1 (early)
        1. Mk.IV 'Female Airship' Tug
        1. Mk.IV Male Tadpole Prototype with Mortar
@@ -6143,6 +6193,7 @@
     2. Prague RN
     3. Prague RND
     4. Prague RV
+    1. PA-11 Turtle
     5. Prague RVR
     6. Tatra 11
     7. Tatra 13
@@ -6466,6 +6517,7 @@
        1. Komatsu G40
        1. Type 94
 1. Type 94 Isuzu
+1. Komatsu G40
     1. Type 89
     1. IJA Type 4 Chi-To
 1. IJA Type 4 Ho-Ro
@@ -6660,14 +6712,26 @@
 
        France
     1. Char B1
+    1. Char B bis
     1. Char B1 REIMS
+    1. Char B1 bis
+    1. Hotchkiss H38 39
+    1. St. Chamond
+    1. Schneider 155C
     1. Schneider CA
+    1. Panhard 178
     1. H38 39
+    1. Lorraine 38L VBCP
+    1. Char St. Chamond
+    1. Char St. Chamond
     1. AMD Panhard 178
+    1. FT-17
+    1. Somua S35
     1. Schneider CA1
     1. Schneider CA-1
     1. B1bis
     1. Char B1bis
+    1. FT-17
     1. FT-17
     1. Char FCM 2C
     1. Char Saint Chamond
@@ -7178,11 +7242,13 @@
     1. Sokol
     2. Ford Tfc
     3. Polski-FIAT Lazik
+    1. 7TP Light Tank
     4. Polski-FIAT wz.36
     1. 7TP Light Tank
     5. Polski-FIAT Mazur
     6. Polski-FIAT Tur
     7. Polski-FIAT C4P
+    1. 7TP Vickers Light Tank
     8. Polski-FIAT wz.34
     9. Polski-FIAT 62IL
     10. Ursus A30
@@ -7250,10 +7316,13 @@
 
        Canada
     1. Canuck
+    1. Chevrolet C60S
     2. Mobile Armoured Rotating Carriage (MARC)
     4. C21UCG
     5. Grig 127 mm
+    1. GM Otter LRC
     6. Ford F01AF
+    1. CMP Otter Mk. I Reconnaissance Car
     7. Ford C21AS
     1. Ram Cruiser Tank Mk.I
     8. Ford C11ADF
@@ -7392,6 +7461,7 @@
     13. Berliet VUDB
     14. Zugtraktor
     15. БА Ehrhardt
+    1. Minerva Armoured Car
     16. Carden-Loyd Mark VI SA-FRC.
     17. GP 1.
     18. GP 11.

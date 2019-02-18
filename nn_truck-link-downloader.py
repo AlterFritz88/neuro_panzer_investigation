@@ -50,13 +50,13 @@ with open('modern_tech', 'r') as file:
 
 #c 8000
 
-for model_page in range(9848, 11500, 1):
+for model_page in range(10429, 11500, 1):
     print(model_page)
 
     url = "https://www.track-link.com/gallery/{}".format(model_page)
     r = requests.get(url)
     tree = fromstring(r.content)
-    path = ' '.join(tree.findtext('.//title').split(' ')[4:]).replace(r'/', ' ').replace(r'!', ' ').replace(r'?', ' ').replace(r':', ' ')
+    path = ' '.join(tree.findtext('.//title').split(' ')[4:]).replace(r'/', ' ').replace(r'!', ' ').replace(r'?', ' ').replace(r':', ' ').replace(r'#', ' ').replace(r'+', ' ')
     print('1. {}'.format(path))
     if len(path) < 3:      # если в шапке пусто, то скипаем, чтобы не мусорить
         continue

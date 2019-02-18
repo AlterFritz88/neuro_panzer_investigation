@@ -23,7 +23,7 @@ class SimplePreprocessor:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         return image
 
-dataset_path = 'tank_not_tank'
+dataset_path = 'dataset'
 
 data = []
 labels = []
@@ -210,7 +210,7 @@ aug = ImageDataGenerator(width_shift_range=[-0.2, 0, +0.2],
 
 model = model1()
 
-H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
+H = model.fit_generator(aug_for_all.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
 
 
 

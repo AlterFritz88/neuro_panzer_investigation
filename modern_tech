@@ -3,12 +3,21 @@
 1. Object 279
 1. GAZ Tigr
 1. BMD-2
+1. T-72AV
 1. 2S19 152mm Howitzer
 1. BTR-40
+1. MAZ-537 G
+1. T-90A
+1. BTR-70
 1. Object 279
 1. BMP-1
+1. T-55
 1. ZIL 157
 1. 2S19 152mm SPH
+1. T-55A
+1. ZSU-23-4M
+1. T-72M2
+1. T-55 Enigma
 1. BMPT 'Terminator'
 1. GAZ 66 Late
 1. Ural 4320
@@ -37,6 +46,7 @@
     15. ЗиЛ-117Е
     16. ЗиЛ-135М
     17. ЗиЛ-135Л
+    1. T-72B2 Rogatka
     18. ЗиЛ-135Л Стрела
     19. ЗиЛ-135МБ
     20. ЗиЛ-135ЛМ
@@ -3851,11 +3861,13 @@
 Канада
 1. Grizzly AVGP
 1. Grizzly AVGP
+1. AVGP Cougar
 1. Grizzly AVGP
 1. Grizzly AVGP
 США
     1. Armet Balkan
     1. USMC M1A1 HC
+    1. Buffalo 6x6 MPCV
     1. Buffalo 6x6 MPCV
     1. M48A3 Mod B
     1. M1135 Stryker NBC RV
@@ -3865,6 +3877,7 @@
     1. M706 Commando
     1. M706 Commando
     1. M1129 Stryker Mortar Carrier
+    1. Bradley
     1. M1126 Stryker ICV
     1. M1070 Truck Tractor & M1000
     1. M103A1
@@ -4073,6 +4086,7 @@
     202. Lockheed Martin Dragon Wagon 901
     203. Lockheed Martin Dragon Wagon 901 с ЗР Improved Hawk
     204. Lockheed Martin Dragon Wagon 901M
+    1. MIM-72
     205. Mack DM-492S R9
     206. Mack DM-6116S
     207. Mack RM-6866SX
@@ -5084,10 +5098,14 @@
 Германия
 1. Marder Project DRAGON
 1. Leopard 2A7+
+1. Marder APC
 1. MAN LKW 7t
 1. Leopard 2A4
+1. VCI Marder
+1. Marder 1A3 TNI
 1. Marder 1 A5
 1. Pzh 2000
+1. SPz Puma
 1. Unimog U1300L
 1. Panzerhaubitze 2000
 1. Flakpanzer Gepard
@@ -5558,6 +5576,7 @@
 1. RAAC Centurion ARV Mk.II
 1. Snatch Land Rover
 1. Centurion Mk.6
+1. Challenger II
 1. RAAC Centurion Dozer
 1. Centurion Mk.5
 1. Challenger Mk. I
@@ -6230,9 +6249,11 @@
 Израиль
 1. Nagmachon
 1. Achzarit
+1. Merkava IV
 1. Shot Kal-Gimel
 1. Nimrod
 1. D9R
+1. Merkava IIID
 1. Nagmachon 'Doghouse' Version
 1. Nakpadon Heavy APC
     2. Caterpillar D-7
@@ -7270,7 +7291,9 @@
 1. VCL
 1. AMX 30 MBT
 1. EBR FL10 mod 54
+1. Panhard VBL
 1. EBR-10
+1. AU-F1
 1. AMX Mk F3 155mm SPH
 1. Au F1 TA
 1. GCT 155mm Auf1
@@ -8230,6 +8253,7 @@
     1. K9 155mm SPH
     1. MIFV
     2. ASIA KM410
+    1. K9 Thunder
     3. ASIA KM410L
     4. ASIA KM411
     5. ASIA KM412

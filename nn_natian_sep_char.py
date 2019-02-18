@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D, GlobalAveragePooling1D
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
@@ -13,6 +13,7 @@ from sklearn.metrics import classification_report
 import numpy as np
 
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.naive_bayes import GaussianNB
 
 import matplotlib.pyplot as plt
 
@@ -52,12 +53,10 @@ with open(path, 'r') as file:
             if line[i] == '.':
                 line = line[i+2:]
                 break
-        print(len(labels))
 
         if train == 1:
             if len(labels) != 1 and len(labels) != 8 and len(labels) != 49 and len(labels) != 10:
                 sent = line[:-1].split(' ')
-                print(line[:-1])
                 sent_new = []
                 for t in sent:
                     if has_cyrillic(t) == False:
@@ -65,7 +64,6 @@ with open(path, 'r') as file:
                 sent_st = ' '.join(sent_new)
                 if len(sent_st) < 2:
                     continue
-                print(sent_st)
                 data_dict[sent_st] = len(labels)
                 data.append(sent_st)
                 label.append(len(labels))
@@ -78,7 +76,6 @@ with open(path, 'r') as file:
         if train == 0:
             if len(labels) != 2 and len(labels) != 7:
                 sent = line[:-1].split(' ')
-                print(line[:-1])
                 sent_new = []
                 for t in sent:
                     if has_cyrillic(t) == False:
@@ -86,7 +83,6 @@ with open(path, 'r') as file:
                 sent_st = ' '.join(sent_new)
                 if len(sent_st) < 2:
                     continue
-                print(sent_st)
                 data_dict[sent_st] = len(labels)
                 data.append(sent_st)
                 label.append(len(labels))
@@ -99,7 +95,7 @@ with open(path, 'r') as file:
             label.append(len(labels))
 
 
-print(data)
+
 data_string = ''
 max_len = 0
 for i in data:
@@ -111,6 +107,7 @@ print(max_len)
 
 
 chars = sorted(list(set(data_string)))
+print(chars)
 mapping = dict((c, i) for i, c in enumerate(chars))
 
 
@@ -123,9 +120,8 @@ vocab_size = len(mapping)
 print(vocab_size)
 
 padded = pad_sequences(coded, maxlen=max_len, padding='post')
-print(padded[1])
-#padded = padded * 10
-print(padded[1])
+
+
 n_label = np.array(label)
 
 trainX, testX, trainY, testY = train_test_split(padded, n_label, test_size = 0.2, random_state = 42, stratify=n_label)
@@ -140,14 +136,23 @@ model.fit(trainX, trainY)
 y_pred = model.predict(testX)
 print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 
+gnb = GaussianNB()
+gnb.fit(trainX, trainY)
+y_pred = gnb.predict(testX)
+print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
+
+
 
 # neural network
 
 
+
+
+
 model = Sequential()
 model.add(Embedding(vocab_size, output_dim= 1000, input_length=max_len, trainable=True))
-
-model.add(Conv1D(512, 5, activation='relu'))
+model.add(Dropout(0.2))
+model.add(Conv1D(512, 5, padding='same', activation='relu'))
 model.add(GlobalMaxPool1D())
 
 #model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
@@ -166,7 +171,7 @@ epochs = 15
 checpoint = ModelCheckpoint('models/{0}_names.h5f'.format(model_name), monitor='val_loss', save_best_only=True, verbose=1)
 callbacks = [checpoint]
 
-H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), callbacks=callbacks, verbose=1)
+#H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), callbacks=callbacks, verbose=1)
 
 model = load_model('models/{0}_names.h5f'.format(model_name))
 score, acc = model.evaluate(testX, testY)

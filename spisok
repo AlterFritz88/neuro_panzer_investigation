@@ -5567,6 +5567,8 @@
        1. Mark V Tank
        1. Tank Mk IV Female
        1. Mk. I Female
+       1. Quad F.A.T.   25 Pdr Field Gun
+       1. Quad F.A.T.   25 Pdr Field Gun
        1. Mark V Tank
        1. Whippet
        1. Heavy Tank Mark I
@@ -6187,8 +6189,864 @@
     630. Royal Ordnance Breech Loading 6-inch 26 cwt Mk IR
     631. Royal Ordnance Breech Loading 6-inch 26 cwt Mk IP
     632. QF Mk.VII ПТ
+    1. LRDG Chevrolet
+       1. Churchill Mk III
+       1. Vickers Mk.VIc
+       1. Tank Mk. IV Male
+       1. Mark I Tank
+       1. Mark V Tank
+       1. Tank Mk IV Female
+       1. Mk. I Female
+       1. Mark V Tank
+       1. Whippet
+       1. Heavy Tank Mark I
+       1. Medium Mk A Whippet
+       1. Churchill IV
+       1. Valentine V
+       1. Crusader Mk.1 (early)
+       1. Mk.IV 'Female Airship' Tug
+       1. Mk.IV Male Tadpole Prototype with Mortar
+       1. 25pdr. Field Gun and Quad Gun Tractor
+       1. Vickers Mark VI B Light Tank
+       1. Cromwell
+       1. Mk.IV Female
+       1. Mark IV Male Tank
+       1. Rolls Royce Armored Car
+       1. Mk.IV Tadpole
+       1. Bishop
+       1. Valentine II
+       1. Centaur
+       1. Valentine II
+       1. 25pdr SP 'Bishop'
+       1. Centaur CS Mk.IV
+1. Centaur Mk.IV
+       1. Matilda CS
+       1. Vickers Mk.VI AA Mk.1
+    1. 25 Pounder Field Gun
+    1. 17pdr Archer
+    1. Carrier Valentine 25 pdr Bishop Mk 1
+    1. Firefly Mk.Vc
+    1. Staghound
+    1. 2 Pounder Mk IX
+    1. Dailmler Scout Car
+    1. Humber Snipe
+    1. Royal Enfild
+    2. Norton WD16H
+    3. Velossete MAF-350
+    4. Rotabuggy
+    5. Big Four
+    6. Ariel W/NG
+    7. BSA M20
+    8. BSA G14 Boys
+    9. Matchless G3L
+    10. Welbike
+    11. Imgoldby Transporter
+    12. Brennan
+    13. B1E1 Dragon
+    14. Dragon Gun Tractor Mk I
+    15. Dragon Gun Tractor Mk II
+    16. Dragon Gun Tractor Mk III
+    17. Dragon Gun Tractor Mk IV
+    18. Snaketrac
+    19. Terrapin Mk.I
+    20. Terrapin Mk.II
+    21. Straussler Conversion
+    22. Alvis-Straussler AC3 typ A
+    23. Garner-Straussler G.3
+    24. WH1940
+    25. Argosy Amphibious Carrierс
+    26. AEC YA
+    27. AEC YB
+    28. AEC YC
+    29. AEC 501
+    30. AEC 505
+    31. AEC 506
+    32. AEC 644
+    33. AEC Hardi
+    34. AEC Marshal 644
+    35. AEC Matador O853
+    36. AEC Matador с QF 25 pounder
+    37. AEC Matador Deacon
+    38. AEC Matador Dorchester
+    39. AEC O854
+    40. AEC O855 Mk. I
+    41. AEC O856 Mk. II
+    42. AEC O857 Mk. III
+    43. ACV Mk.I
+    44. Alvis AC-1
+    45. Alvis AC-2
+    46. Alvis AC-3D
+    47. Alvis A Dingo
+    48. Allis Chalmers V-40 Scout Car
+    49. Albion SB
+    50. Albion AM-463
+    51. Albion FT-11N
+    52. Albion BY1
+    53. Albion BY3
+    54. Albion BY5
+    55. Albion CX6
+    56. Albion CX23N
+    57. Albion CX225
+    58. Albion CX34S
+    59. Albion CX33
+    60. Albion FT11N
+    61. Albion FT15N
+    62. Albion BY1
+    63. Albion BY3
+    64. Albion BY
+    65. Armstrong-Siddeley B10E1
+    66. Armstrong-Siddeley B10E2
+    67. Austin Seven
+    68. Austin Seven
+    69. Austin 8PH
+    70. Austin 10PH
+    71. Austin A30
+    72. Austin K2
+    73. Austin K2A
+    74. Austin K2Y
+    75. Austin K3
+    76. Austin K4
+    77. Austin K5
+    78. Austin K6
+    79. Bedford WD-1
+    80. Bedford MWD
+    81. Bedford MWC
+    82. Bedford MWG
+    83. Bedford MWR
+    84. Bedford MWT
+    85. Bedford MWV
+    86. Bedford ML
+    87. Bedford OXD
+    88. Bedford OXC
+    89. Bedford OYC
+    90. Bedford OYD
+    91. Bedford OWS
+    92. Bedford OWL
+    93. Bedford OWST
+    94. Bedford OWL
+    95. Bedford QL
+    96. Bedford QLD
+    97. Bedford QLB
+    98. Bedford QLC
+    99. Bedford QLR
+    100. Bedford QLT
+    101. Bedford QLW
+    102. Bedford BT Traclat
+    103. Bedford Cockatrice
+    104. Bedford
+    105. Burford-Kegresse 30 cwt
+    106. Burford-Kegresse
+    107. Commer Q2
+    108. Commer Q3
+    109. Commer Q4
+    110. Commer Q15
+    111. Commer Q25
+    112. Commer Bittle
+    113. Carrier KT4
+    114. Carrier K6
+    115. Crosley IGL2/1
+    116. Crosley IGL2/2
+    117. Crosley IGL3
+    118. Crosley IGL7
+    119. Crosley IGL8
+    120. Crosley IGL8
+    121. Crosley BWG2
+    122. Crosley BWG2
+    123. Crosley Q
+    124. Dodge WC-51 с гусеничной тележкой от Bren Carrier
+    125. GUI Ant
+    126. GUI Qoad-Ant
+    127. Garner G3
+    128. Humber Hexonaut
+    129. Vauxhall 14HP
+    130. Marmon-Herrington KMM5-4 снегоочиститель Snogo LTR
+    131. Morris 10PH
+    132. Morris Wasp
+    133. Maudsley Militant
+    134. Maudsley Mogol
+    135. Maudsley Maharanee
+    136. Morris Gosling амфибия
+    137. Morris Commercial D type 30 CWT
+    139. Morris Commercial 6D
+    140. Morris Commercial CD
+    141. Morris Commercial PU8
+    142. Morris Commercial PU8 Mk II
+    143. Morris Commercial PU8/4
+    144. Morris Commercial CS8 GS Mark I
+    145. Morris Commercial CS8 GS Mark II
+    146. Morris Commercial CS8 GS Mark III
+    147. Morris Commercial CS8 GS A.C.9
+    148. Morris Commercial CS8
+    149. Morris Commercial CS8
+    150. Morris Commercial CS8
+    151. Morris Commercial CS8
+    152. Morris Commercial CS8
+    153. Morris Commercial CS8
+    154. Morris Commercial CS11/30
+    155. Morris Commercial CS11/30F
+    156. Morris Commercial CDFW
+    157. Morris Commercial CDSW
+    158. Morris Commercial C4
+    159. Morris Commercial C4 Mk I
+    160. Morris Commercial C4 Mk II
+    161. Morris Commercial C8
+    162. Morris Commercial C8/AT
+    163. Morris Commercial C 8/P
+    164. Morris Commercial C8/MG
+    165. Morris Commercial C9/B
+    166. Morris Commercial Terrapin Mk I
+    167. Morris Commercial Terrapin Mk II
+    168. Morris Commercial Argosy
+    169. Morris Commercial-Roadless
+    171. Morris Commercial-Roadless Mk II
+    172. Morris-Martel-Roadless
+    173. Leyland Terrier
+    174. Leyland Cob
+    175. Leyland Lynx
+    176. Leyland Hippo Mk I
+    177. Leyland Hippo Mk II
+    178. Railey WD
+    179. Standard 12HP
+    180. FWD-Roadless
+    181. Ford WOC1
+    182. Ford WOA1
+    183. Ford WOA2
+    184. Ford 7V
+    185. Ford E817T
+    186. Ford E917T
+    187. Ford E01Y
+    188. Ford E018T
+    189. Ford E83W
+    190. Ford FGT
+    191. Ford WOC-1
+    192. Ford WOT1
+    193. Ford WOT2
+    194. Ford WOT2A
+    195. Ford WOT2B
+    196. Ford WOT2E
+    197. Ford WOT3
+    198. Ford WOT6
+    199. Ford WOT8
+    200. Ford CMP F60 с 6 prn AT
+    201. Ford CMP  M44/45
+    202. Fordson E917T Balloon Winch
+    203. Foden DG4/6
+    204. Foden DG5/7,5
+    205. ERF 2C14
+    206. Hillman 20/70HP
+    207. Hillman Commer Scout
+    208. Hillman 10HP
+    209. Humber Pullman
+    210. Thorneycroft GF
+    211. Thorneycroft HF
+    212. Thorneycroft WZ
+    213. Thorneycroft ZS
+    214. Snipe Mk-II
+    215. Snipe Heavy Utility
+    216. Snipe 8 cwt
+    217. SS-VA
+    218. SS-VB
+    219. Standard JB
+    220. Standard JAB
+    221. Standard JAB Mk I
+    222. Scammell MH6
+    223. Scammell TRMU20
+    224. Scammell TRMU30
+    225. Scammell R100
+    226. Scammell SV/1S
+    227. Scammell SV/2S
+    228. Studebaker US6 U6
+    229. Heavy Utility FWD
+    230. Universal Carrier Mk.1
+    231. Universal Carrier Wasp Mk.1
+    232. Universal Carrier Wasp Mk.1I
+    233. Universal Carrier Wasp Mk.1IC
+    234. Universal Carrier с QF 2 pounder
+    235. BREN Carrier
+    236. Vickers Carrier
+    237. Oxford CT-20
+    238. Wasp Flamethrower
+    239. Thornycroft Bison I
+    240. Thornycroft Bison II
+    241. Thornycroft Gun Carrier
+    242. Neptune плавающий
+    243. D2E1 Crossley
+    244. Crossley M1923
+    245. Crossley-Chevrolet M1939 (Indian Pattern)
+    246. Vickers Morris Armored Car
+    247. Armoured Carrier Wheeled Indian Pattern Mk.I
+    248. Armadillo Mark I
+    249. Armadillo Mark II
+    250. Rolls Royce Armoured Car 1920
+    251. Lorry 30cwt Anti-Tank
+    252. Lancia AC1БА
+    253. Glanville
+    254. GM CAPLAD
+    255. Scott Gun Carrier
+    256. Staghound Mk I
+    257. Staghound Mk II
+    258. Staghound Mk III
+    259. Staghound Command
+    260. Staghound AA
+    261. Staghound Bantu
+    262. Dingo
+    263. Dingo Mk I
+    264. Dingo Mk II
+    265. Dingo Mk III
+    266. Dingo Mk IV
+    267. Dingo Mk V
+    268. Daimler Scout Car Mk IA
+    269. Daimler Scout Car Mk IB
+    270. Daimler Scout Car Mk II
+    271. Daimler Scout Car Mk III
+    272. Daimler Armored Car Mk I
+    273. Daimler Armored Car Mk ICS
+    274. Daimler Armored Car Mk II
+    275. Humber Armored Car Mk I
+    276. Humber Armored Car Mk II
+    277. Humber Armored Car Mk III
+    278. Humber Armored Car Mk IV
+    279. Humber Armored Car ПТ
+    280. Humber Ironside
+    281. Humber Light Reconnaissance Car Mark III
+    282. Coventry Armored Car Mk I
+    283. Coventry Armored Car Mk II
+    284. AEC Mk I
+    285. AEC Mk II
+    286. AEC Mk III
+    287. Dragon Medium Mk.IV gun tractor
+    288. Morris-Martel 1925
+    289. Morris Light Reconnaissance Car Mk I
+    290. Morris Light Reconnaissance Car Mk I OP
+    291. Morris Light Reconnaissance Car Mk II
+    292. Morris Light Reconnaissance Car Experimental Tank
+    293. Morris Light Reconnaissance Car Firefly
+    294. Morris Motors Salamander
+    295. Beaverette Light Reconaissannce Car Mk I
+    296. Beaverette Light Reconaissannce Car Mk II
+    297. Beaverette Light Reconaissannce Car Mk III
+    298. Beaverette Light Reconaissannce Car Mk.III AA
+    299. Beaverette Light Reconaissannce Car Mk IV
+    300. Guy Light Wheeled Tank Mark I
+    301. Guy wheeled carrier
+    302. Carden-Loyd Mk.I
+    303. Carden-Loyd Mk.I*
+    304. Carden-Loyd Light Tank Mk I
+    305. Carden-Loyd Mk.II
+    306. Carden-Loyd Mk.III
+    307. Carden-Loyd Mk.IV
+    308. Carden-Lloyd Mark IVa Mild steel
+    309. Carden-Loyd Mk.V
+    310. Carden-Loyd Mk.V*
+    311. Carden-Loyd Smoke Producer
+    312. Carden-Loyd Mk.V Infighter
+    313. Carden-Loyd Mk.VI
+    314. Carden-Loyd Mk.VI
+    315. Carden-Loyd Mk.VII
+    316. Carden-Loyd Mk.VIII
+    317. Carden-Loyd Carrier
+    318. Carden-Loyd A4E11
+    319. Carden-Loyd 2 ton Artellery Tractor
+    320. Light Tank Mk I Canal Defence Light
+    321. Beaverete Mk I
+    322. Beaverete Mk II
+    323. Beaverete Mk III
+    324. Beaverete Mk IV
+    325. AC9
+    326. Vickers Amphibious Light Tank L1E1 A4E11
+    327. Vickers Amphibious Light Tank L1E2 A4E12
+    328. Vickers Amphibious Light Tank L1E3
+    329. Vickers Light Tank обр. 1921 №2
+    330. Vickers Light Tank Mk I
+    331. Vickers Light Tank Mk II
+    332. Vickers Light Tank Mk II
+    333. Vickers Light Tank Mk IIB
+    334. Vickers Light Tank Mk IIB Indian Pattern
+    335. Vickers Light Tank Mk III
+    336. Vickers Light Tank AA Mk
+    337. Vickers Light Tank Mk I Canal Defence Light I
+    338. Vickers Light Tank Mk IV A4E19
+    339. Vickers Light Tank Mk IV A4E20
+    340. Vickers Light Tank Mk IV
+    341. Vickers Light Tank Mk IV Indian Pattern
+    342. Vickers Light Tank Mk V L3E1
+    343. Vickers Light Tank Mk V L3E2
+    344. Vickers Light Tank Mk V
+    345. Vickers Light Tank Mk V Mk. III
+    350. Vickers Light Tank V
+    351. Vickers Light Tank Mk V
+    352. Vickers Light Tank Mk V BESA
+    353. Vickers Light Tank Mk VI
+    354. Vickers Light Tank Mk VIA
+    355. Vickers Light Tank Mk VIB
+    356. Vickers Light Tank Mk VIB
+    357. Vickers Light Tank Mk VIC
+    358. Vickers Light Tank Mk VI Indian Pattern
+    359. Vickers Light Tank AA Mk.I
+    360. Vickers Light Tank обр.1921 №1
+    361. Vickers Light Tank обр.1921 №2
+    362. Vickers Light Tank Model 1937
+    363. Vickers Light Tank Model 1938
+    364. Vickers Light Tank Mk C
+    365. Vickers Light Tank Mk E
+    366. Vickers Light Tank Mk E
+    367. Vickers Light Tank Mk.E Type A
+    368. Vickers Light Tank Mk.E Type B
+    369. Vickers Light Tank M1933
+    370. Vickers Medium Mk.I
+    371. Vickers Medium Mk.I CS
+    372. Vickers Medium Mk.I САУ
+    373. Vickers Medium Mk.I САУ Birch Gun
+    374. Vickers Medium Mk.IA
+    375. Vickers Medium Mk.IA CS
+    376. Vickers Medium Mk.IA*
+    377. Vickers Medium Mk.II
+    378. Vickers Medium Mk.II CS
+    379. Vickers Medium Mk.II САУ Birch Gun
+    380. Vickers Medium Mk.II trop
+    381. Vickers Medium Mk.II
+    382. Vickers Medium Mk.IIA
+    383. Vickers Medium Mk.IIA*
+    384. Vickers Medium Mk.II*
+    385. Vickers Medium Mk.II**
+    386. Vickers Medium Mk.II*
+    387. Vickers Medium Mk.III САУ Birch Gun
+    388. Vickers Medium Boxcar
+    389. Vickers Wheel-Cum-Track Tank Mk.I
+    390. Vickers Wheel-Cum-Track Tank Mk.Iа
+    391. Vickers Medium Mark III
+    392. Vickers-Wolsely Wheel Track Tank
+    393. Vickers Wheel-cum-Track Machine/D3E1
+    394. Vickers Wheel-cum-Track Machine/D3E2
+    395. Medium Mark D
+    396. Mk I A9
+    397. Mk II
+    398. Mk II A10
+    399. Mk IIA Викерс
+    400. Mk III A13
+    401. Mk III
+    402. Mk III A6
+    403. Mk III A6E1
+    404. Mk III A6E2
+    405. Mk III A6E3
+    406. Mk III A13
+    407. Mk IV
+    408. Mk IV A13
+    409. Tank Cruiser Mk.V Covenanter
+    410. Tank Cruiser Mk.V Covenanter ARMA 1c
+    411. Tank Cruiser Mk.V Covenanter
+    413. Mk VIA Crusader
+    414. Mk VIAA Crusader
+    415. Mk VIAA Mk II Crusader
+    416. Mk VI Crusader с минным тралом ARMA Mk Id
+    417. 20 mm ЗСУ Crusader AA Mk.I/II/III
+    418. 40 mm ЗСУ Crusader AA Mk.I/II/III
+    419. 40 mm ЗСУ Crusader AA
+    420. 75 mm Crusader
+    421. Crusader SP Gun
+    422. Mk V
+    423. Mk VI Карден-Лойд
+    424. Mk VII Кэвэлир
+    425. Mk VIII Сентор I A 27 L
+    426. Mk VIII Сентор II
+    427. Mk VIII Сентор OP
+    428. Mk VIII Сентор AA
+    429. Mk VIII Сентор CS
+    430. Mk VIII Кромвель
+    431. Mk VIII Кромвель CS
+    432. Mk VIII Кромвель Mk VI
+    433. Mk VIII Кромвель CIRD
+    434. Centaur AA Mk II
+    435. Mk VI B
+    436. Light Tank Mk.VII Tetrarch
+    437. Light Tank Mk.VII Tetrarch DD
+    438. Light Tank Mk.VII Tetrarch CS
+    439. Mk VIII Гарри Гопкинс (A25)
+    440. Alecto Mk. I CFE
+    441. Alecto Mk. II
+    442. Alecto Mk. III
+    443. Alecto Mk. IV
+    444. Alecto Dozer
+    445. Mk I A 11 Матильда
+    446. Mk I A 11 Матильда
+    447. Infantry Mark II Matilda II Mk. I  (A12)
+    448. Infantry Mark II Matilda II Mk. II
+    449. Infantry Mark II Matilda II Mk. IIA
+    450. Infantry Mark II Matilda II Mk. III
+    451. Infantry Mark II Matilda II Mk. III CS
+    452. Infantry Mark II Matilda II Mk. IV
+    453. Infantry Mark II Matilda II Mk. IV CS
+    454. Infantry Mark II Matilda II Mk. V
+    455. Infantry Mark II Matilda II Baron Mk I
+    456. Infantry Mark II Matilda II Baron Mk II
+    457. Infantry Mark II Matilda II Baron Mk III
+    458. Infantry Mark II Matilda II Baron Mk IIIA
+    459. Infantry Mark II Matilda II Скорпион I
+    460. Infantry Mark II Matilda II ARMA Mk Ia
+    461. Infantry Mark II Matilda II ARMA Mk Ia
+    462. Infantry Mark II Matilda II Frog
+    463. Infantry Mark II Matilda II
+    464. Infantry Mark II Matilda II Staghound
+    465. Infantry Mark III Valentine Mk I
+    466. Infantry Mark III Valentine Mk II
+    467. Infantry Mark III Valentine Mk II DD
+    468. Infantry Mark III Valentine Mk III
+    469. Infantry Mark III Valentine Mk IV
+    470. Infantry Mark III Valentine Mk V
+    471. Infantry Mark III Valentine Mk V DD
+    472. Infantry Mark III Valentine Mk VI
+    473. Infantry Mark III Valentine Mk VII
+    474. Infantry Mark III Valentine Mk VIII
+    475. Infantry Mark III Valentine Mk IX
+    476. Infantry Mark III Valentine Mk IX DD
+    477. Infantry Mark III Valentine Mk X
+    478. Infantry Mark III Valentine Mk XI
+    479. Infantry Mark III Valentine Mk XI DD
+    480. Infantry Mark III Valentine Скорион II
+    481. Infantry Mark III Valentine с тралом ARMA Ib
+    482. Infantry Mark III Valentine Crocodile
+    484. Infantry Mark III Valentine DD ARK
+    485. Infantry Tank Mk IV Churchill I (A22)
+    486. Infantry Tank Mk IV Churchill II
+    487. Infantry Tank Mk IV Churchill II CS
+    488. Infantry Tank Mk IV Churchill III
+    489. Infantry Tank Mk IV Churchill IV
+    490. Infantry Tank Mk IV Churchill IV NA 75
+    491. Infantry Tank Mk IV Churchill V
+    492. Infantry Tank Mk IV Churchill VI
+    493. Infantry Tank Mk IV Churchill VII
+    494. Infantry Tank Mk IV Churchill VIII
+    495. Infantry Tank Mk IV Churchill IX
+    496. Infantry Tank Mk IV Churchill IX LT
+    497. Infantry Tank Mk IV Churchill X
+    498. Infantry Tank Mk IV Churchill X LT
+    499. Infantry Tank Mk IV Churchill XI
+    500. Infantry Tank Mk IV Churchill XI LT
+    501. Infantry Tank Mk IV Churchill ARMA Mk IIe
+    502. Infantry Tank Mk IV Churchill AMRCR
+    503. Infantry Tank Mk IV Churchill CIRD
+    506. Infantry Tank Mk IV Churchill Crocodile
+    507. Infantry Tank Mk IV Churchill Oke
+    508. Infantry Tank Mk IV Churchill Farmer Track-plough
+    509. Infantry Tank Mk IV Churchill
+    510. Mk IV Черчилль A22D
+    511. Churchill Kangaroo
+    512. Churchill Ardeer Aggie
+    513. Churchill Mark Na75
+    514. Great Eastern ARK
+    515. ARVE Churchill Mk II
+    516. A3E1 Light Tank
+    517. A4E1 Light Tank
+    518. A4E2 Light Tank
+    519. A4E3 Light Tank
+    520. A4E4 Light Tank
+    521. A4E5 Light Tank
+    522. A4E6 Light Tank
+    523. A4E7 Light Tank
+    524. A4E8 Light Tank
+    525. A4E9 Light Tank
+    526. A4E10 Light Tank
+    527. A4E13 Light Tank
+    528. A4E14 Light Tank
+    529. A4E15 Light Tank
+    530. A4E16 Light Tank
+    531. A4E17 Light Tank
+    532. A4E18 Light Tank
+    533. A5E1 Vickers
+    534. A7E1
+    535. A7E2
+    536. A7E3
+    537. A20
+    538. A30 Challenger
+    539. A30 Эвенджер
+    540. A33
+    541. A34 Комет
+    542. A43 Black Price
+    543. A38 Вэлиэнт
+    544. A39 Тортэз
+    545. A45
+    546. D5E1
+    547. TOG
+    548. TOG 1A
+    549. TOF 2
+    550. TOG 2R
+    551. АТ1*
+    552. AT1**
+    553. AT1***
+    554. Grant ARV
+    555. Grant Command
+    556. Grant Scorpion III
+    557. Grant Scorpion IV
+    558. Grant CDL
+    559. Stuart Kangaroo
+    560. Stuart Recce
+    561. Stuart Command
+    590. Priest Kangaroo
+    591. 76,2 mm Арчер
+    592. 76, 2 mm Ахилес
+    593. 87,5 mm Bishop
+    594. AT-1 
+    595. AT-2 
+    596. AT-3
+    597. AT-4
+    598. AT-5
+    599. AT-6
+    600. AT-7
+    601. AT-7A
+    602. AT-8
+    603. AT-9
+    604. AT-10
+    605. AT-13
+    606. AT-14
+    607. AT-15
+    608. Shervick
+    609. Thornycroft Bison
+    610. Grand Panjanrum
+    611. No 24
+    612. No 27
+    613. Ordnance QF-2
+    614. Ordnance QF-2 type II
+    615. Ordnance QF 25-pdr Mk.I
+    616. Ordnance QF 25-pdr Mk.I  Мк.IIITР
+    617. Ordnance QF 25-pdr Mk.I Mk.IVP
+    625. Ordnance QF 25-pdr Mk.II Mk II
+    626. Ordnance QF 25-pdr Mk.II Mk III
+    627. Ordnance QF 25-pdr Mk.II/I
+    628. Ordnance QF 25-pdr MARC
+    629. QF 6pdr Class M Mark I with Auto Loader Mk III ПТП
+    630. Royal Ordnance Breech Loading 6-inch 26 cwt Mk IR
+    631. Royal Ordnance Breech Loading 6-inch 26 cwt Mk IP
+    632. QF Mk.VII ПТ
 
        Czechoslovakia
+    1. Prague AV
+    2. Prague RN
+    3. Prague RND
+    4. Prague RV
+    1. PA-11 Turtle
+    5. Prague RVR
+    6. Tatra 11
+    7. Tatra 13
+    8. Tatra 22
+    9. Tatra 23/64
+    10. Tatra 23/80
+    11. Tatra 24/58
+    12. Tatra 24/59
+    13. Tatra 24/64
+    14. Tatra 24/67
+    15. Tatra T24 sp.1
+    16. Tatra 25
+    17. Tatra 26/30
+    18. Tatra 27
+    19. Tatra 27A
+    20. Tatra 27B
+    21. Tatra 28
+    22. Tatra 28A
+    23. Tatra 29
+    24. Tatra V377
+    25. Tatra 29
+    26. Tatra 72
+    27. Tatra 57A
+    28. Tatra 87
+    29. Tatra 72
+    30. Tatra 82
+    31. Tatra 84
+    32. Tatra 85
+    33. Tatra 92
+    34. Tatra V750
+    35. Tatra V799
+    36. Tatra V809
+    37. Tatra T18
+    38. Škoda Želva
+    39. Skoda PA-I
+    40. Skoda Armored Car PA-III/OA vz.27
+    41. OA vz.30
+    42. PA-I
+    43. Lehky Kanonovy Motorovy Vuz Pasovy
+    44. KH-50
+    45. KH-50
+    46. KH-60
+    47. KH-70
+    48. CKD TNSPE
+    49. CKD DT-I
+    50. CKD DT-II
+    51. CKD DT-III
+    52. MT-6
+    53. ČKD F-IV-H/II
+    54. ČKD V-8-H
+    55. ČKD V-8-H-II
+    56. ČKD V-8-H-Sv
+    57. CKD AH-IV
+    58. CKD AH-IV-Sv
+    59. CKD MT
+    60. Skoda L
+    61. Skoda 6L
+    62. Skoda 6V
+    63. Skoda 6S
+    64. Skoda 6K
+    65. Skoda H
+    66. Skoda 6ST6-T
+    67. Skoda 6STP6-L
+    68. Škoda ŠET
+    69. Škoda SU
+    70. Skoda PA-II Delovy
+    71. Skoda Fiat-Torino
+    72. Skoda T-15
+    73. Skoda T-15A
+    74. Skoda T-15B
+    75. Skoda T-15S
+    76. Skoda T-16
+    77. Skoda T-25
+    78. Skoda LKMVP
+    79. Skoda Z
+    80. S-I-j
+    81. S-I-d
+    82. S-II-b
+    83. S-II-c (T-21)
+    84. P-II-b
+    85. SP-II-b
+    86. R-2-a (T-11)
+    87. T-III
+    88. MU-2
+    89. MU-4
+    90. MU-6
+    91. MT-6
+    92. P-I (Tancil vz. 33)
+    93. Prague RN
+    94. Prague RV
+    95. Praga L
+    96. TNH
+    97. TNH-S
+    98. TNH-Sv
+    99. TNH-P
+    100. LTP
+    101. LTH
+    102. LTL
+    103. LLT
+    105. LTS-40
+    106. LTH
+    107. LT vz.34
+    108. LT vz.35
+    109. ST vz.39
+    110. PUV vz. 36
+    111. PUV vz. 37 37
+    112. 3.7 cm Skoda vz 37KRUV(M)
+    113. Vz. 24
+    114. Tatra 110
+    1. Prague AV
+    2. Prague RN
+    3. Prague RND
+    4. Prague RV
+    1. PA-11 Turtle
+    5. Prague RVR
+    6. Tatra 11
+    7. Tatra 13
+    8. Tatra 22
+    9. Tatra 23/64
+    10. Tatra 23/80
+    11. Tatra 24/58
+    12. Tatra 24/59
+    13. Tatra 24/64
+    14. Tatra 24/67
+    15. Tatra T24 sp.1
+    16. Tatra 25
+    17. Tatra 26/30
+    18. Tatra 27
+    19. Tatra 27A
+    20. Tatra 27B
+    21. Tatra 28
+    22. Tatra 28A
+    23. Tatra 29
+    24. Tatra V377
+    25. Tatra 29
+    26. Tatra 72
+    27. Tatra 57A
+    28. Tatra 87
+    29. Tatra 72
+    30. Tatra 82
+    31. Tatra 84
+    32. Tatra 85
+    33. Tatra 92
+    34. Tatra V750
+    35. Tatra V799
+    36. Tatra V809
+    37. Tatra T18
+    38. Škoda Želva
+    39. Skoda PA-I
+    40. Skoda Armored Car PA-III/OA vz.27
+    41. OA vz.30
+    42. PA-I
+    43. Lehky Kanonovy Motorovy Vuz Pasovy
+    44. KH-50
+    45. KH-50
+    46. KH-60
+    47. KH-70
+    48. CKD TNSPE
+    49. CKD DT-I
+    50. CKD DT-II
+    51. CKD DT-III
+    52. MT-6
+    53. ČKD F-IV-H/II
+    54. ČKD V-8-H
+    55. ČKD V-8-H-II
+    56. ČKD V-8-H-Sv
+    57. CKD AH-IV
+    58. CKD AH-IV-Sv
+    59. CKD MT
+    60. Skoda L
+    61. Skoda 6L
+    62. Skoda 6V
+    63. Skoda 6S
+    64. Skoda 6K
+    65. Skoda H
+    66. Skoda 6ST6-T
+    67. Skoda 6STP6-L
+    68. Škoda ŠET
+    69. Škoda SU
+    70. Skoda PA-II Delovy
+    71. Skoda Fiat-Torino
+    72. Skoda T-15
+    73. Skoda T-15A
+    74. Skoda T-15B
+    75. Skoda T-15S
+    76. Skoda T-16
+    77. Skoda T-25
+    78. Skoda LKMVP
+    79. Skoda Z
+    80. S-I-j
+    81. S-I-d
+    82. S-II-b
+    83. S-II-c (T-21)
+    84. P-II-b
+    85. SP-II-b
+    86. R-2-a (T-11)
+    87. T-III
+    88. MU-2
+    89. MU-4
+    90. MU-6
+    91. MT-6
+    92. P-I (Tancil vz. 33)
+    93. Prague RN
+    94. Prague RV
+    95. Praga L
+    96. TNH
+    97. TNH-S
+    98. TNH-Sv
+    99. TNH-P
+    100. LTP
+    101. LTH
+    102. LTL
+    103. LLT
+    105. LTS-40
+    106. LTH
+    107. LT vz.34
+    108. LT vz.35
+    109. ST vz.39
+    110. PUV vz. 36
+    111. PUV vz. 37 37
+    112. 3.7 cm Skoda vz 37KRUV(M)
+    113. Vz. 24
+    114. Tatra 110
     1. Prague AV
     2. Prague RN
     3. Prague RND
@@ -6742,6 +7600,393 @@
 1. P16 Kegresse
 1. Panhard 178
     1. Terrot 350
+    2. Terrot 500
+    3. Terrot 750
+    4. Gnome-et-Rhone
+    5. Gnome-Rhone AX2 modèle 1937
+    6. Gnome-Rhone AX2 modèle 1937
+    7. VP Véhicule Pommelet
+    8. Bedford 15 cwt truck with Boyes
+    9. 2 ton tractor VM
+    10. Berliet CBA
+    11. Berliet VD
+    12. Berliet VS
+    13. Berliet VUB type L
+    14. Berliet VUR БА
+    15. Berliet VURB
+    16. Berliet VURB-2
+    17. Berliet VURL
+    18. Berliet VURD
+    19. Berliet VUCM
+    20. Berliet GDM
+    21. Berliet GDR
+    22. Berliet GDR
+    23. Berliet GDR-7
+    24. Berliet GDR-22
+    25. Berliet GDRA
+    26. Berliet GPE
+    27. Berliet GPF-3
+    28. Berliet GPE-2
+    29. Berliet GPE-3
+    30. Berliet GPE-4
+    31. Berliet VUCT
+    32. Berliet VPD
+    33. Berliet VPB
+    34. Berliet VPR
+    35. Berliet VPM
+    36. Berliet VURL
+    37. Berliet VDCT
+    38. Bernard TT4
+    39. Latill KTL
+    40. Latill KTL-4
+    41. Latill M-2TL6
+    42. Latill M-7T1
+    43. Latill M-7Z1
+    44. Laffly S-14TOE
+    45. Laffly 15TOE
+    46. Laffly S-20TL
+    48. Laffly S-20TL PC
+    50. Laffly S-20TL Colonies
+    51. Laffly S-25T
+    52. Laffly S-35С
+    53. Laffly S-35T
+    54. Laffly S-45T
+    55. Laffly R-15
+    56. Laffly V-15R
+    57. Laffly V-15T
+    58. Laffly W-15T
+    59. Laffly V-10
+    60. Laffly V-10M
+    61. Licorne V15R
+    62. Hotchkiss L-480
+    63. Hotchkiss W-15T
+    64. Hotchkiss W-15R
+    65. Hotchkiss W-15TCC
+    66. Licorn V-15T
+    67. Licorn V-15R
+    68. Bernard DI-6C
+    69. Bernard TT-4
+    70. Willeme D-9
+    71. Willeme DU-10
+    72. Willeme DU-12
+    73. Willeme DG-12
+    74. Willeme R-15
+    75. Willeme DW-12A
+    76. Willeme CA7
+    77. Delahaye 140
+    78. Delahaye 103
+    79. Sauer 3CT1-M1
+    80. Latil M-1B
+    81. Latil M-2B
+    82. Latil B1
+    83. Latil B6
+    84. Latil FB-6
+    85. Latil V-3
+    86. Latil H-2
+    87. Latil M-4TX РЭМ
+    88. Laffly 120CBL
+    89. Laffly LC-2
+    90. Matford F817T
+    91. Matford F817TS
+    92. Matford F817WS
+    93. Matford F917T
+    94. Matford F917WS
+    95. Matford F19A
+    96. Panhard-Levassor K-91
+    97. Panhard-Levassor K-113
+    98. Panhard-Levassor K-101
+    99. Panhard-Levassor K-125
+    100. Panhard-Levassor K-128
+    101. Panhard K3,5
+    102. Peugeot DK-5J
+    103. Peugeot DK-5
+    104. Peugeot DMA
+    105. Peugeot 208 A Chainrall
+    106. Peugeot 402B
+    107. Peugeot-Kegresse
+    108. Renault AFB
+    109. Renault ADH
+    110. Renault VT
+    111. Renault VT6
+    112. Renault UD-6AE
+    113. Renault ABF
+    114. Renault AGP
+    115. Renault AGC
+    116. Renault AGR
+    117. Renault AGK
+    118. Renault AGT
+    119. Renault AIB
+    120. Renault ADV
+    121. Renault ADR
+    122. Renault AFB
+    123. Renault AFD-1
+    125. Renault AHS
+    126. Renault AHN
+    127. Renault AHR
+    128. Renault MH
+    129. Renault TI-4AE
+    130. Renault TN-4
+    131. Renault OS
+    132. Rochet-Schneider 355
+    133. Rochet-Schneider 420VLES
+    134. Rochet-Schneider 425
+    135. Rochet-Schneider 455
+    136. Lorrein 72
+    137. Lorrein 28 TFS
+    138. Lorrein 25/58
+    139. Lorrein 155
+    140. Lorrein 75
+    141. Tempo G1200
+    142. Rochet-Schneider 420VLES
+    143. Citroën 23U
+    144. Citroën 23LU
+    145. Citroën T-11
+    146. Citroën T-23
+    147. Citroën T-32U
+    148. Citroën T-45
+    149. Citroën TAMH
+    150. Citroën Tracteur W15T
+    151. Citroën Marmon type 23
+    152. FAR UT
+    153. FAR 22X
+    154. FAR CM-62
+    155. FAR TT-3
+    156. Ford-France F91Z
+    157. Ford-France F19W
+    158. Ford-France F997WS
+    159. Ford-France FG198TS
+    160. Ford-France FG198TG
+    161. Ford-France F198TM
+    162. Unic S-20
+    163. Unic S-27
+    164. Unic SU-55
+    165. Unic SU-75
+    166. Unic ZU-55
+    167. Unic P-107B
+    168. Unic P-107BU
+    169. Unic P-107U1
+    171. SOMUA MCG-4
+    172. SOMUA MCG-5
+    173. SOMUA MCG-11
+    174. SOMUA M-6CG5
+    175. SOMUA 22CGT11
+    176. SOMUA MCL-5
+    178. SOMUA MCL-11
+    179. SOMUA MCL-6
+    180. SOMUA MSCL-6
+    181. SOMUA Coder
+    182. SOMUA MCJ
+    183. SOMUA AM 1938
+    184. Citroën-Kongress  P-10
+    185. Citroën-Kongress P-7bis
+    186. Citroën-Kongress P-14
+    187. Citroën-Kongress P-17
+    188. Citroën-Kongress P-16
+    189. Citroën-Kongress P-19
+    191. Citroën-Kongress P-19B
+    192. Citroën-Kongress P-19 VDP
+    193. Citroën-Kongress P-26
+    194. Citroën-Kongress P-28
+    195. Citroën-Kongress P-107
+    196. Citroën-Kongress P-112
+    197. Batignoles-Chatillon
+    198. Berliet VUDB
+    199. Berliet VUDB-4
+    200. Berliet VPC
+    201. Berliet VUM
+    202. Berliet VPRM
+    203. Renault URK
+    204. Renault SK
+    205. Laffli 50AM
+    206. Laffli 80AM
+    207. Laffly W 15 TCC
+    208. Laffly S 15
+    209. SOMUA-Gerdon AMR-39
+    210. Panhard AM40-P
+    211. Panard-Levassor 138 AM-138
+    212. Panard-Levassor 165 AMD-165
+    213. Panard-Levassor 175 AMD-175
+    214. Panard-Levassor 178 AMD-178
+    215. Panard-Levassor 178B
+    216. Panard-Levassor 179
+    217. Panard-Levassor 201
+    218. Résistance Léger Char Lorraine 37L
+    219. Lorraine 37L
+    222. Chasseur de chars Lorraine 37L
+    223. Lorraine 39 chasseur du chars
+    224. Lorraine 39L VBCP
+    225. Renault VE (type P)
+    226. Renault VM
+    227. Renault YS
+    228. Renault NC31
+    229. Renault NC31M
+    230. Renault ZM
+    231. Renault ADF1
+    232. Renault UR Type K
+    233. Renault URL
+    234. Renault SK
+    238. Renault FT-17
+    235. Renault UE
+    236. Renault UE anti-tank armored carrier (25 mm gun)
+    237. Renault FT-17
+    239. Renault FT-17 ST1
+    240. Renault FT-17 Longuevernhe St.Shamond-Gtanat
+    241. Renault FT-17
+    242. Renault FT-17
+    243. Renault FT-18
+    244. Citroen P103
+    245. Citroen-Kegresse P-104
+    246. Citroen-Kegresse P-112
+    247. AMD Chevrolet Thornton armored-car
+    248. Latil
+    249. SRB
+    250. Chenilette St-Chamond M1921
+    251. Chenilette St-Chamond M1924
+    252. Chenilette St-Chamond M1924
+    253. Chenilette St-Chamond M1926
+    254. Chenilette St-Chamond M1928
+    255. Schneider Laurent
+    256. BATIGNOLLES-CHATILLON DP 2
+    257. NC1
+    258. NC3
+    259. AMX 38
+    260. AMX 40
+    261. Prototype de l'AMX R40
+    262. AMD 35
+    263. AMD 35
+    264. AMD Chevrolet Thornton
+    265. AMD Chevrolet Thornton
+    266. AMD Chevrolet Thornton
+    267. AMD Chevrolet Thornton
+    268. AMD Chevrolet Thornton
+    269. AMD Chevrolet Thornton
+    270. AMX Tracteur C
+    271. AMR 33 VM
+    272. AMR 35 ZT
+    273. AMR ZT3 avec
+    274. AMR Gendron Somua 39
+    275. AMC 34YR
+    276. AMC 35
+    277. АМС Р16
+    278. AMD 35
+    279. AUTO MITRAILLEUSE CDM
+    280. R-35
+    284. R-40
+    285. H-35
+    286. Char Leger H35 H1
+    287. H-38
+    288. H-39
+    290. FCM 21
+    291. FCM 36
+    292. FSM 2C
+    293. SRA
+    294. SRB
+    295. ARL-40
+    296. ACL-135 САУ
+    297. Sau40
+    298. FAMH
+    299. Citroen P103
+    300. G-1B
+    301. G-1F
+    302. G-1L
+    303. G-1P
+    304. G-1R
+    305. D Char
+    306. D1A
+    307. D1B
+    308. D2
+    309. F1 Char
+    310. S-35
+    311. S-35 Känguru
+    312. 1938 AM SOMUA
+    313. S-40
+    314. AMX-38
+    315. B1
+    316. B1bis
+    318. B1ter
+    319. Prototype du B1bis équipé d'un 75 mm puissant
+    320. FMC 1A
+    321. FMC 1B
+    322. FMC 2C
+    323. Char 3C
+    324. SAV-41
+    325. SAV-AU-41
+    327. SAV-41 Hippo
+    328. SAV-41 Bobine
+    329. SAV-41 Crab
+    330. SAV-41 Dozer
+    331. SAV-41 Petard
+    332. SAV-41 Crocodile
+    333. SAV-42 Bélier I
+    334. SAV-42 Bélier II
+    335. SAV-42 Bélier III
+    336. SAV-42 Bélier IV
+    337. SAV-AU-42 tank destroyer
+    338. SAV-TT-42 Bélier-Kangourou
+    339. SAV-AU-42/90 tank destroyer
+    340. Char-Seam
+    341. Char 2C Bis
+    342. La Rochelle
+    343. Joseph Camaret
+    344. Joseph Camaret II
+    345. Vechicule Pommelet
+    347. White Laffly
+    351. M3 White
+    352. M7-F2 light tank
+    353. M11
+    354. M38-F1
+    355. M38-F2
+    356. Char léger M2A4
+    357. ARAL 12 AU-81-42
+    358. ARAL 12 VDA-43
+    359. ARAL VTT12-43
+    360. Half-track AU-75 mod.41/42
+    361. Half-track AU-AC-47 mod.41
+    362. Char léger M3-F1
+    363. Humber amored car
+    364. Machine de guerre
+    365. 47 mm APX SA-L Mle.37
+    366. Hotchkiss CA mle.39
+    367. 25 CA-40 anti-aircraft 25 mm gun
+    368. Canone de 25 SA 25 мм
+    369. Canone de 25 SA 25 мм
+    370. Canone de 25 SA 25 мм modele 1937  Puteaux
+    371. Canone 47 antichar SA Mle 1939
+    372. 28/20 mm Larsen
+    373. GPF
+    374. GPF-CA
+    375. GPF-T
+    1. Char B1
+    1. Char B bis
+    1. Char B1 REIMS
+    1. Char B1 bis
+    1. Hotchkiss H38 39
+    1. St. Chamond
+    1. Schneider 155C
+    1. Schneider CA
+    1. Panhard 178
+    1. H38 39
+    1. Lorraine 38L VBCP
+    1. Char St. Chamond
+    1. Char St. Chamond
+    1. AMD Panhard 178
+    1. FT-17
+    1. Somua S35
+    1. Schneider CA1
+    1. Schneider CA-1
+    1. B1bis
+    1. Char B1bis
+    1. FT-17
+    1. FT-17
+    1. Char FCM 2C
+    1. Char Saint Chamond
+    1. Renault R-39
+    1. Renault R-40
+    1. Char B en uso Aleman
+1. Char B1 Bis
+1. P16 Kegresse
+1. Panhard 178
+    1. Terrot 350
     2. Terrot 500 
     3. Terrot 750
     4. Gnome-et-Rhone
@@ -7174,6 +8419,24 @@
     7. R35/45
     8. Malaxa EC
     9. Maresal
+    1. R-1
+    2. R-2
+    3. TACAM R-2
+    4. TACAM T-60
+    5. Panzerjager Pz 35t/r-2 Tacam
+    6. Vanatorului de care R35
+    7. R35/45
+    8. Malaxa EC
+    9. Maresal
+    1. R-1
+    2. R-2
+    3. TACAM R-2
+    4. TACAM T-60
+    5. Panzerjager Pz 35t/r-2 Tacam
+    6. Vanatorului de care R35
+    7. R35/45
+    8. Malaxa EC
+    9. Maresal
 
 
        Australia
@@ -7298,11 +8561,88 @@
     56. Czołg ciezki
     57. Stridsvagn m/42
     58. Kubus
-    59. R
+    1. Sokol
+    2. Ford Tfc
+    3. Polski-FIAT Lazik
+    1. 7TP Light Tank
+    4. Polski-FIAT wz.36
+    1. 7TP Light Tank
+    5. Polski-FIAT Mazur
+    6. Polski-FIAT Tur
+    7. Polski-FIAT C4P
+    1. 7TP Vickers Light Tank
+    8. Polski-FIAT wz.34
+    9. Polski-FIAT 62IL
+    10. Ursus A30
+    11. PZInż. 130
+    12. PZInż.140
+    13. PZInż.152
+    14. PZInż.150
+    15. PZInż.152
+    16. PZInż.160
+    17. PZInż. 202
+    18. PZInż. 222
+    19. PZInż. 302
+    20. PZInż. 303
+    21. PZInż. 312
+    22. PZlnz. 342
+    23. PZInż. 343
+    24. PZInż. 508/518
+    25. WB-3
+    26. WB-10
+    27. АТ-1
+    28. С2Р
+    29. С7P
+    30. wz.28
+    32. wz.29
+    33. wz.31/33 Ursus
+    34. wz.34
+    35. Renault FT-17 CWS
+    36. TK-1
+    37. TK-2
+    38. TK-3
+    39. TKS
+    40. TKS-D
+    41. TKD
+    42. WB-10
+    43. 4TP
+    44. 7TP
+    45. 10TP
+    46. 14TP
+    47. 25TP
+    48. Vickers E wz. 95
+    50. Czołg średni KSUST
+    51. Czołg średni BBT. Br. Panc
+    52. Czołg średni BBT. Br. Panc
+    53. Czołg średni DS PZlzn
+    54. Czołg ciezki  B.U.G.I
+    55. Czołg ciezki
+    56. Czołg ciezki
+    57. Stridsvagn m/42
+    58. Kubus
+
 
 
 
        Finland
+    1. PstK 57/76
+    2. Oy Sisu Auto Ab
+    3. Sisu 321
+    4. Sisu SH-6
+    14. 105 H/33
+    15. 105 H/33-40
+    16. 122 H/09-30
+    17. 152 H/30
+    18. 114 H 18
+    1. PstK 57/76
+    2. Oy Sisu Auto Ab
+    3. Sisu 321
+    4. Sisu SH-6
+    14. 105 H/33
+    15. 105 H/33-40
+    16. 122 H/09-30
+    17. 152 H/30
+    18. 114 H 18
     1. PstK 57/76
     2. Oy Sisu Auto Ab
     3. Sisu 321
@@ -7442,10 +8782,50 @@
     45. Nash-Quad
     47. MC-36 БА
     51. FAI-CNT
-    52.Бильбао
+
 
 
        Belgium
+    1. FN Coloniale
+    2. FN Kengress
+    3. FN 63C
+    4. FN 63P
+    5. FN 42F
+    6. FN Tricar
+    7. FN 1000
+    8. FN M86
+    9. Brussel TAL
+    10. Т13
+    11. T13B3
+    12. T15
+    13. Berliet VUDB
+    14. Zugtraktor
+    15. БА Ehrhardt
+    1. Minerva Armoured Car
+    16. Carden-Loyd Mark VI SA-FRC.
+    17. GP 1.
+    18. GP 11.
+    19. GP 111.
+    1. FN Coloniale
+    2. FN Kengress
+    3. FN 63C
+    4. FN 63P
+    5. FN 42F
+    6. FN Tricar
+    7. FN 1000
+    8. FN M86
+    9. Brussel TAL
+    10. Т13
+    11. T13B3
+    12. T15
+    13. Berliet VUDB
+    14. Zugtraktor
+    15. БА Ehrhardt
+    1. Minerva Armoured Car
+    16. Carden-Loyd Mark VI SA-FRC.
+    17. GP 1.
+    18. GP 11.
+    19. GP 111.
     1. FN Coloniale
     2. FN Kengress
     3. FN 63C

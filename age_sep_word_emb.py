@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D, SeparableConv1D
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
@@ -164,7 +164,7 @@ print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 model = Sequential()
 model.add(Embedding(vocab_size, output_dim= 1000, input_length=max_len, trainable=True))
 
-model.add(Conv1D(512, 5, activation='relu'))
+model.add(SeparableConv1D(512, 5, activation='relu'))
 model.add(GlobalMaxPool1D())
 
 #model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
@@ -188,7 +188,7 @@ print(score, acc)
 
 prediction = model.predict(testX)
 prediction = prediction.argmax(axis=1)
-print(classification_report(testY.argmax(axis=1), prediction, target_names=labels))
+print(classification_report(testY.argmax(axis=1), prediction))
 
 
 plt.style.use("ggplot")

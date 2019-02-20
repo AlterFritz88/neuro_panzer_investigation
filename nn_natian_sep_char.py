@@ -3,7 +3,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D, GlobalAveragePooling1D
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, SeparableConv1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D, GlobalAveragePooling1D
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
@@ -22,7 +22,7 @@ import re
 def has_cyrillic(text):
     return bool(re.search('[а-яА-Я]', text))
 
-train = 0  # 1 = modern    0 = wwii
+train = 1  # 1 = modern    0 = wwii
 
 if train == 0:
     path = 'spisok'
@@ -67,11 +67,13 @@ with open(path, 'r') as file:
                 data_dict[sent_st] = len(labels)
                 data.append(sent_st)
                 label.append(len(labels))
+                print(labels[len(labels)-1])
                 continue
             data_dict[line[:-1]] = len(labels)
             data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
             # data.append(line[:-1])
             label.append(len(labels))
+            print(labels[len(labels)-1])
         #if len(labels) != 1 and len(labels) != 8 and len(labels) != 49 and len(labels) != 10:
         if train == 0:
             if len(labels) != 2 and len(labels) != 7:
@@ -96,6 +98,7 @@ with open(path, 'r') as file:
 
 
 
+print(labels)
 data_string = ''
 max_len = 0
 for i in data:
@@ -136,11 +139,12 @@ model.fit(trainX, trainY)
 y_pred = model.predict(testX)
 print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 
+'''
 gnb = GaussianNB()
 gnb.fit(trainX, trainY)
 y_pred = gnb.predict(testX)
 print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
-
+'''
 
 
 # neural network
@@ -152,7 +156,7 @@ print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 model = Sequential()
 model.add(Embedding(vocab_size, output_dim= 1000, input_length=max_len, trainable=True))
 model.add(Dropout(0.2))
-model.add(Conv1D(512, 5, padding='same', activation='relu'))
+model.add(SeparableConv1D(512, 5, padding='same', activation='relu'))
 model.add(GlobalMaxPool1D())
 
 #model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
@@ -171,7 +175,7 @@ epochs = 15
 checpoint = ModelCheckpoint('models/{0}_names.h5f'.format(model_name), monitor='val_loss', save_best_only=True, verbose=1)
 callbacks = [checpoint]
 
-#H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), callbacks=callbacks, verbose=1)
+H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), callbacks=callbacks, verbose=1)
 
 model = load_model('models/{0}_names.h5f'.format(model_name))
 score, acc = model.evaluate(testX, testY)

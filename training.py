@@ -23,7 +23,7 @@ class SimplePreprocessor:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         return image
 
-dataset_path = 'dataset'
+dataset_path = 'tank_not_tank'
 
 data = []
 labels = []
@@ -79,7 +79,7 @@ trainX = np.array(trainX, dtype="float") / 255.0
 testX = np.array(testX, dtype="float") / 255.0
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, BatchNormalization
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, BatchNormalization, SeparableConv2D
 from keras.layers.convolutional import MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
@@ -88,7 +88,7 @@ from keras.optimizers import SGD, Adam
 l2s = [0.005, 0.01, 0.001, 0.0005,  0.00005, 0.00001]
 answers = []
 
-epochs = 20
+epochs = 7
 
 
 def model1():
@@ -97,48 +97,46 @@ def model1():
     l1_r = 1e-06
     model = Sequential()
 
-    model.add(Conv2D(16, (7, 7), padding="same",
+    model.add(SeparableConv2D(16, (7, 7), padding="same",
                 kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul),
                 input_shape=(92, 92, 1)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
+
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 
-    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
@@ -210,7 +208,7 @@ aug = ImageDataGenerator(width_shift_range=[-0.2, 0, +0.2],
 
 model = model1()
 
-H = model.fit_generator(aug_for_all.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
+H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
 
 
 

@@ -11,7 +11,12 @@ from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 from keras.regularizers import l2, l1, l1_l2
 
-
+import tensorflow as tf
+'''
+config = tf.ConfigProto()
+config.gpu_options.per_process_gpu_memory_fraction = 0.8
+session = tf.Session(config=config)
+'''
 
 class SimplePreprocessor:
     def __init__(self, width, height, inter=cv2.INTER_AREA):
@@ -23,7 +28,7 @@ class SimplePreprocessor:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         return image
 
-dataset_path = 'tank_not_tank'
+dataset_path = 'dataset'
 
 data = []
 labels = []
@@ -66,7 +71,7 @@ with open('models/{0}_dict_labels'.format(dataset_path), 'w') as file:
     for key, value in label_dict.items():
         file.write(key + ' ' + str(value) + '\n')
 
-trainX, testX, trainY, testY = train_test_split(data, labels, test_size = 0.5, random_state = 42, stratify=labels)
+trainX, testX, trainY, testY = train_test_split(data, labels, test_size = 0.25, random_state = 42, stratify=labels)
 
 # convert the labels from integers to vectors
 test_Y_nc = testY  #для сохраненния на диск проб
@@ -84,76 +89,94 @@ from keras.layers.convolutional import MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
 from keras.optimizers import SGD, Adam
+from keras.constraints import maxnorm
 
 l2s = [0.005, 0.01, 0.001, 0.0005,  0.00005, 0.00001]
 answers = []
 
-epochs = 7
+epochs = 12
 
 
 def model1():
     lr = 0.01
-    l2_regul = 0.001
+    l2_regul = 0.000001
     l1_r = 1e-06
     model = Sequential()
 
     model.add(SeparableConv2D(16, (7, 7), padding="same",
-                kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul),
+
                 input_shape=(92, 92, 1)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.2))
+    model.add(
+        SeparableConv2D(16, (7, 7), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.2))
+    model.add(
+        SeparableConv2D(16, (7, 7), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.2))
+    model.add(SeparableConv2D(32, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.2))
+    model.add(SeparableConv2D(32, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.2))
+    model.add(SeparableConv2D(32, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.2))
+    model.add(SeparableConv2D(32, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
+    model.add(Dropout(0.2))
+
 
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 
-    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(SeparableConv2D(64, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.3))
+    model.add(SeparableConv2D(64, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dropout(0.3))
+    model.add(SeparableConv2D(64, (3, 3), padding="same"))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(SeparableConv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
+    model.add(Dropout(0.3))
+
+
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
+    model.add(
+        SeparableConv2D(128, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.4))
+    model.add(
+        SeparableConv2D(128, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.4))
 
-
-
-
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 
     model.add(Flatten())
-    model.add(Dense(256, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dense(512))
     model.add(Activation("relu"))
 
 
     model.add(BatchNormalization())
-    #model.add(Dropout(0.5))
+    model.add(Dropout(0.5))
 
     # softmax classifier
     model.add(Dense(number_labels))
@@ -161,37 +184,66 @@ def model1():
 
     opt = SGD(lr=lr, decay=lr / epochs, momentum=0.9, nesterov=True)  # decay=0.003/epochs
     ad = Adam(lr=lr, decay=lr / epochs)
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
+    model.compile(optimizer=ad, loss='binary_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
     return model
 
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.constraints import maxnorm
 def model2():
-    lr = 0.05
+    lr = 0.1
     model = Sequential()
-    model.add(Convolution2D(32, 3, 3, input_shape=(64, 64, 3), border_mode='same', activation='relu', W_constraint=maxnorm(3)))
+    model.add(SeparableConv2D(32, (3, 3), padding="same",
+                              input_shape=(92, 92, 1)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
-    model.add(Convolution2D(32, 3, 3, border_mode='same', activation='relu',
-                            W_constraint=maxnorm(3)))
-    model.add(Convolution2D(32, 3, 3, border_mode='same', activation='relu',
-                            W_constraint=maxnorm(3)))
+    model.add(
+        SeparableConv2D(32, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
-    model.add(Convolution2D(32, 3, 3, border_mode='same', activation='relu',
-                            W_constraint=maxnorm(3)))
+    model.add(
+        SeparableConv2D(32, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
-    model.add(Convolution2D(32, 3, 3, border_mode='same', activation='relu',
-                            W_constraint=maxnorm(3)))
-    model.add(Dropout(0.2))
-    model.add(MaxPooling2D(pool_size=(2,2)))
-    model.add(BatchNormalization(axis=-1))
+
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+
+
+
+
+    model.add(
+        SeparableConv2D(64, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.4))
+    model.add(
+        SeparableConv2D(64, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.4))
+    model.add(
+        SeparableConv2D(64, (3, 3), padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.4))
+
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    # softmax classifier
     model.add(Flatten())
-    model.add(Dense(512, activation='relu', W_constraint=maxnorm(3)))
-    model.add(BatchNormalization(axis=-1))
+    model.add(Dense(512))
+    model.add(Activation("relu"))
+
+    model.add(BatchNormalization())
     model.add(Dropout(0.5))
     model.add(Dense(number_labels))
     model.add(Activation("softmax"))
+
     opt = SGD(lr=lr, decay=lr / epochs, momentum=0.9, nesterov=True)  # decay=0.003/epochs
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''
+    ad = Adam(lr=lr, decay=lr / epochs)
+    model.compile(optimizer=ad, loss='categorical_crossentropy',
+                  metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
     return model
 
 checpoint = ModelCheckpoint('models/{0}_test.h5f'.format(dataset_path), monitor='val_loss', save_best_only=True, verbose=1)
@@ -206,9 +258,9 @@ aug = ImageDataGenerator(width_shift_range=[-0.2, 0, +0.2],
     horizontal_flip=True, fill_mode="constant")
 
 
-model = model1()
+model = model2()
 
-H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 3, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
+H = model.fit_generator(aug.flow(trainX, trainY, batch_size=72), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 5, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
 
 
 

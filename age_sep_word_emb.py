@@ -3,9 +3,10 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D, SeparableConv1D
+from keras.layers import Dense, Conv2D, Flatten, Activation, Dropout, GlobalMaxPooling1D, Conv1D, Embedding,BatchNormalization, GlobalMaxPool1D, CuDNNLSTM, Bidirectional, LSTM, MaxPooling1D, SeparableConv1D
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
+from keras.regularizers import l2, l1, l1_l2
 
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
@@ -108,7 +109,7 @@ with open('modern_tech', 'r') as file:
         data.append(translit(u"{}".format(line[:-1]), "ru", reversed=True))
         label.append(1)
 labels = ['WWII', 'Modern']
-print('дфиудыэб', labels)
+
 
 '''
 for i in range(len(label)):
@@ -140,15 +141,36 @@ vocab_size = len(mapping)
 print(vocab_size)
 
 padded = pad_sequences(coded, maxlen=max_len, padding='post')
-print(padded[1])
-#padded = padded * 10
-print(padded[1])
 n_label = np.array(label)
 
-trainX, testX, trainY, testY = train_test_split(padded, n_label, test_size = 0.25, random_state = 42, stratify=n_label)
-
+trainX, testX, trainY, testY = train_test_split(data, n_label, test_size = 0.2, random_state = 40, stratify=n_label)
+test_Y_nc = testY
 trainY = to_categorical(trainY, num_classes=len(labels))
 testY = to_categorical(testY, num_classes=len(labels))
+
+testX_nc = testX
+
+
+coded = []
+for word in trainX:
+    encoded_seq = [mapping[char] for char in word]
+    coded.append(encoded_seq)
+
+vocab_size = len(mapping)
+
+
+trainX = pad_sequences(coded, maxlen=max_len, padding='post')
+
+
+coded = []
+for word in testX:
+    encoded_seq = [mapping[char] for char in word]
+    coded.append(encoded_seq)
+vocab_size = len(mapping)
+
+
+testX = pad_sequences(coded, maxlen=max_len, padding='post')
+print(trainX.shape)
 
 
 
@@ -160,22 +182,30 @@ print('accuracy RR %s' % metrics.accuracy_score(y_pred, testY))
 
 # neural network
 
-
+l2_regul = 0.000000001
 model = Sequential()
 model.add(Embedding(vocab_size, output_dim= 1000, input_length=max_len, trainable=True))
+model.add(Dropout(0.2))
+model.add(BatchNormalization())
 
-model.add(SeparableConv1D(512, 5, activation='relu'))
+model.add(SeparableConv1D(512, 5, activation='relu', kernel_regularizer=l1(l2_regul)))
+model.add(Dropout(0.2))
+model.add(BatchNormalization())
 model.add(GlobalMaxPool1D())
-
+model.add(Dropout(0.2))
+model.add(BatchNormalization())
 #model.add(Bidirectional(CuDNNLSTM(128, return_sequences=False)))
-model.add(Dropout(0.3))
-model.add(Dense(units=256, activation='relu'))
+model.add(Dropout(0.4))
+model.add(BatchNormalization())
+model.add(Dense(units=256, activation='relu', kernel_regularizer=l1(l2_regul)))
+model.add(Dropout(0.5))
+model.add(BatchNormalization())
 
 model.add(Dense(2))
 model.add(Activation("softmax"))
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-epochs = 10
+epochs = 50
 checpoint = ModelCheckpoint('models/age_names.h5f', monitor='val_loss', save_best_only=True, verbose=1)
 callbacks = [checpoint]
 
@@ -202,3 +232,20 @@ plt.xlabel("Epoch #")
 plt.ylabel("Loss/Accuracy")
 plt.legend()
 plt.savefig('graph_text')
+
+
+y_probs = model.predict(testX)
+
+# Get predicted labels for test dataset
+y_preds = y_probs.argmax(axis=1)
+
+
+# Indices corresponding to test images which were mislabeled
+
+
+bad_test_idxs = np.where(testY!=y_preds)
+
+for i in range(len(testY)):
+    if test_Y_nc[i] != y_preds[i]:
+        print(testX_nc[i])
+        print(test_Y_nc[i], y_preds[i])

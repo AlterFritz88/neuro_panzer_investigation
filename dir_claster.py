@@ -18,9 +18,9 @@ from get_char import *
 '''
 model = load_model('models/tank_not_tank_test.h5f')
 li_dir = os.listdir(path="truck-link/sample")
-print(li_dir)
+
 li_dir_new = [i[:17] if len(i) > 15 else i for i in li_dir]
-print(li_dir)
+
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(li_dir)
 

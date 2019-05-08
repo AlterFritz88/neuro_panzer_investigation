@@ -12,7 +12,7 @@ from keras.models import load_model
 max_len_wwii, chars_wwii, mapping_wwii, labels_wwii = get_params_wwii()
 max_len_modern, chars_modern, mapping_modern, labels_modern = get_params_modern()
 max_len_age, chars_age, mapping_age, labels_age = get_params_age()
-4
+
 model_age = load_model('models/age_names.h5f')
 model_wwii = load_model('models/wwii_names.h5f')
 model_modern = load_model('models/modern_names.h5f')
@@ -50,7 +50,10 @@ with open('modern_tech', 'r') as file:
 
 #c 8000 to 11026
 
-for model_page in range(6709, 11500, 1):
+
+#вроде всё выкачал
+
+for model_page in range(7965, 8000, 1):
     print(model_page)
 
     url = "https://www.track-link.com/gallery/{}".format(model_page)

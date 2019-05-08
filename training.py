@@ -32,7 +32,7 @@ dataset_path = 'dataset'
 
 data = []
 labels = []
-preproc = SimplePreprocessor(92,92)
+preproc = SimplePreprocessor(64,64)
 # grab the image paths and randomly shuffle them
 imagePaths = sorted(list(paths.list_images(dataset_path)))
 images_naturals = []
@@ -94,7 +94,7 @@ from keras.constraints import maxnorm
 l2s = [0.005, 0.01, 0.001, 0.0005,  0.00005, 0.00001]
 answers = []
 
-epochs = 12
+epochs = 70
 
 
 def model1():
@@ -190,59 +190,69 @@ def model1():
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.constraints import maxnorm
 def model2():
-    lr = 0.1
+    l2_regul = 0.005
     model = Sequential()
-    model.add(SeparableConv2D(32, (3, 3), padding="same",
-                              input_shape=(92, 92, 1)))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.2))
-    model.add(
-        SeparableConv2D(32, (3, 3), padding="same"))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.2))
-    model.add(
-        SeparableConv2D(32, (3, 3), padding="same"))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.2))
+    model.add(Conv2D(16, (7, 7), padding="valid",
+                     kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul),
+                     input_shape=(64, 64, 1)))
 
+    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    model.add(Dropout(0.1))
 
-
-
-
-    model.add(
-        SeparableConv2D(64, (3, 3), padding="same"))
+    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.4))
-    model.add(
-        SeparableConv2D(64, (3, 3), padding="same"))
+    model.add(BatchNormalization(axis=-1))
+    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.4))
-    model.add(
-        SeparableConv2D(64, (3, 3), padding="same"))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.4))
-
+    model.add(BatchNormalization(axis=-1))
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
-    # softmax classifier
+    model.add(Dropout(0.1))
+
+    model.add(Conv2D(128, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+    model.add(Conv2D(128, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+    #model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    model.add(Dropout(0.2))
+    model.add(Conv2D(256, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+    model.add(Conv2D(256, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+    model.add(Dropout(0.25))
+    model.add(Conv2D(512, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+
+    #model.add(Conv2D(512, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    #model.add(Activation("relu"))
+    #model.add(BatchNormalization(axis=-1))
+    model.add(Dropout(0.25))
+
     model.add(Flatten())
-    model.add(Dense(512))
+    model.add(Dense(32, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-
     model.add(BatchNormalization())
-    model.add(Dropout(0.5))
+    model.add(Dropout(0.4))
+
+
+
+
     model.add(Dense(number_labels))
     model.add(Activation("softmax"))
 
-    opt = SGD(lr=lr, decay=lr / epochs, momentum=0.9, nesterov=True)  # decay=0.003/epochs
-    ad = Adam(lr=lr, decay=lr / epochs)
-    model.compile(optimizer=ad, loss='categorical_crossentropy',
+    opt = SGD(lr=0.005, decay=0.005/epochs, momentum=0.9, nesterov=True)
+
+    model.compile(optimizer=opt, loss='categorical_crossentropy',
                   metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
     return model
 
@@ -260,7 +270,7 @@ aug = ImageDataGenerator(width_shift_range=[-0.2, 0, +0.2],
 
 model = model2()
 
-H = model.fit_generator(aug.flow(trainX, trainY, batch_size=72), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 5, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
+H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 5, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
 
 
 

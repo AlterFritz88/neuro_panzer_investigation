@@ -28,7 +28,9 @@ class SimplePreprocessor:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         return image
 
-dataset_path = 'dataset'
+#dataset_path = "dataset"#'tank_not_tank'  data_side dataset
+dataset_path = '/media/alter/Новый том/dataset_neuro_panzer/dataset_later'
+data_dict = 'data_later'
 
 data = []
 labels = []
@@ -67,7 +69,7 @@ classTotals = to_categorical(labels, num_classes=number_labels).sum(axis=0)
 classWeight = classTotals.max() / classTotals
 
 print(labels)
-with open('models/{0}_dict_labels'.format(dataset_path), 'w') as file:
+with open('models/{0}_dict_labels'.format(data_dict), 'w') as file:
     for key, value in label_dict.items():
         file.write(key + ' ' + str(value) + '\n')
 
@@ -94,7 +96,7 @@ from keras.constraints import maxnorm
 l2s = [0.005, 0.01, 0.001, 0.0005,  0.00005, 0.00001]
 answers = []
 
-epochs = 70
+epochs = 60
 
 
 def model1():
@@ -156,22 +158,22 @@ def model1():
 
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
-    model.add(
-        SeparableConv2D(128, (3, 3), padding="same"))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.4))
-    model.add(
-        SeparableConv2D(128, (3, 3), padding="same"))
-    model.add(Activation("relu"))
-    model.add(BatchNormalization())
-    model.add(Dropout(0.4))
-
-    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    # model.add(
+    #     SeparableConv2D(128, (3, 3), padding="same"))
+    # model.add(Activation("relu"))
+    # model.add(BatchNormalization())
+    # model.add(Dropout(0.4))
+    # model.add(
+    #     SeparableConv2D(128, (3, 3), padding="same"))
+    # model.add(Activation("relu"))
+    # model.add(BatchNormalization())
+    # model.add(Dropout(0.4))
+    #
+    # model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 
     model.add(Flatten())
-    model.add(Dense(512))
+    model.add(Dense(32))
     model.add(Activation("relu"))
 
 
@@ -184,11 +186,13 @@ def model1():
 
     opt = SGD(lr=lr, decay=lr / epochs, momentum=0.9, nesterov=True)  # decay=0.003/epochs
     ad = Adam(lr=lr, decay=lr / epochs)
-    model.compile(optimizer=ad, loss='binary_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
+    model.compile(optimizer=ad, loss='categorical_crossentropy', metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
     return model
 
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.constraints import maxnorm
+
+
 def model2():
     l2_regul = 0.005
     model = Sequential()
@@ -198,25 +202,23 @@ def model2():
 
     model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    model.add(BatchNormalization(axis=-1))
+    model.add(BatchNormalization())
     model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    model.add(BatchNormalization(axis=-1))
+    model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
-    model.add(Dropout(0.1))
 
     model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization(axis=-1))
     model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    model.add(BatchNormalization(axis=-1))
+    model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
-    model.add(Dropout(0.1))
 
     model.add(Conv2D(128, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
-    model.add(BatchNormalization(axis=-1))
+    model.add(BatchNormalization())
     model.add(Conv2D(128, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization(axis=-1))
@@ -228,35 +230,63 @@ def model2():
     model.add(Conv2D(256, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization(axis=-1))
-    model.add(Dropout(0.25))
+    model.add(Dropout(0.2))
+
     model.add(Conv2D(512, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization(axis=-1))
 
-    #model.add(Conv2D(512, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
-    #model.add(Activation("relu"))
-    #model.add(BatchNormalization(axis=-1))
+    model.add(Conv2D(512, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
     model.add(Dropout(0.25))
 
     model.add(Flatten())
-    model.add(Dense(32, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Dense(8, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
     model.add(Activation("relu"))
     model.add(BatchNormalization())
-    model.add(Dropout(0.4))
-
-
-
+    model.add(Dropout(0.2))
 
     model.add(Dense(number_labels))
     model.add(Activation("softmax"))
 
-    opt = SGD(lr=0.005, decay=0.005/epochs, momentum=0.9, nesterov=True)
+    opt = SGD(lr=0.005, decay=0.005 / epochs, momentum=0.9, nesterov=True)
 
     model.compile(optimizer=opt, loss='categorical_crossentropy',
                   metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
     return model
+def model_tank_not_tank():
+    l2_regul = 0.005
+    model = Sequential()
+    model.add(Conv2D(16, (7, 7), padding="valid",
+                     kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul),
+                     input_shape=(64, 64, 1)))
+    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Conv2D(32, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(axis=-1))
+    model.add(Conv2D(64, (3, 3), padding="same", kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    model.add(Flatten())
+    model.add(Dense(8, kernel_initializer="he_normal", kernel_regularizer=l2(l2_regul)))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization())
+    model.add(Dense(number_labels))
+    model.add(Activation("softmax"))
+    opt = SGD(lr=0.005, decay=0.005/epochs, momentum=0.9, nesterov=True)
+    model.compile(optimizer=opt, loss='binary_crossentropy',
+                  metrics=['accuracy'])  # loss=binary_crossentropy''  categorical_crossentropy
+    return model
 
-checpoint = ModelCheckpoint('models/{0}_test.h5f'.format(dataset_path), monitor='val_loss', save_best_only=True, verbose=1)
+checpoint = ModelCheckpoint('models/{0}_test.h5f'.format(data_dict), monitor='val_loss', save_best_only=True, verbose=1)
 callbacks = [checpoint]
 
 
@@ -268,14 +298,15 @@ aug = ImageDataGenerator(width_shift_range=[-0.2, 0, +0.2],
     horizontal_flip=True, fill_mode="constant")
 
 
+#model = model_tank_not_tank()
 model = model2()
 
-H = model.fit_generator(aug.flow(trainX, trainY, batch_size=128), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 5, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
+H = model.fit_generator(aug.flow(trainX, trainY, batch_size=64), validation_data=(testX, testY), steps_per_epoch=len(trainX) // 2, epochs=epochs, verbose=1, callbacks=callbacks, class_weight=classWeight)
 
 
 
 #H = model.fit(trainX, trainY, epochs=epochs, validation_data=(testX, testY), verbose=1, batch_size=128, callbacks=callbacks, class_weight=classWeight)
-model = load_model('models/{0}_test.h5f'.format(dataset_path))
+model = load_model('models/{0}_test.h5f'.format(data_dict))
 
 prediction = model.predict(testX)
 prediction = prediction.argmax(axis=1)

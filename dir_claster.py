@@ -83,7 +83,7 @@ for key, value in dick_paths.items():
             for item in os.listdir('truck-link/sample/{0}'.format(value[i])):
                 image = cv2.imread('truck-link/sample/{0}/{1}'.format(value[i], item))
                 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-                image = cv2.resize(image, (92, 92))
+                image = cv2.resize(image, (64, 64))
                 image = image.astype("float") / 255.0
                 image = img_to_array(image)
                 image = np.expand_dims(image, axis=0)

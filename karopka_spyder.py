@@ -1,8 +1,7 @@
 import requests
 from lxml.html import fromstring
 from bs4 import *
-from lxml import html
-import re
+from time import sleep
 import random as rd
 from transliterate import translit
 from keras.preprocessing.sequence import pad_sequences
@@ -54,7 +53,7 @@ def get_title(url):
     title = translit(str(title[0])[7:], "ru", reversed=True)
     a = re.search(r'\b(Karopka.ru)\b', title)
     end_point = a.start() - 3
-    return title[:end_point].replace(r'/', ' ').replace(r'/', ' ').replace(r'!', ' ').replace(r'?', ' ').replace(r':', ' ').replace(r'#', ' ').replace(r'+', ' ').replace(r'"', ' ').replace(r'…', ' ').replace('_', ' ').replace('(', ' ').replace(')', ' ')
+    return title[:end_point].replace(r'/', ' ').replace(r'/', ' ').replace(r'!', ' ').replace(r'?', ' ').replace(r':', ' ').replace(r'#', ' ').replace(r'+', ' ').replace(r'"', ' ').replace(r'…', ' ').replace('_', ' ').replace('(', ' ').replace(')', ' ').replace(';', ' ')
 
 def get_photo(url):
     photo_list = []
@@ -70,37 +69,41 @@ def get_photo(url):
 
 
 
-for i in range(82, 475):
+for i in range(394, 491):
     print(i)
     url = "https://karopka.ru/catalog/tank/?f=-1&p={0}".format(i)
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')  # parse content/ page source
 
     for a in soup.find_all('a', {'class': 'link'}, href=True):
+        sleep(0.2)
         url_model = 'https://karopka.ru' + a['href']
         title_model = get_title(url_model)
         print('1. '+title_model)
 
-        code_str = [mapping_age[char] for char in title_model]
-        padded = pad_sequences([code_str], maxlen=max_len_age, padding='post')
-        list_of_pred = model_age.predict(padded)[0]
-        top_age = sorted(range(len(list_of_pred)), key=lambda i: list_of_pred[i], reverse=True)[:1]
-        if labels_age[top_age[0] - 1] == 'WWII':
-            age = 'WWII'
-            code_str = [mapping_wwii[char] for char in title_model]
-            padded = pad_sequences([code_str], maxlen=max_len_wwii, padding='post')
-            list_of_pred_nation = model_wwii.predict(padded)[0]
-            top = sorted(range(len(list_of_pred_nation)), key=lambda i: list_of_pred_nation[i], reverse=True)[:4]
-            nation = labels_wwii[top[0] - 1]
-        else:
-            age = 'Modern'
-            code_str = [mapping_modern[char] for char in title_model]
-            padded = pad_sequences([code_str], maxlen=max_len_modern, padding='post')
-            list_of_pred_nation = model_modern.predict(padded)[0]
-            top = sorted(range(len(list_of_pred_nation)), key=lambda i: list_of_pred_nation[i], reverse=True)[:4]
-            nation = labels_modern[top[0] - 1]
-        print(age, nation)
-        print()
+        try:
+            code_str = [mapping_age[char] for char in title_model]
+            padded = pad_sequences([code_str], maxlen=max_len_age, padding='post')
+            list_of_pred = model_age.predict(padded)[0]
+            top_age = sorted(range(len(list_of_pred)), key=lambda i: list_of_pred[i], reverse=True)[:1]
+            if labels_age[top_age[0] - 1] == 'WWII':
+                age = 'WWII'
+                code_str = [mapping_wwii[char] for char in title_model]
+                padded = pad_sequences([code_str], maxlen=max_len_wwii, padding='post')
+                list_of_pred_nation = model_wwii.predict(padded)[0]
+                top = sorted(range(len(list_of_pred_nation)), key=lambda i: list_of_pred_nation[i], reverse=True)[:4]
+                nation = labels_wwii[top[0] - 1]
+            else:
+                age = 'Modern'
+                code_str = [mapping_modern[char] for char in title_model]
+                padded = pad_sequences([code_str], maxlen=max_len_modern, padding='post')
+                list_of_pred_nation = model_modern.predict(padded)[0]
+                top = sorted(range(len(list_of_pred_nation)), key=lambda i: list_of_pred_nation[i], reverse=True)[:4]
+                nation = labels_modern[top[0] - 1]
+            print(age, nation)
+            print()
+        except:
+            continue
 
 
 

@@ -69,7 +69,7 @@ def get_photo(url):
 
 
 
-for i in range(394, 491):
+for i in range(2, 15):
     print(i)
     url = "https://karopka.ru/catalog/tank/?f=-1&p={0}".format(i)
     page = requests.get(url)

@@ -82,7 +82,7 @@ def define_military_civil(url):
 
 
 
-for i in range(116, 194):
+for i in range(161, 194):
     print(i)
     url = "https://karopka.ru/catalog/truck/?f=-1&p={0}".format(i)
     page = requests.get(url)

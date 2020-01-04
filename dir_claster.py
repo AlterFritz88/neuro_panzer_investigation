@@ -24,6 +24,8 @@ li_dir_new = [i[:17] if len(i) > 15 else i for i in li_dir]
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(li_dir)
 
+if not os.path.exists('truck-link/sample/not'):
+    os.mkdir('truck-link/sample/not')
 
 '''
 max_len, chars_age, mapping, labels_age = get_params_age()
@@ -50,14 +52,15 @@ kn = KneeLocator(clustno, score, curve='convex', direction='increasing')
 print(kn.knee)
 
 # Plot the models and their respective score
-plt.plot(clustno, score)
-plt.xlabel('Number of Clusters')
-plt.ylabel('Score')
-plt.title('Elbow Curve')
-plt.show()
+# plt.plot(clustno, score)
+# plt.xlabel('Number of Clusters')
+# plt.ylabel('Score')
+# plt.title('Elbow Curve')
+# plt.show()
 
 
-kmeans = KMeans(n_clusters=kn.knee).fit(X)
+#kmeans = KMeans(n_clusters=kn.knee).fit(X)
+kmeans = KMeans(n_clusters=2).fit(X)
 print(kmeans.labels_)
 
 
@@ -81,6 +84,7 @@ for key, value in dick_paths.items():
 
         else:
             for item in os.listdir('truck-link/sample/{0}'.format(value[i])):
+                print('truck-link/sample/{0}/{1}'.format(value[i], item))
                 image = cv2.imread('truck-link/sample/{0}/{1}'.format(value[i], item))
                 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
                 image = cv2.resize(image, (64, 64))
@@ -91,9 +95,10 @@ for key, value in dick_paths.items():
 
                 sourse = 'truck-link/sample/' + value[i] + '/' + item
                 destin = temp_path + str(rd.randint(10,10000000))+ '---' +  str(list_of_pred[0]) + '.jpeg'
-                if os.stat(sourse).st_size < 25000 or list_of_pred[1] > 0.4:
-                    print(list_of_pred[1])
-                    os.remove(sourse)
+                if os.stat(sourse).st_size < 25000 or list_of_pred[0] > 0.4:
+                    print(list_of_pred)
+                    #os.remove(sourse)
+                    os.rename(sourse, 'truck-link/sample/not/' + str(rd.randint(10, 10000000)) + '---' + str(list_of_pred[0]) + '.jpeg')
                 else:
                     os.rename(sourse,  destin)
             os.rmdir('truck-link/sample/{0}'.format(value[i]))
